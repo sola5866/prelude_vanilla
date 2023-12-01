@@ -2,7 +2,7 @@
 Prelude Vanilla は、統合版のレイトレーシング向けに作られたシンプルでバニラに忠実なPBRテクスチャパックです。霧とブロックの質感を定義することで、とても綺麗で現実的なレイトレーシングの体験を提供します。
 このパックを利用してあなたの世界に魔法を与えましょう！
 
-<img src="https://minecraft-mcworld.com/wp-content/uploads/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-253-c2000bca.jpg" alt="スクリーンショット" width="100%" />
+![screenshot image](/screenshot.webp) 
 
 ## 追加パック
 一部のブロックの見た目を変更するための追加パックを用意しました。
