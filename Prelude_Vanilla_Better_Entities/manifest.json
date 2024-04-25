@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Prelude Vanilla - Better Entities v1.7.0",
+        "description": "pack.description",
+        "uuid": "674ecbc1-89d4-4016-847d-e0628c391ed4",
+        "min_engine_version": [
+            1,
+            15,
+            0
+        ],
+        "version": [
+            1,
+            7,
+            1
+        ]
+    },
+    "modules": [
+        {
+            "description": "pack.description",
+            "type": "resources",
+            "uuid": "a8309c5b-d1b5-40cf-b637-4dde01ff013f",
+            "version": [
+                1,
+                7,
+                1
+            ]
+        }
+    ],
+    "capabilities": [
+        "raytraced"
+    ],
+    "metadata": {
+        "authors": [
+            "sola5866"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/sola5866/prelude_vanilla"
+    }
+}

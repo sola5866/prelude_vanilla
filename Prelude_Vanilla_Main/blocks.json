@@ -1,0 +1,289 @@
+{
+    "chiseled_bookshelf": {
+        "blockshape": "block",
+        "carried_textures": {
+            "down": "chiseled_bookshelf_top",
+            "east": "chiseled_bookshelf_side",
+            "north": "chiseled_bookshelf_side",
+            "south": "chiseled_bookshelf_front",
+            "up": "chiseled_bookshelf_top",
+            "west": "chiseled_bookshelf_side"
+        },
+        "sound": "chiseled_bookshelf",
+        "textures": {
+            "down": "chiseled_bookshelf_top",
+            "east": "chiseled_bookshelf_side",
+            "north": "chiseled_bookshelf_front",
+            "south": "chiseled_bookshelf_side",
+            "up": "chiseled_bookshelf_top",
+            "west": "chiseled_bookshelf_side"
+        }
+    },
+    "chiseled_tuff": {
+        "sound": "tuff",
+        "textures": {
+            "down": "chiseled_tuff_top",
+            "side": "chiseled_tuff",
+            "up": "chiseled_tuff_top"
+        }
+    },
+    "copper_grate": {
+        "carried_textures": "copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "copper_grate"
+    },
+    "deepslate_redstone_ore": {
+        "sound": "deepslate",
+        "textures": "deepslate_redstone_ore"
+    },
+    "dried_kelp_block": {
+        "blockshape": "block",
+        "carried_textures": {
+            "down": "dried_kelp_block_bottom",
+            "east": "dried_kelp_block_side_b",
+            "north": "dried_kelp_block_side_a",
+            "south": "dried_kelp_block_side_b",
+            "up": "dried_kelp_block_top",
+            "west": "dried_kelp_block_side_a"
+        },
+        "sound": "grass",
+        "textures": {
+            "down": "dried_kelp_block_bottom",
+            "east": "dried_kelp_block_side_b",
+            "north": "dried_kelp_block_side_a",
+            "south": "dried_kelp_block_side_b",
+            "up": "dried_kelp_block_top",
+            "west": "dried_kelp_block_side_a"
+        }
+    },
+    "exposed_copper_grate": {
+        "carried_textures": "exposed_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "exposed_copper_grate"
+    },
+    "lit_deepslate_redstone_ore": {
+        "sound": "deepslate",
+        "textures": "lit_deepslate_redstone_ore"
+    },
+    "lit_pumpkin": {
+        "sound": "wood",
+        "textures": {
+            "down": "lit_pumpkin_top",
+            "east": "lit_pumpkin_side",
+            "north": "lit_pumpkin_side",
+            "south": "pumpkin_face_on",
+            "up": "lit_pumpkin_top",
+            "west": "lit_pumpkin_side"
+        }
+    },
+    "lit_redstone_ore": {
+        "sound": "stone",
+        "textures": "lit_redstone_ore"
+    },
+    "oxidized_copper_grate": {
+        "carried_textures": "oxidized_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "oxidized_copper_grate"
+    },
+    "redstone_ore": {
+        "sound": "stone",
+        "textures": "redstone_ore"
+    },
+    "stained_glass": {
+        "carried_textures": "stained_glass_carried",
+        "sound": "glass",
+        "textures": "stained_glass"
+    },
+    "stained_glass_pane": {
+        "carried_textures": {
+            "down": "stained_glass_carried",
+            "east": "stained_glass_pane_top_carried",
+            "north": "stained_glass_carried",
+            "south": "stained_glass_carried",
+            "up": "stained_glass_carried",
+            "west": "stained_glass_carried"
+        },
+        "sound": "glass",
+        "textures": {
+            "down": "stained_glass",
+            "east": "stained_glass_pane_top",
+            "north": "stained_glass",
+            "south": "stained_glass",
+            "up": "stained_glass",
+            "west": "stained_glass"
+        }
+    },
+    "waxed_chiseled_copper": {
+        "sound": "copper",
+        "textures": "waxed_chiseled_copper"
+    },
+    "waxed_copper": {
+        "sound": "copper",
+        "textures": "waxed_copper_block"
+    },
+    "waxed_copper_bulb": {
+        "sound": "copper_bulb",
+        "textures": "waxed_copper_bulb"
+    },
+    "waxed_copper_door": {
+        "sound": "copper",
+        "textures": {
+            "down": "waxed_copper_door_bottom",
+            "side": "waxed_copper_door_top",
+            "up": "waxed_copper_door_bottom"
+        }
+    },
+    "waxed_copper_grate": {
+        "carried_textures": "copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "waxed_copper_grate"
+    },
+    "waxed_copper_trapdoor": {
+        "sound": "copper",
+        "textures": "waxed_copper_trapdoor"
+    },
+    "waxed_cut_copper": {
+        "sound": "copper",
+        "textures": "waxed_cut_copper"
+    },
+    "waxed_cut_copper_slab": {
+        "sound": "copper",
+        "textures": "waxed_cut_copper"
+    },
+    "waxed_cut_copper_stairs": {
+        "sound": "copper",
+        "textures": "waxed_cut_copper"
+    },
+    "waxed_double_cut_copper_slab": {
+        "sound": "copper",
+        "textures": "waxed_cut_copper"
+    },
+    "waxed_exposed_chiseled_copper": {
+        "sound": "copper",
+        "textures": "waxed_exposed_chiseled_copper"
+    },
+    "waxed_exposed_copper_bulb": {
+        "sound": "copper_bulb",
+        "textures": "waxed_exposed_copper_bulb"
+    },
+    "waxed_exposed_copper_door": {
+        "sound": "copper",
+        "textures": {
+            "down": "waxed_exposed_copper_door_bottom",
+            "side": "waxed_exposed_copper_door_top",
+            "up": "waxed_exposed_copper_door_bottom"
+        }
+    },
+    "waxed_exposed_copper_grate": {
+        "carried_textures": "exposed_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "waxed_exposed_copper_grate"
+    },
+    "waxed_exposed_copper_trapdoor": {
+        "sound": "copper",
+        "textures": "waxed_exposed_copper_trapdoor"
+    },
+    "waxed_exposed_cut_copper": {
+        "sound": "copper",
+        "textures": "waxed_exposed_cut_copper"
+    },
+    "waxed_exposed_cut_copper_slab": {
+        "sound": "copper",
+        "textures": "waxed_exposed_cut_copper"
+    },
+    "waxed_exposed_cut_copper_stairs": {
+        "sound": "copper",
+        "textures": "waxed_exposed_cut_copper"
+    },
+    "waxed_exposed_double_cut_copper_slab": {
+        "sound": "copper",
+        "textures": "waxed_exposed_cut_copper"
+    },
+    "waxed_oxidized_chiseled_copper": {
+        "sound": "copper",
+        "textures": "waxed_oxidized_chiseled_copper"
+    },
+    "waxed_oxidized_copper_bulb": {
+        "sound": "copper_bulb",
+        "textures": "waxed_oxidized_copper_bulb"
+    },
+    "waxed_oxidized_copper_door": {
+        "sound": "copper",
+        "textures": {
+            "down": "waxed_oxidized_copper_door_bottom",
+            "side": "waxed_oxidized_copper_door_top",
+            "up": "waxed_oxidized_copper_door_bottom"
+        }
+    },
+    "waxed_oxidized_copper_grate": {
+        "carried_textures": "oxidized_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "waxed_oxidized_copper_grate"
+    },
+    "waxed_oxidized_copper_trapdoor": {
+        "sound": "copper",
+        "textures": "waxed_oxidized_copper_trapdoor"
+    },
+    "waxed_oxidized_cut_copper": {
+        "sound": "copper",
+        "textures": "waxed_oxidized_cut_copper"
+    },
+    "waxed_oxidized_cut_copper_slab": {
+        "sound": "copper",
+        "textures": "waxed_oxidized_cut_copper"
+    },
+    "waxed_oxidized_cut_copper_stairs": {
+        "sound": "copper",
+        "textures": "waxed_oxidized_cut_copper"
+    },
+    "waxed_oxidized_double_cut_copper_slab": {
+        "sound": "copper",
+        "textures": "waxed_oxidized_cut_copper"
+    },
+    "waxed_weathered_chiseled_copper": {
+        "sound": "copper",
+        "textures": "waxed_weathered_chiseled_copper"
+    },
+    "waxed_weathered_copper_bulb": {
+        "sound": "copper_bulb",
+        "textures": "waxed_weathered_copper_bulb"
+    },
+    "waxed_weathered_copper_door": {
+        "sound": "copper",
+        "textures": {
+            "down": "waxed_weathered_copper_door_bottom",
+            "side": "waxed_weathered_copper_door_top",
+            "up": "waxed_weathered_copper_door_bottom"
+        }
+    },
+    "waxed_weathered_copper_grate": {
+        "carried_textures": "weathered_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "waxed_weathered_copper_grate"
+    },
+    "waxed_weathered_copper_trapdoor": {
+        "sound": "copper",
+        "textures": "waxed_weathered_copper_trapdoor"
+    },
+    "waxed_weathered_cut_copper": {
+        "sound": "copper",
+        "textures": "waxed_weathered_cut_copper"
+    },
+    "waxed_weathered_cut_copper_slab": {
+        "sound": "copper",
+        "textures": "waxed_weathered_cut_copper"
+    },
+    "waxed_weathered_cut_copper_stairs": {
+        "sound": "copper",
+        "textures": "waxed_weathered_cut_copper"
+    },
+    "waxed_weathered_double_cut_copper_slab": {
+        "sound": "copper",
+        "textures": "waxed_weathered_cut_copper"
+    },
+    "weathered_copper_grate": {
+        "carried_textures": "weathered_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "weathered_copper_grate"
+    }
+}

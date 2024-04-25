@@ -1,0 +1,17 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:ender_pearl",
+            "animations": {
+                "flying": "animation.actor.billboard"
+            },
+            "scripts": {
+                "animate": [
+                    "flying"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
+    }
+}

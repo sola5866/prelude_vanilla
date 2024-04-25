@@ -1,0 +1,86 @@
+{
+    "resource_pack_name": "prelude_vanilla",
+    "texture_data": {
+        "stained_glass_carried": {
+            "textures": [
+                "textures/blocks/glass_carried/glass_white_carried",
+                "textures/blocks/glass_carried/glass_orange_carried",
+                "textures/blocks/glass_carried/glass_magenta_carried",
+                "textures/blocks/glass_carried/glass_light_blue_carried",
+                "textures/blocks/glass_carried/glass_yellow_carried",
+                "textures/blocks/glass_carried/glass_lime_carried",
+                "textures/blocks/glass_carried/glass_pink_carried",
+                "textures/blocks/glass_carried/glass_gray_carried",
+                "textures/blocks/glass_carried/glass_silver_carried",
+                "textures/blocks/glass_carried/glass_cyan_carried",
+                "textures/blocks/glass_carried/glass_purple_carried",
+                "textures/blocks/glass_carried/glass_blue_carried",
+                "textures/blocks/glass_carried/glass_brown_carried",
+                "textures/blocks/glass_carried/glass_green_carried",
+                "textures/blocks/glass_carried/glass_red_carried",
+                "textures/blocks/glass_carried/glass_black_carried"
+            ]
+        },
+        "stained_glass_pane_top_carried": {
+            "textures": [
+                "textures/blocks/glass_carried/glass_pane_top_white_carried",
+                "textures/blocks/glass_carried/glass_pane_top_orange_carried",
+                "textures/blocks/glass_carried/glass_pane_top_magenta_carried",
+                "textures/blocks/glass_carried/glass_pane_top_light_blue_carried",
+                "textures/blocks/glass_carried/glass_pane_top_yellow_carried",
+                "textures/blocks/glass_carried/glass_pane_top_lime_carried",
+                "textures/blocks/glass_carried/glass_pane_top_pink_carried",
+                "textures/blocks/glass_carried/glass_pane_top_gray_carried",
+                "textures/blocks/glass_carried/glass_pane_top_silver_carried",
+                "textures/blocks/glass_carried/glass_pane_top_cyan_carried",
+                "textures/blocks/glass_carried/glass_pane_top_purple_carried",
+                "textures/blocks/glass_carried/glass_pane_top_blue_carried",
+                "textures/blocks/glass_carried/glass_pane_top_brown_carried",
+                "textures/blocks/glass_carried/glass_pane_top_green_carried",
+                "textures/blocks/glass_carried/glass_pane_top_red_carried",
+                "textures/blocks/glass_carried/glass_pane_top_black_carried"
+            ]
+        },
+        "stained_glass": {
+            "textures": [
+                "textures/blocks/clear_glass_white",
+                "textures/blocks/clear_glass_orange",
+                "textures/blocks/clear_glass_magenta",
+                "textures/blocks/clear_glass_light_blue",
+                "textures/blocks/clear_glass_yellow",
+                "textures/blocks/clear_glass_lime",
+                "textures/blocks/clear_glass_pink",
+                "textures/blocks/clear_glass_gray",
+                "textures/blocks/clear_glass_silver",
+                "textures/blocks/clear_glass_cyan",
+                "textures/blocks/clear_glass_purple",
+                "textures/blocks/clear_glass_blue",
+                "textures/blocks/clear_glass_brown",
+                "textures/blocks/clear_glass_green",
+                "textures/blocks/clear_glass_red",
+                "textures/blocks/clear_glass_black"
+            ]
+        },
+        "stained_glass_pane_top": {
+            "textures": [
+                "textures/blocks/clear_glass_pane_top_white",
+                "textures/blocks/clear_glass_pane_top_orange",
+                "textures/blocks/clear_glass_pane_top_magenta",
+                "textures/blocks/clear_glass_pane_top_light_blue",
+                "textures/blocks/clear_glass_pane_top_yellow",
+                "textures/blocks/clear_glass_pane_top_lime",
+                "textures/blocks/clear_glass_pane_top_pink",
+                "textures/blocks/clear_glass_pane_top_gray",
+                "textures/blocks/clear_glass_pane_top_silver",
+                "textures/blocks/clear_glass_pane_top_cyan",
+                "textures/blocks/clear_glass_pane_top_purple",
+                "textures/blocks/clear_glass_pane_top_blue",
+                "textures/blocks/clear_glass_pane_top_brown",
+                "textures/blocks/clear_glass_pane_top_green",
+                "textures/blocks/clear_glass_pane_top_red",
+                "textures/blocks/clear_glass_pane_top_black"
+            ]
+        }
+    },
+    "texture_name": "atlas.terrain"
+}

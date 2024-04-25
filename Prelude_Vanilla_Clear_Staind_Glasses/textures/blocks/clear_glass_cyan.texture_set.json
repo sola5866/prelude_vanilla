@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "clear_glass_cyan",
+        "metalness_emissive_roughness": "clear_glass_cyan_mer",
+        "heightmap": "clear_glass_cyan_heightmap"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:glow_squid",
+            "animations": {
+                "move": "animation.squid.move",
+                "squid_rotate": "animation.squid.rotate"
+            },
+            "scripts": {
+                "animate": [
+                    "move",
+                    "squid_rotate"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg_glow_squid"
+            }
+        }
+    }
+}

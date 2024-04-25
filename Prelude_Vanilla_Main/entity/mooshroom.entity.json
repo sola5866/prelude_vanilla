@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:mooshroom",
+            "min_engine_version": "1.8.0",
+            "materials": {
+                "default": "minecart"
+            },
+            "textures": {
+                "default": "textures/entity/cow/mooshroom",
+                "brown": "textures/entity/cow/brown_mooshroom"
+            },
+            "geometry": {
+                "default": "geometry.mooshroom.v1.8"
+            },
+            "animations": {
+                "setup": "animation.mooshroom.setup",
+                "walk": "animation.quadruped.walk",
+                "look_at_target": "animation.common.look_at_target",
+                "baby_transform": "animation.mooshroom.baby_transform",
+                "setup_controllers": "controller.animation.mooshroom.setup",
+                "move": "controller.animation.mooshroom.move",
+                "baby": "controller.animation.mooshroom.baby"
+            },
+            "scripts": {
+                "animate": [
+                    "setup_controllers",
+                    "move",
+                    "baby"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "render_controllers": [
+                "controller.render.mooshroom"
+            ],
+            "spawn_egg": {
+                "texture": "spawn_egg_mushroomcow"
+            }
+        }
+    }
+}

@@ -1,0 +1,1141 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.breeze": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ]
+        },
+        "controller.render.breeze_eyes": {
+            "geometry": "Geometry.breeze_eyes",
+            "materials": [
+                {
+                    "*": "Material.breeze_eyes"
+                }
+            ],
+            "textures": [
+                "Texture.breeze_eyes"
+            ],
+            "ignore_lighting": true
+        },
+        "controller.render.breeze_wind_top": {
+            "geometry": "Geometry.breeze_wind_top",
+            "materials": [
+                {
+                    "*": "Material.breeze_wind"
+                }
+            ],
+            "textures": [
+                "Texture.breeze_wind"
+            ],
+            "part_visibility": [
+                {
+                    "*": false
+                },
+                {
+                    "tornado_top_000": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==0"
+                },
+                {
+                    "tornado_top_001": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==1"
+                },
+                {
+                    "tornado_top_002": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==2"
+                },
+                {
+                    "tornado_top_003": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==3"
+                },
+                {
+                    "tornado_top_004": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==4"
+                },
+                {
+                    "tornado_top_005": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==5"
+                },
+                {
+                    "tornado_top_006": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==6"
+                },
+                {
+                    "tornado_top_007": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==7"
+                },
+                {
+                    "tornado_top_008": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==8"
+                },
+                {
+                    "tornado_top_009": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==9"
+                },
+                {
+                    "tornado_top_010": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==10"
+                },
+                {
+                    "tornado_top_011": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==11"
+                },
+                {
+                    "tornado_top_012": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==12"
+                },
+                {
+                    "tornado_top_013": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==13"
+                },
+                {
+                    "tornado_top_014": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==14"
+                },
+                {
+                    "tornado_top_015": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==15"
+                },
+                {
+                    "tornado_top_016": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==16"
+                },
+                {
+                    "tornado_top_017": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==17"
+                },
+                {
+                    "tornado_top_018": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==18"
+                },
+                {
+                    "tornado_top_019": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==19"
+                },
+                {
+                    "tornado_top_020": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==20"
+                },
+                {
+                    "tornado_top_021": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==21"
+                },
+                {
+                    "tornado_top_022": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==22"
+                },
+                {
+                    "tornado_top_023": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==23"
+                },
+                {
+                    "tornado_top_024": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==24"
+                },
+                {
+                    "tornado_top_025": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==25"
+                },
+                {
+                    "tornado_top_026": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==26"
+                },
+                {
+                    "tornado_top_027": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==27"
+                },
+                {
+                    "tornado_top_028": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==28"
+                },
+                {
+                    "tornado_top_029": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==29"
+                },
+                {
+                    "tornado_top_030": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==30"
+                },
+                {
+                    "tornado_top_031": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==31"
+                },
+                {
+                    "tornado_top_032": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==32"
+                },
+                {
+                    "tornado_top_033": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==33"
+                },
+                {
+                    "tornado_top_034": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==34"
+                },
+                {
+                    "tornado_top_035": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==35"
+                },
+                {
+                    "tornado_top_036": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==36"
+                },
+                {
+                    "tornado_top_037": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==37"
+                },
+                {
+                    "tornado_top_038": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==38"
+                },
+                {
+                    "tornado_top_039": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==39"
+                },
+                {
+                    "tornado_top_040": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==40"
+                },
+                {
+                    "tornado_top_041": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==41"
+                },
+                {
+                    "tornado_top_042": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==42"
+                },
+                {
+                    "tornado_top_043": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==43"
+                },
+                {
+                    "tornado_top_044": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==44"
+                },
+                {
+                    "tornado_top_045": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==45"
+                },
+                {
+                    "tornado_top_046": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==46"
+                },
+                {
+                    "tornado_top_047": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==47"
+                },
+                {
+                    "tornado_top_048": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==48"
+                },
+                {
+                    "tornado_top_049": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==49"
+                },
+                {
+                    "tornado_top_050": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==50"
+                },
+                {
+                    "tornado_top_051": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==51"
+                },
+                {
+                    "tornado_top_052": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==52"
+                },
+                {
+                    "tornado_top_053": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==53"
+                },
+                {
+                    "tornado_top_054": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==54"
+                },
+                {
+                    "tornado_top_055": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==55"
+                },
+                {
+                    "tornado_top_056": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==56"
+                },
+                {
+                    "tornado_top_057": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==57"
+                },
+                {
+                    "tornado_top_058": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==58"
+                },
+                {
+                    "tornado_top_059": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==59"
+                },
+                {
+                    "tornado_top_060": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==60"
+                },
+                {
+                    "tornado_top_061": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==61"
+                },
+                {
+                    "tornado_top_062": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==62"
+                },
+                {
+                    "tornado_top_063": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==63"
+                },
+                {
+                    "tornado_top_064": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==64"
+                },
+                {
+                    "tornado_top_065": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==65"
+                },
+                {
+                    "tornado_top_066": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==66"
+                },
+                {
+                    "tornado_top_067": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==67"
+                },
+                {
+                    "tornado_top_068": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==68"
+                },
+                {
+                    "tornado_top_069": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==69"
+                },
+                {
+                    "tornado_top_070": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==70"
+                },
+                {
+                    "tornado_top_071": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==71"
+                },
+                {
+                    "tornado_top_072": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==72"
+                },
+                {
+                    "tornado_top_073": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==73"
+                },
+                {
+                    "tornado_top_074": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==74"
+                },
+                {
+                    "tornado_top_075": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==75"
+                },
+                {
+                    "tornado_top_076": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==76"
+                },
+                {
+                    "tornado_top_077": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==77"
+                },
+                {
+                    "tornado_top_078": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==78"
+                },
+                {
+                    "tornado_top_079": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==79"
+                },
+                {
+                    "tornado_top_080": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==80"
+                },
+                {
+                    "tornado_top_081": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==81"
+                },
+                {
+                    "tornado_top_082": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==82"
+                },
+                {
+                    "tornado_top_083": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==83"
+                },
+                {
+                    "tornado_top_084": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==84"
+                },
+                {
+                    "tornado_top_085": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==85"
+                },
+                {
+                    "tornado_top_086": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==86"
+                },
+                {
+                    "tornado_top_087": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==87"
+                },
+                {
+                    "tornado_top_088": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==88"
+                },
+                {
+                    "tornado_top_089": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==89"
+                },
+                {
+                    "tornado_top_090": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==90"
+                },
+                {
+                    "tornado_top_091": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==91"
+                },
+                {
+                    "tornado_top_092": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==92"
+                },
+                {
+                    "tornado_top_093": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==93"
+                },
+                {
+                    "tornado_top_094": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==94"
+                },
+                {
+                    "tornado_top_095": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==95"
+                },
+                {
+                    "tornado_top_096": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==96"
+                },
+                {
+                    "tornado_top_097": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==97"
+                },
+                {
+                    "tornado_top_098": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==98"
+                },
+                {
+                    "tornado_top_099": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==99"
+                },
+                {
+                    "tornado_top_100": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==100"
+                },
+                {
+                    "tornado_top_101": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==101"
+                },
+                {
+                    "tornado_top_102": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==102"
+                },
+                {
+                    "tornado_top_103": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==103"
+                },
+                {
+                    "tornado_top_104": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==104"
+                },
+                {
+                    "tornado_top_105": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==105"
+                },
+                {
+                    "tornado_top_106": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==106"
+                },
+                {
+                    "tornado_top_107": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==107"
+                },
+                {
+                    "tornado_top_108": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==108"
+                },
+                {
+                    "tornado_top_109": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==109"
+                },
+                {
+                    "tornado_top_110": "math.mod(math.floor(q.life_time*60+q.frame_alpha),111)==110"
+                }
+            ],
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "light_color_multiplier": 1.8
+        },
+        "controller.render.breeze_wind_mid": {
+            "geometry": "Geometry.breeze_wind_mid",
+            "materials": [
+                {
+                    "*": "Material.breeze_wind"
+                }
+            ],
+            "textures": [
+                "Texture.breeze_wind"
+            ],
+            "part_visibility": [
+                {
+                    "*": false
+                },
+                {
+                    "tornado_mid_000": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==0"
+                },
+                {
+                    "tornado_mid_001": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==1"
+                },
+                {
+                    "tornado_mid_002": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==2"
+                },
+                {
+                    "tornado_mid_003": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==3"
+                },
+                {
+                    "tornado_mid_004": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==4"
+                },
+                {
+                    "tornado_mid_005": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==5"
+                },
+                {
+                    "tornado_mid_006": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==6"
+                },
+                {
+                    "tornado_mid_007": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==7"
+                },
+                {
+                    "tornado_mid_008": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==8"
+                },
+                {
+                    "tornado_mid_009": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==9"
+                },
+                {
+                    "tornado_mid_010": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==10"
+                },
+                {
+                    "tornado_mid_011": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==11"
+                },
+                {
+                    "tornado_mid_012": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==12"
+                },
+                {
+                    "tornado_mid_013": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==13"
+                },
+                {
+                    "tornado_mid_014": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==14"
+                },
+                {
+                    "tornado_mid_015": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==15"
+                },
+                {
+                    "tornado_mid_016": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==16"
+                },
+                {
+                    "tornado_mid_017": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==17"
+                },
+                {
+                    "tornado_mid_018": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==18"
+                },
+                {
+                    "tornado_mid_019": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==19"
+                },
+                {
+                    "tornado_mid_020": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==20"
+                },
+                {
+                    "tornado_mid_021": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==21"
+                },
+                {
+                    "tornado_mid_022": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==22"
+                },
+                {
+                    "tornado_mid_023": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==23"
+                },
+                {
+                    "tornado_mid_024": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==24"
+                },
+                {
+                    "tornado_mid_025": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==25"
+                },
+                {
+                    "tornado_mid_026": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==26"
+                },
+                {
+                    "tornado_mid_027": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==27"
+                },
+                {
+                    "tornado_mid_028": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==28"
+                },
+                {
+                    "tornado_mid_029": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==29"
+                },
+                {
+                    "tornado_mid_030": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==30"
+                },
+                {
+                    "tornado_mid_031": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==31"
+                },
+                {
+                    "tornado_mid_032": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==32"
+                },
+                {
+                    "tornado_mid_033": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==33"
+                },
+                {
+                    "tornado_mid_034": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==34"
+                },
+                {
+                    "tornado_mid_035": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==35"
+                },
+                {
+                    "tornado_mid_036": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==36"
+                },
+                {
+                    "tornado_mid_037": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==37"
+                },
+                {
+                    "tornado_mid_038": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==38"
+                },
+                {
+                    "tornado_mid_039": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==39"
+                },
+                {
+                    "tornado_mid_040": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==40"
+                },
+                {
+                    "tornado_mid_041": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==41"
+                },
+                {
+                    "tornado_mid_042": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==42"
+                },
+                {
+                    "tornado_mid_043": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==43"
+                },
+                {
+                    "tornado_mid_044": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==44"
+                },
+                {
+                    "tornado_mid_045": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==45"
+                },
+                {
+                    "tornado_mid_046": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==46"
+                },
+                {
+                    "tornado_mid_047": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==47"
+                },
+                {
+                    "tornado_mid_048": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==48"
+                },
+                {
+                    "tornado_mid_049": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==49"
+                },
+                {
+                    "tornado_mid_050": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==50"
+                },
+                {
+                    "tornado_mid_051": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==51"
+                },
+                {
+                    "tornado_mid_052": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==52"
+                },
+                {
+                    "tornado_mid_053": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==53"
+                },
+                {
+                    "tornado_mid_054": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==54"
+                },
+                {
+                    "tornado_mid_055": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==55"
+                },
+                {
+                    "tornado_mid_056": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==56"
+                },
+                {
+                    "tornado_mid_057": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==57"
+                },
+                {
+                    "tornado_mid_058": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==58"
+                },
+                {
+                    "tornado_mid_059": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==59"
+                },
+                {
+                    "tornado_mid_060": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==60"
+                },
+                {
+                    "tornado_mid_061": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==61"
+                },
+                {
+                    "tornado_mid_062": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==62"
+                },
+                {
+                    "tornado_mid_063": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==63"
+                },
+                {
+                    "tornado_mid_064": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==64"
+                },
+                {
+                    "tornado_mid_065": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==65"
+                },
+                {
+                    "tornado_mid_066": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==66"
+                },
+                {
+                    "tornado_mid_067": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==67"
+                },
+                {
+                    "tornado_mid_068": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==68"
+                },
+                {
+                    "tornado_mid_069": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==69"
+                },
+                {
+                    "tornado_mid_070": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==70"
+                },
+                {
+                    "tornado_mid_071": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==71"
+                },
+                {
+                    "tornado_mid_072": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==72"
+                },
+                {
+                    "tornado_mid_073": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==73"
+                },
+                {
+                    "tornado_mid_074": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==74"
+                },
+                {
+                    "tornado_mid_075": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==75"
+                },
+                {
+                    "tornado_mid_076": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==76"
+                },
+                {
+                    "tornado_mid_077": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==77"
+                },
+                {
+                    "tornado_mid_078": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==78"
+                },
+                {
+                    "tornado_mid_079": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==79"
+                },
+                {
+                    "tornado_mid_080": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==80"
+                },
+                {
+                    "tornado_mid_081": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==81"
+                },
+                {
+                    "tornado_mid_082": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==82"
+                },
+                {
+                    "tornado_mid_083": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==83"
+                },
+                {
+                    "tornado_mid_084": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==84"
+                },
+                {
+                    "tornado_mid_085": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==85"
+                },
+                {
+                    "tornado_mid_086": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==86"
+                },
+                {
+                    "tornado_mid_087": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==87"
+                },
+                {
+                    "tornado_mid_088": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==88"
+                },
+                {
+                    "tornado_mid_089": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==89"
+                },
+                {
+                    "tornado_mid_090": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==90"
+                },
+                {
+                    "tornado_mid_091": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==91"
+                },
+                {
+                    "tornado_mid_092": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==92"
+                },
+                {
+                    "tornado_mid_093": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==93"
+                },
+                {
+                    "tornado_mid_094": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==94"
+                },
+                {
+                    "tornado_mid_095": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==95"
+                },
+                {
+                    "tornado_mid_096": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==96"
+                },
+                {
+                    "tornado_mid_097": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==97"
+                },
+                {
+                    "tornado_mid_098": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==98"
+                },
+                {
+                    "tornado_mid_099": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==99"
+                },
+                {
+                    "tornado_mid_100": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==100"
+                },
+                {
+                    "tornado_mid_101": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==101"
+                },
+                {
+                    "tornado_mid_102": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==102"
+                },
+                {
+                    "tornado_mid_103": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==103"
+                },
+                {
+                    "tornado_mid_104": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==104"
+                },
+                {
+                    "tornado_mid_105": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==105"
+                },
+                {
+                    "tornado_mid_106": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==106"
+                },
+                {
+                    "tornado_mid_107": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==107"
+                },
+                {
+                    "tornado_mid_108": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==108"
+                },
+                {
+                    "tornado_mid_109": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==109"
+                },
+                {
+                    "tornado_mid_110": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==110"
+                },
+                {
+                    "tornado_mid_111": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==111"
+                },
+                {
+                    "tornado_mid_112": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==112"
+                },
+                {
+                    "tornado_mid_113": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==113"
+                },
+                {
+                    "tornado_mid_114": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==114"
+                },
+                {
+                    "tornado_mid_115": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==115"
+                },
+                {
+                    "tornado_mid_116": "math.mod(math.floor(q.life_time*60+q.frame_alpha),117)==116"
+                }
+            ],
+            "light_color_multiplier": 1.8
+        },
+        "controller.render.breeze_wind_bottom": {
+            "geometry": "Geometry.breeze_wind_bottom",
+            "materials": [
+                {
+                    "*": "Material.breeze_wind"
+                }
+            ],
+            "textures": [
+                "Texture.breeze_wind"
+            ],
+            "part_visibility": [
+                {
+                    "*": false
+                },
+                {
+                    "tornado_bottom_000": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==0"
+                },
+                {
+                    "tornado_bottom_001": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==1"
+                },
+                {
+                    "tornado_bottom_002": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==2"
+                },
+                {
+                    "tornado_bottom_003": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==3"
+                },
+                {
+                    "tornado_bottom_004": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==4"
+                },
+                {
+                    "tornado_bottom_005": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==5"
+                },
+                {
+                    "tornado_bottom_006": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==6"
+                },
+                {
+                    "tornado_bottom_007": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==7"
+                },
+                {
+                    "tornado_bottom_008": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==8"
+                },
+                {
+                    "tornado_bottom_009": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==9"
+                },
+                {
+                    "tornado_bottom_010": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==10"
+                },
+                {
+                    "tornado_bottom_011": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==11"
+                },
+                {
+                    "tornado_bottom_012": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==12"
+                },
+                {
+                    "tornado_bottom_013": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==13"
+                },
+                {
+                    "tornado_bottom_014": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==14"
+                },
+                {
+                    "tornado_bottom_015": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==15"
+                },
+                {
+                    "tornado_bottom_016": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==16"
+                },
+                {
+                    "tornado_bottom_017": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==17"
+                },
+                {
+                    "tornado_bottom_018": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==18"
+                },
+                {
+                    "tornado_bottom_019": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==19"
+                },
+                {
+                    "tornado_bottom_020": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==20"
+                },
+                {
+                    "tornado_bottom_021": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==21"
+                },
+                {
+                    "tornado_bottom_022": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==22"
+                },
+                {
+                    "tornado_bottom_023": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==23"
+                },
+                {
+                    "tornado_bottom_024": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==24"
+                },
+                {
+                    "tornado_bottom_025": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==25"
+                },
+                {
+                    "tornado_bottom_026": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==26"
+                },
+                {
+                    "tornado_bottom_027": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==27"
+                },
+                {
+                    "tornado_bottom_028": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==28"
+                },
+                {
+                    "tornado_bottom_029": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==29"
+                },
+                {
+                    "tornado_bottom_030": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==30"
+                },
+                {
+                    "tornado_bottom_031": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==31"
+                },
+                {
+                    "tornado_bottom_032": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==32"
+                },
+                {
+                    "tornado_bottom_033": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==33"
+                },
+                {
+                    "tornado_bottom_034": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==34"
+                },
+                {
+                    "tornado_bottom_035": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==35"
+                },
+                {
+                    "tornado_bottom_036": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==36"
+                },
+                {
+                    "tornado_bottom_037": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==37"
+                },
+                {
+                    "tornado_bottom_038": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==38"
+                },
+                {
+                    "tornado_bottom_039": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==39"
+                },
+                {
+                    "tornado_bottom_040": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==40"
+                },
+                {
+                    "tornado_bottom_041": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==41"
+                },
+                {
+                    "tornado_bottom_042": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==42"
+                },
+                {
+                    "tornado_bottom_043": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==43"
+                },
+                {
+                    "tornado_bottom_044": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==44"
+                },
+                {
+                    "tornado_bottom_045": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==45"
+                },
+                {
+                    "tornado_bottom_046": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==46"
+                },
+                {
+                    "tornado_bottom_047": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==47"
+                },
+                {
+                    "tornado_bottom_048": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==48"
+                },
+                {
+                    "tornado_bottom_049": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==49"
+                },
+                {
+                    "tornado_bottom_050": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==50"
+                },
+                {
+                    "tornado_bottom_051": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==51"
+                },
+                {
+                    "tornado_bottom_052": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==52"
+                },
+                {
+                    "tornado_bottom_053": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==53"
+                },
+                {
+                    "tornado_bottom_054": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==54"
+                },
+                {
+                    "tornado_bottom_055": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==55"
+                },
+                {
+                    "tornado_bottom_056": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==56"
+                },
+                {
+                    "tornado_bottom_057": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==57"
+                },
+                {
+                    "tornado_bottom_058": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==58"
+                },
+                {
+                    "tornado_bottom_059": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==59"
+                },
+                {
+                    "tornado_bottom_060": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==60"
+                },
+                {
+                    "tornado_bottom_061": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==61"
+                },
+                {
+                    "tornado_bottom_062": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==62"
+                },
+                {
+                    "tornado_bottom_063": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==63"
+                },
+                {
+                    "tornado_bottom_064": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==64"
+                },
+                {
+                    "tornado_bottom_065": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==65"
+                },
+                {
+                    "tornado_bottom_066": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==66"
+                },
+                {
+                    "tornado_bottom_067": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==67"
+                },
+                {
+                    "tornado_bottom_068": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==68"
+                },
+                {
+                    "tornado_bottom_069": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==69"
+                },
+                {
+                    "tornado_bottom_070": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==70"
+                },
+                {
+                    "tornado_bottom_071": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==71"
+                },
+                {
+                    "tornado_bottom_072": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==72"
+                },
+                {
+                    "tornado_bottom_073": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==73"
+                },
+                {
+                    "tornado_bottom_074": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==74"
+                },
+                {
+                    "tornado_bottom_075": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==75"
+                },
+                {
+                    "tornado_bottom_076": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==76"
+                },
+                {
+                    "tornado_bottom_077": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==77"
+                },
+                {
+                    "tornado_bottom_078": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==78"
+                },
+                {
+                    "tornado_bottom_079": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==79"
+                },
+                {
+                    "tornado_bottom_080": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==80"
+                },
+                {
+                    "tornado_bottom_081": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==81"
+                },
+                {
+                    "tornado_bottom_082": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==82"
+                },
+                {
+                    "tornado_bottom_083": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==83"
+                },
+                {
+                    "tornado_bottom_084": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==84"
+                },
+                {
+                    "tornado_bottom_085": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==85"
+                },
+                {
+                    "tornado_bottom_086": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==86"
+                },
+                {
+                    "tornado_bottom_087": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==87"
+                },
+                {
+                    "tornado_bottom_088": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==88"
+                },
+                {
+                    "tornado_bottom_089": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==89"
+                },
+                {
+                    "tornado_bottom_090": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==90"
+                },
+                {
+                    "tornado_bottom_091": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==91"
+                },
+                {
+                    "tornado_bottom_092": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==92"
+                },
+                {
+                    "tornado_bottom_093": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==93"
+                },
+                {
+                    "tornado_bottom_094": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==94"
+                },
+                {
+                    "tornado_bottom_095": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==95"
+                },
+                {
+                    "tornado_bottom_096": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==96"
+                },
+                {
+                    "tornado_bottom_097": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==97"
+                },
+                {
+                    "tornado_bottom_098": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==98"
+                },
+                {
+                    "tornado_bottom_099": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==99"
+                },
+                {
+                    "tornado_bottom_100": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==100"
+                },
+                {
+                    "tornado_bottom_101": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==101"
+                },
+                {
+                    "tornado_bottom_102": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==102"
+                },
+                {
+                    "tornado_bottom_103": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==103"
+                },
+                {
+                    "tornado_bottom_104": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==104"
+                },
+                {
+                    "tornado_bottom_105": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==105"
+                },
+                {
+                    "tornado_bottom_106": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==106"
+                },
+                {
+                    "tornado_bottom_107": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==107"
+                },
+                {
+                    "tornado_bottom_108": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==108"
+                },
+                {
+                    "tornado_bottom_109": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==109"
+                },
+                {
+                    "tornado_bottom_110": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==110"
+                },
+                {
+                    "tornado_bottom_111": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==111"
+                },
+                {
+                    "tornado_bottom_112": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==112"
+                },
+                {
+                    "tornado_bottom_113": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==113"
+                },
+                {
+                    "tornado_bottom_114": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==114"
+                },
+                {
+                    "tornado_bottom_115": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==115"
+                },
+                {
+                    "tornado_bottom_116": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==116"
+                },
+                {
+                    "tornado_bottom_117": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==117"
+                },
+                {
+                    "tornado_bottom_118": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==118"
+                },
+                {
+                    "tornado_bottom_119": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==119"
+                },
+                {
+                    "tornado_bottom_120": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==120"
+                },
+                {
+                    "tornado_bottom_121": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==121"
+                },
+                {
+                    "tornado_bottom_122": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==122"
+                },
+                {
+                    "tornado_bottom_123": "math.mod(math.floor(q.life_time*60+q.frame_alpha),124)==123"
+                }
+            ],
+            "light_color_multiplier": 1.8
+        }
+    }
+}

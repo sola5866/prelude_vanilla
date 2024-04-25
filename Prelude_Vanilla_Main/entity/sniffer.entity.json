@@ -1,0 +1,48 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:sniffer",
+            "animations": {
+                "baby_transform": "animation.sniffer.baby_transform",
+                "walk": "animation.sniffer.walk",
+                "look_at_target": "animation.common.look_at_target",
+                "sniffsniff": "animation.sniffer.sniffsniff",
+                "long_sniff": "animation.sniffer.longsniff",
+                "search": "animation.sniffer.search",
+                "dig": "animation.sniffer.dig",
+                "stand_up": "animation.sniffer.stand_up",
+                "feeling_happy": "animation.sniffer.feeling_happy",
+                "general": "controller.animation.sniffer.general",
+                "baby": "controller.animation.sniffer.baby",
+                "walk_controller": "controller.animation.sniffer.walk",
+                "sniffsniff_controller": "controller.animation.sniffer.sniffsniff",
+                "long_sniff_controller": "controller.animation.sniffer.long_sniff",
+                "search_controller": "controller.animation.sniffer.search",
+                "dig_controller": "controller.animation.sniffer.dig",
+                "stand_up_controller": "controller.animation.sniffer.stand_up",
+                "feeling_happy_controller": "controller.animation.sniffer.feeling_happy"
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.moving=math.min(1.0,query.modified_move_speed*10);"
+                ],
+                "animate": [
+                    "general",
+                    "baby",
+                    "walk_controller",
+                    "sniffsniff_controller",
+                    "long_sniff_controller",
+                    "search_controller",
+                    "dig_controller",
+                    "stand_up_controller",
+                    "feeling_happy_controller"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg_sniffer"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:sheep",
+            "min_engine_version": "1.8.0",
+            "animations": {
+                "setup": "animation.sheep.setup",
+                "grazing": "animation.sheep.grazing",
+                "walk": "animation.quadruped.walk",
+                "look_at_target": "animation.common.look_at_target",
+                "baby_transform": "animation.sheep.baby_transform",
+                "move": "controller.animation.sheep.move"
+            },
+            "scripts": {
+                "animate": [
+                    "setup",
+                    "look_at_target",
+                    "move",
+                    {
+                        "baby_transform": "query.is_baby"
+                    }
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg_sheep"
+            }
+        }
+    }
+}

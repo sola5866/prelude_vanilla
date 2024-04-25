@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:polar_bear",
+            "animations": {
+                "walk": "animation.quadruped.walk",
+                "move": "animation.polarbear.move",
+                "look_at_target": "animation.common.look_at_target",
+                "baby_transform": "animation.polarbear.baby_transform",
+                "move_controller": "controller.animation.polarbear.move",
+                "baby": "controller.animation.polarbear.baby"
+            },
+            "scripts": {
+                "scale": "1.2",
+                "animate": [
+                    "move_controller",
+                    "baby"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg_polarbear"
+            }
+        }
+    }
+}

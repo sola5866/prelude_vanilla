@@ -1,0 +1,26 @@
+{
+    "stained_glass": {
+        "carried_textures": "stained_glass_carried",
+        "sound": "glass",
+        "textures": "stained_glass"
+    },
+    "stained_glass_pane": {
+        "carried_textures": {
+            "down": "stained_glass_carried",
+            "east": "stained_glass_pane_top_carried",
+            "north": "stained_glass_carried",
+            "south": "stained_glass_carried",
+            "up": "stained_glass_carried",
+            "west": "stained_glass_carried"
+        },
+        "sound": "glass",
+        "textures": {
+            "down": "stained_glass",
+            "east": "stained_glass_pane_top",
+            "north": "stained_glass",
+            "south": "stained_glass",
+            "up": "stained_glass",
+            "west": "stained_glass"
+        }
+    }
+}

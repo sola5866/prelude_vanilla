@@ -1,0 +1,12 @@
+{
+    "resource_pack_name": "prelude_vanilla",
+    "texture_data": {
+        "lit_redstone_ore": {
+            "textures": "textures/blocks/redstone_ore"
+        },
+        "lit_deepslate_redstone_ore": {
+            "textures": "textures/blocks/deepslate/deepslate_redstone_ore"
+        }
+    },
+    "texture_name": "atlas.terrain"
+}

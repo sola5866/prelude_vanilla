@@ -1,0 +1,199 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.wind_charge": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ],
+            "part_visibility": [
+                {
+                    "*": false
+                },
+                {
+                    "wind_00": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==0"
+                },
+                {
+                    "wind_01": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==1"
+                },
+                {
+                    "wind_02": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==2"
+                },
+                {
+                    "wind_03": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==3"
+                },
+                {
+                    "wind_04": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==4"
+                },
+                {
+                    "wind_05": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==5"
+                },
+                {
+                    "wind_06": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==6"
+                },
+                {
+                    "wind_07": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==7"
+                },
+                {
+                    "wind_08": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==8"
+                },
+                {
+                    "wind_09": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==9"
+                },
+                {
+                    "wind_10": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==10"
+                },
+                {
+                    "wind_11": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==11"
+                },
+                {
+                    "wind_12": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==12"
+                },
+                {
+                    "wind_13": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==13"
+                },
+                {
+                    "wind_14": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==14"
+                },
+                {
+                    "wind_15": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==15"
+                },
+                {
+                    "wind_16": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==16"
+                },
+                {
+                    "wind_17": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==17"
+                },
+                {
+                    "wind_18": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==18"
+                },
+                {
+                    "wind_19": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==19"
+                },
+                {
+                    "wind_20": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==20"
+                },
+                {
+                    "wind_21": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==21"
+                },
+                {
+                    "wind_22": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==22"
+                },
+                {
+                    "wind_23": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==23"
+                },
+                {
+                    "wind_24": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==24"
+                },
+                {
+                    "wind_25": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==25"
+                },
+                {
+                    "wind_26": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==26"
+                },
+                {
+                    "wind_27": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==27"
+                },
+                {
+                    "wind_28": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==28"
+                },
+                {
+                    "wind_29": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==29"
+                },
+                {
+                    "wind_30": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==30"
+                },
+                {
+                    "wind_31": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==31"
+                },
+                {
+                    "wind_32": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==32"
+                },
+                {
+                    "wind_33": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==33"
+                },
+                {
+                    "wind_34": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==34"
+                },
+                {
+                    "wind_35": "math.mod(math.floor(q.life_time*60+q.frame_alpha),36)==35"
+                }
+            ],
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            }
+        },
+        "controller.render.wind_charge_outer": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ],
+            "part_visibility": [
+                {
+                    "*": false
+                },
+                {
+                    "wind_charge_00": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==0"
+                },
+                {
+                    "wind_charge_01": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==1"
+                },
+                {
+                    "wind_charge_02": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==2"
+                },
+                {
+                    "wind_charge_03": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==3"
+                },
+                {
+                    "wind_charge_04": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==4"
+                },
+                {
+                    "wind_charge_05": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==5"
+                },
+                {
+                    "wind_charge_06": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==6"
+                },
+                {
+                    "wind_charge_07": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==7"
+                },
+                {
+                    "wind_charge_08": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==8"
+                },
+                {
+                    "wind_charge_09": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==9"
+                },
+                {
+                    "wind_charge_10": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==10"
+                },
+                {
+                    "wind_charge_11": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==11"
+                },
+                {
+                    "wind_charge_12": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==12"
+                },
+                {
+                    "wind_charge_13": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==13"
+                },
+                {
+                    "wind_charge_14": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==14"
+                },
+                {
+                    "wind_charge_15": "math.mod(math.floor(q.life_time*60+q.frame_alpha),16)==15"
+                }
+            ]
+        }
+    }
+}

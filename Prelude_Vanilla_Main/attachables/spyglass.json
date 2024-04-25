@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "minecraft:spyglass",
+            "animations": {
+                "holding": "animation.spyglass.holding",
+                "scoping": "animation.spyglass.scoping"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "holding": "q.main_hand_item_use_duration<=0.0f"
+                    },
+                    {
+                        "scoping": "q.main_hand_item_use_duration>0.0f&&!c.is_first_person"
+                    }
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
+    }
+}

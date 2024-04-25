@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:tadpole",
+            "animations": {
+                "swim": "animation.tadpole.swim",
+                "general": "controller.animation.tadpole.general"
+            },
+            "scripts": {
+                "animate": [
+                    "general"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg_tadpole"
+            }
+        }
+    }
+}
