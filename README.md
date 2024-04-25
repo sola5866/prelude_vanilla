@@ -25,7 +25,7 @@ Prelude Vanilla は、統合版のレイトレーシング向けに作られた�
 Assets の下の Prelude_Vanilla_○○○.mcpack をクリックしてダウンロードしてください。
 
 ## 動作要件
-このパックを使うためには以下の要件を満たす必要がります。
+このパックを使うためには以下の要件を満たす必要があります。
   - Windows 10/11 の Minecraft 統合版 1.16.200以降
   - Intel Core i5/AMD Ryzen 5 以上の CPU
   - レイトレーシング対応のグラフィックスカード (Nvidia RTX 2000+/AMD RX 6000+)
