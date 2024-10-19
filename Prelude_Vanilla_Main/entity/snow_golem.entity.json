@@ -1,35 +1,35 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:snow_golem",
-            "min_engine_version": "1.8.0",
-            "materials": {
-                "default": "minecart"
-            },
-            "textures": {
-                "default": "textures/entity/snow_golem"
-            },
-            "geometry": {
-                "default": "geometry.snowgolem.v1.8"
-            },
-            "animations": {
-                "move": "animation.snowgolem.move.v1.8",
-                "look_at_target": "animation.common.look_at_target",
-                "move_controller": "controller.animation.snowgolem.move.v1.8"
-            },
-            "scripts": {
-                "animate": [
-                    "move_controller"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "render_controllers": [
-                "controller.render.snowgolem"
-            ],
-            "spawn_egg": {
-                "texture": "spawn_egg_snow_golem"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:snow_golem",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "minecart"
+			},
+			"textures": {
+				"default": "textures/entity/snow_golem"
+			},
+			"geometry": {
+				"default": "geometry.snowgolem.v1.8"
+			},
+			"animations": {
+				"move": "animation.snowgolem.move.v1.8",
+				"look_at_target": "animation.common.look_at_target",
+				"move_controller": "controller.animation.snowgolem.move.v1.8"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"render_controllers": [
+				"controller.render.snowgolem"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg_snow_golem"
+			}
+		}
+	}
 }

@@ -1,34 +1,34 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:fox",
-            "animations": {
-                "walk": "animation.quadruped.walk",
-                "look_at_target": "animation.common.look_at_target",
-                "baby_transform": "animation.fox.baby_transform",
-                "crouch": "animation.fox.crouch",
-                "sleep": "animation.fox.sleep",
-                "setup": "animation.fox.setup",
-                "sit": "animation.fox.sit",
-                "wiggle": "animation.fox.wiggle",
-                "stuck": "animation.fox.stuck",
-                "pounce": "animation.fox.pounce",
-                "move": "controller.animation.fox.move"
-            },
-            "scripts": {
-                "animate": [
-                    "setup",
-                    {
-                        "baby_transform": "query.is_baby"
-                    },
-                    "move"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_fox"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:fox",
+			"animations": {
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.fox.baby_transform",
+				"crouch": "animation.fox.crouch",
+				"sleep": "animation.fox.sleep",
+				"setup": "animation.fox.setup",
+				"sit": "animation.fox.sit",
+				"wiggle": "animation.fox.wiggle",
+				"stuck": "animation.fox.stuck",
+				"pounce": "animation.fox.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg_fox"
+			}
+		}
+	}
 }

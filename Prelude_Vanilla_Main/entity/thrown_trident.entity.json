@@ -1,14 +1,14 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:thrown_trident",
-            "materials": {
-                "default": "entity_alphatest_glint"
-            },
-            "scripts": {
-                "should_update_bones_and_effects_offscreen": true
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:thrown_trident",
+			"materials": {
+				"default": "entity_alphatest_glint"
+			},
+			"scripts": {
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

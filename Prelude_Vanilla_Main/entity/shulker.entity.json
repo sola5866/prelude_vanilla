@@ -1,40 +1,40 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:shulker",
-            "min_engine_version": "1.8.0",
-            "animations": {
-                "facing": "animation.shulker.facing",
-                "move": "animation.shulker.move",
-                "look_at_target": "animation.common.look_at_target",
-                "facing_controller": "controller.animation.shulker.facing",
-                "move_controller": "controller.animation.shulker.move"
-            },
-            "scripts": {
-                "pre_animation": [
-                    "variable.Shulker.LidPositionFactor=180*(0.5+variable.Shulker.PeekAmount);",
-                    "variable.Shulker.LidRotationFactor=-1+Math.sin(180*(0.5+variable.Shulker.PeekAmount));",
-                    "variable.Shulker.UpFacing=variable.Shulker.FacingDirection==1;",
-                    "variable.Shulker.NorthFacing=variable.Shulker.FacingDirection==2;",
-                    "variable.Shulker.SouthFacing=variable.Shulker.FacingDirection==3;",
-                    "variable.Shulker.WestFacing=variable.Shulker.FacingDirection==4;",
-                    "variable.Shulker.EastFacing=variable.Shulker.FacingDirection==5;",
-                    "variable.Shulker.XPreRotation=variable.Shulker.UpFacing*180+variable.Shulker.NorthFacing*90-variable.Shulker.SouthFacing*90;",
-                    "variable.Shulker.ZPreRotation=variable.Shulker.NorthFacing*180+variable.Shulker.WestFacing*90-variable.Shulker.EastFacing*90;",
-                    "variable.Shulker.XOffset=-variable.Shulker.WestFacing*7.99+variable.Shulker.EastFacing*7.99;",
-                    "variable.Shulker.YOffset=variable.Shulker.UpFacing*16+variable.Shulker.NorthFacing*7.99+variable.Shulker.SouthFacing*7.99+variable.Shulker.WestFacing*7.99+variable.Shulker.EastFacing*7.99;",
-                    "variable.Shulker.ZOffset=variable.Shulker.NorthFacing*7.99-variable.Shulker.SouthFacing*7.99;"
-                ],
-                "animate": [
-                    "facing_controller",
-                    "move_controller"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_shulker"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:shulker",
+			"min_engine_version": "1.8.0",
+			"animations": {
+				"facing": "animation.shulker.facing",
+				"move": "animation.shulker.move",
+				"look_at_target": "animation.common.look_at_target",
+				"facing_controller": "controller.animation.shulker.facing",
+				"move_controller": "controller.animation.shulker.move"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.Shulker.LidPositionFactor=180*(0.5+variable.Shulker.PeekAmount);",
+					"variable.Shulker.LidRotationFactor=-1+Math.sin(180*(0.5+variable.Shulker.PeekAmount));",
+					"variable.Shulker.UpFacing=variable.Shulker.FacingDirection==1;",
+					"variable.Shulker.NorthFacing=variable.Shulker.FacingDirection==2;",
+					"variable.Shulker.SouthFacing=variable.Shulker.FacingDirection==3;",
+					"variable.Shulker.WestFacing=variable.Shulker.FacingDirection==4;",
+					"variable.Shulker.EastFacing=variable.Shulker.FacingDirection==5;",
+					"variable.Shulker.XPreRotation=variable.Shulker.UpFacing*180+variable.Shulker.NorthFacing*90-variable.Shulker.SouthFacing*90;",
+					"variable.Shulker.ZPreRotation=variable.Shulker.NorthFacing*180+variable.Shulker.WestFacing*90-variable.Shulker.EastFacing*90;",
+					"variable.Shulker.XOffset=-variable.Shulker.WestFacing*7.99+variable.Shulker.EastFacing*7.99;",
+					"variable.Shulker.YOffset=variable.Shulker.UpFacing*16+variable.Shulker.NorthFacing*7.99+variable.Shulker.SouthFacing*7.99+variable.Shulker.WestFacing*7.99+variable.Shulker.EastFacing*7.99;",
+					"variable.Shulker.ZOffset=variable.Shulker.NorthFacing*7.99-variable.Shulker.SouthFacing*7.99;"
+				],
+				"animate": [
+					"facing_controller",
+					"move_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg_shulker"
+			}
+		}
+	}
 }

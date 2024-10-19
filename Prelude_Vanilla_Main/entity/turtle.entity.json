@@ -1,33 +1,33 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:turtle",
-            "animations": {
-                "general": "animation.turtle.general",
-                "move": "animation.turtle.move",
-                "ground_move": "animation.turtle.ground_move",
-                "look_at_target": "animation.common.look_at_target",
-                "general_controller": "controller.animation.turtle.general",
-                "move_controller": "controller.animation.turtle.move"
-            },
-            "scripts": {
-                "pre_animation": [
-                    "variable.timeMultiplier=query.has_rider?0.39972:1.0;",
-                    "variable.backLegMultiplier=query.has_rider?0.5:3.0;",
-                    "variable.frontLegMultiplier=query.has_rider?2.0:8.0;",
-                    "variable.legSpeedMultiplier=query.has_rider?2.0:5.0;"
-                ],
-                "animate": [
-                    "general_controller",
-                    "move_controller"
-                ],
-                "should_update_bones_and_effects_offscreen": true,
-                "scale": "1.2"
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_turtle"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:turtle",
+			"animations": {
+				"general": "animation.turtle.general",
+				"move": "animation.turtle.move",
+				"ground_move": "animation.turtle.ground_move",
+				"look_at_target": "animation.common.look_at_target",
+				"general_controller": "controller.animation.turtle.general",
+				"move_controller": "controller.animation.turtle.move"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.timeMultiplier=query.has_rider?0.39972:1.0;",
+					"variable.backLegMultiplier=query.has_rider?0.5:3.0;",
+					"variable.frontLegMultiplier=query.has_rider?2.0:8.0;",
+					"variable.legSpeedMultiplier=query.has_rider?2.0:5.0;"
+				],
+				"animate": [
+					"general_controller",
+					"move_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true,
+				"scale": "1.2"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg_turtle"
+			}
+		}
+	}
 }

@@ -1,18 +1,18 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:tripod_camera",
-            "animations": {
-                "neutral": "animation.tripod_camera.neutral",
-                "base": "controller.animation.tripod_camera.base_pose"
-            },
-            "scripts": {
-                "animate": [
-                    "base"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:tripod_camera",
+			"animations": {
+				"neutral": "animation.tripod_camera.neutral",
+				"base": "controller.animation.tripod_camera.base_pose"
+			},
+			"scripts": {
+				"animate": [
+					"base"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

@@ -3,6 +3,6 @@
 	"minecraft:texture_set": {
 		"color": "pale_oak_door_bottom",
 		"metalness_emissive_roughness": "pale_oak_door_bottom_mer",
-		"normal": "pale_oak_door_bottom_normal"
+		"heightmap": "pale_oak_door_bottom_heightmap"
 	}
 }

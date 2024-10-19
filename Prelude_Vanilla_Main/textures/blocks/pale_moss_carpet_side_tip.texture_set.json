@@ -3,6 +3,6 @@
 	"minecraft:texture_set": {
 		"color": "pale_moss_carpet_side_tip",
 		"metalness_emissive_roughness": "pale_moss_carpet_side_tip_mer",
-		"normal": "pale_moss_carpet_side_tip_normal"
+		"heightmap": "pale_moss_carpet_side_tip_heightmap"
 	}
 }

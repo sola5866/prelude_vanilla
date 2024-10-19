@@ -1,21 +1,21 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:endermite",
-            "animations": {
-                "move": "animation.endermite.move",
-                "move_controller": "controller.animation.endermite.move"
-            },
-            "scripts": {
-                "animate": [
-                    "move_controller"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_endermite"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:endermite",
+			"animations": {
+				"move": "animation.endermite.move",
+				"move_controller": "controller.animation.endermite.move"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg_endermite"
+			}
+		}
+	}
 }

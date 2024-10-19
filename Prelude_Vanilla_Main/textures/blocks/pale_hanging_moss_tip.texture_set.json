@@ -3,6 +3,6 @@
 	"minecraft:texture_set": {
 		"color": "pale_hanging_moss_tip",
 		"metalness_emissive_roughness": "pale_hanging_moss_tip_mer",
-		"normal": "pale_hanging_moss_tip_normal"
+		"heightmap": "pale_hanging_moss_tip_heightmap"
 	}
 }

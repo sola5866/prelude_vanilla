@@ -1,26 +1,26 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:rabbit",
-            "min_engine_version": "1.8.0",
-            "animations": {
-                "move": "animation.rabbit.move",
-                "baby_transform": "animation.rabbit.baby_transform",
-                "look_at_target": "animation.common.look_at_target",
-                "general": "controller.animation.rabbit.general",
-                "baby": "controller.animation.rabbit.baby"
-            },
-            "scripts": {
-                "animate": [
-                    "general",
-                    "baby"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_rabbit"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:rabbit",
+			"min_engine_version": "1.8.0",
+			"animations": {
+				"move": "animation.rabbit.move",
+				"baby_transform": "animation.rabbit.baby_transform",
+				"look_at_target": "animation.common.look_at_target",
+				"general": "controller.animation.rabbit.general",
+				"baby": "controller.animation.rabbit.baby"
+			},
+			"scripts": {
+				"animate": [
+					"general",
+					"baby"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg_rabbit"
+			}
+		}
+	}
 }

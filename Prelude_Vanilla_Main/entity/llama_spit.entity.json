@@ -1,17 +1,17 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:llama_spit",
-            "animations": {
-                "setup": "animation.llama_spit.setup"
-            },
-            "scripts": {
-                "animate": [
-                    "setup"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:llama_spit",
+			"animations": {
+				"setup": "animation.llama_spit.setup"
+			},
+			"scripts": {
+				"animate": [
+					"setup"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

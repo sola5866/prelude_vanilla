@@ -1,10 +1,15 @@
 {
-    "lit_deepslate_redstone_ore": {
-        "sound": "deepslate",
-        "textures": "lit_deepslate_redstone_ore"
-    },
-    "lit_redstone_ore": {
-        "sound": "stone",
-        "textures": "lit_redstone_ore"
-    }
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"lit_deepslate_redstone_ore": {
+		"sound": "deepslate",
+		"textures": "lit_deepslate_redstone_ore"
+	},
+	"lit_redstone_ore": {
+		"sound": "stone",
+		"textures": "lit_redstone_ore"
+	}
 }
