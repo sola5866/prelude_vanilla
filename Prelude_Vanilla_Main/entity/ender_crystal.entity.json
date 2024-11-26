@@ -1,23 +1,23 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:ender_crystal",
-			"materials": {
-				"default": "ender_crystal"
-			},
-			"animations": {
-				"move": "animation.ender_crystal.move"
-			},
-			"scripts": {
-				"initialize": [
-					"variable.time_offset=Math.random(0,100000);"
-				],
-				"animate": [
-					"move"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			}
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:ender_crystal",
+            "materials": {
+                "default": "ender_crystal"
+            },
+            "animations": {
+                "move": "animation.ender_crystal.move"
+            },
+            "scripts": {
+                "initialize": [
+                    "variable.time_offset=Math.random(0,100000);"
+                ],
+                "animate": [
+                    "move"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
+    }
 }

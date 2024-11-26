@@ -1,27 +1,27 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:wind_charge_projectile",
-			"materials": {
-				"default": "entity_alphatest"
-			},
-			"geometry": {
-				"default": "geometry.wind_charge"
-			},
-			"animations": {
-				"rotate": "animation.wind_charge.rotate"
-			},
-			"scripts": {
-				"animate": [
-					"rotate"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			},
-			"render_controllers": [
-				"controller.render.wind_charge",
-				"controller.render.wind_charge_outer"
-			]
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:wind_charge_projectile",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "geometry": {
+                "default": "geometry.wind_charge"
+            },
+            "animations": {
+                "rotate": "animation.wind_charge.rotate"
+            },
+            "scripts": {
+                "animate": [
+                    "rotate"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "render_controllers": [
+                "controller.render.wind_charge",
+                "controller.render.wind_charge_outer"
+            ]
+        }
+    }
 }

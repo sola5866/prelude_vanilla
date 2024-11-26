@@ -1,26 +1,26 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:trader_llama",
-			"animations": {
-				"setup": "animation.llama.setup",
-				"walk": "animation.quadruped.walk",
-				"look_at_target": "animation.common.look_at_target",
-				"baby_transform": "animation.llama.baby_transform",
-				"move": "controller.animation.llama.move",
-				"baby": "controller.animation.llama.baby"
-			},
-			"scripts": {
-				"animate": [
-					"move",
-					"baby"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			},
-			"spawn_egg": {
-				"texture": "spawn_egg_trader_llama"
-			}
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:trader_llama",
+            "animations": {
+                "setup": "animation.llama.setup",
+                "walk": "animation.quadruped.walk",
+                "look_at_target": "animation.common.look_at_target",
+                "baby_transform": "animation.llama.baby_transform",
+                "move": "controller.animation.llama.move",
+                "baby": "controller.animation.llama.baby"
+            },
+            "scripts": {
+                "animate": [
+                    "move",
+                    "baby"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg_trader_llama"
+            }
+        }
+    }
 }

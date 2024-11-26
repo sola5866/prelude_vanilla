@@ -1,33 +1,33 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:vex",
-			"min_engine_version": "1.8.0",
-			"animations": {
-				"look_at_target_default": "animation.humanoid.look_at_target.default",
-				"vex_charge": "animation.vex.charge",
-				"vex_idle": "animation.vex.idle",
-				"look_at_target": "controller.animation.humanoid.look_at_target",
-				"vex_charge_controller": "controller.animation.vex.charge",
-				"vex_idle_controller": "controller.animation.vex.idle"
-			},
-			"scripts": {
-				"pre_animation": [
-					"variable.tcos0=(Math.cos(query.modified_distance_moved*38.17)*query.modified_move_speed/variable.gliding_speed_value)*57.3;",
-					"variable.empty_handed=!query.is_item_equipped(0)&&!query.is_item_equipped(1);"
-				],
-				"animate": [
-					"look_at_target",
-					"vex_charge_controller",
-					"vex_idle_controller"
-				],
-				"should_update_bones_and_effects_offscreen": true,
-				"scale": "1.0"
-			},
-			"spawn_egg": {
-				"texture": "spawn_egg_vex"
-			}
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:vex",
+            "min_engine_version": "1.8.0",
+            "animations": {
+                "look_at_target_default": "animation.humanoid.look_at_target.default",
+                "vex_charge": "animation.vex.charge",
+                "vex_idle": "animation.vex.idle",
+                "look_at_target": "controller.animation.humanoid.look_at_target",
+                "vex_charge_controller": "controller.animation.vex.charge",
+                "vex_idle_controller": "controller.animation.vex.idle"
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.tcos0=(Math.cos(query.modified_distance_moved*38.17)*query.modified_move_speed/variable.gliding_speed_value)*57.3;",
+                    "variable.empty_handed=!query.is_item_equipped(0)&&!query.is_item_equipped(1);"
+                ],
+                "animate": [
+                    "look_at_target",
+                    "vex_charge_controller",
+                    "vex_idle_controller"
+                ],
+                "should_update_bones_and_effects_offscreen": true,
+                "scale": "1.0"
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg_vex"
+            }
+        }
+    }
 }

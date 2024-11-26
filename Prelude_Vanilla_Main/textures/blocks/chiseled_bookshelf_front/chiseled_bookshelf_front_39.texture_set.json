@@ -1,8 +1,8 @@
 {
-	"format_version": "1.16.100",
-	"minecraft:texture_set": {
-		"color": "chiseled_bookshelf_front_39",
-		"metalness_emissive_roughness": "chiseled_bookshelf_front_39_mer",
-		"heightmap": "chiseled_bookshelf_front_39_heightmap"
-	}
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "chiseled_bookshelf_front_39",
+        "metalness_emissive_roughness": "chiseled_bookshelf_front_39_mer",
+        "heightmap": "chiseled_bookshelf_front_39_heightmap"
+    }
 }

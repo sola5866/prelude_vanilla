@@ -1,8 +1,8 @@
 {
-	"format_version": "1.16.100",
-	"minecraft:texture_set": {
-		"color": "waxed_copper_door_top",
-		"metalness_emissive_roughness": "waxed_copper_door_top_mer",
-		"heightmap": "waxed_copper_door_top_heightmap"
-	}
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "waxed_copper_door_top",
+        "metalness_emissive_roughness": "waxed_copper_door_top_mer",
+        "heightmap": "waxed_copper_door_top_heightmap"
+    }
 }

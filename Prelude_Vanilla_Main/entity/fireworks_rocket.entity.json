@@ -1,20 +1,20 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:fireworks_rocket",
-			"animations": {
-				"move": "animation.fireworks_rocket.move"
-			},
-			"scripts": {
-				"animate": [
-					"move"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			},
-			"render_controllers": [
-				"controller.render.fireworks_rocket"
-			]
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:fireworks_rocket",
+            "animations": {
+                "move": "animation.fireworks_rocket.move"
+            },
+            "scripts": {
+                "animate": [
+                    "move"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "render_controllers": [
+                "controller.render.fireworks_rocket"
+            ]
+        }
+    }
 }

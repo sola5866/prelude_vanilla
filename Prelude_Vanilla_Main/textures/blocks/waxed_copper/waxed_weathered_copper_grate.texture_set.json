@@ -1,8 +1,8 @@
 {
-	"format_version": "1.16.100",
-	"minecraft:texture_set": {
-		"color": "waxed_weathered_copper_grate",
-		"metalness_emissive_roughness": "waxed_weathered_copper_grate_mer",
-		"heightmap": "waxed_weathered_copper_grate_heightmap"
-	}
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "waxed_weathered_copper_grate",
+        "metalness_emissive_roughness": "waxed_weathered_copper_grate_mer",
+        "heightmap": "waxed_weathered_copper_grate_heightmap"
+    }
 }

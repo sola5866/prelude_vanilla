@@ -1,8 +1,8 @@
 {
-	"format_version": "1.16.100",
-	"minecraft:texture_set": {
-		"color": "lit_redstone_ore",
-		"metalness_emissive_roughness": "lit_redstone_ore_mer",
-		"heightmap": "lit_redstone_ore_heightmap"
-	}
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "lit_redstone_ore",
+        "metalness_emissive_roughness": "lit_redstone_ore_mer",
+        "heightmap": "lit_redstone_ore_heightmap"
+    }
 }

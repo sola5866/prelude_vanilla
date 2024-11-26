@@ -1,24 +1,24 @@
 {
-	"format_version": "1.10.0",
-	"render_controllers": {
-		"controller.render.shield": {
-			"geometry": "geometry.default",
-			"materials": [
-				{
-					"*": "variable.is_patterned?(variable.is_enchanted?material.pattern_enchanted:material.pattern):(variable.is_enchanted?material.enchanted:material.default)"
-				}
-			],
-			"textures": [
-				"texture.default",
-				"texture.enchanted",
-				"texture.pattern"
-			],
-			"color": {
-				"r": 1.0,
-				"g": 1.0,
-				"b": 1.0,
-				"a": 1.0
-			}
-		}
-	}
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.shield": {
+            "geometry": "geometry.default",
+            "materials": [
+                {
+                    "*": "variable.is_patterned?(variable.is_enchanted?material.pattern_enchanted:material.pattern):(variable.is_enchanted?material.enchanted:material.default)"
+                }
+            ],
+            "textures": [
+                "texture.default",
+                "texture.enchanted",
+                "texture.pattern"
+            ],
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        }
+    }
 }

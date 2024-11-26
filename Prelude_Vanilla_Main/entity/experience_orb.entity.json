@@ -1,22 +1,22 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:xp_orb",
-			"animations": {
-				"face_player": "animation.actor.billboard"
-			},
-			"scripts": {
-				"scale": "0.3",
-				"pre_animation": [
-					"variable.u=Math.mod(query.texture_frame_index,4)*16.0/64.0;",
-					"variable.v=math.round(query.texture_frame_index/4)*16.0/64.0;"
-				],
-				"animate": [
-					"face_player"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			}
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:xp_orb",
+            "animations": {
+                "face_player": "animation.actor.billboard"
+            },
+            "scripts": {
+                "scale": "0.3",
+                "pre_animation": [
+                    "variable.u=Math.mod(query.texture_frame_index,4)*16.0/64.0;",
+                    "variable.v=math.round(query.texture_frame_index/4)*16.0/64.0;"
+                ],
+                "animate": [
+                    "face_player"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
+    }
 }

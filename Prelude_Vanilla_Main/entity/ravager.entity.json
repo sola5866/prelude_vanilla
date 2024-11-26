@@ -1,33 +1,33 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:ravager",
-			"animations": {
-				"walk": "animation.ravager.walk",
-				"look_at_target": "animation.common.look_at_target",
-				"idle_mouth": "animation.ravager.idle_mouth",
-				"stunned": "animation.ravager.stunned",
-				"roaring": "animation.ravager.roaring",
-				"move": "controller.animation.ravager.move",
-				"head": "controller.animation.ravager.head_movement",
-				"biting": "animation.ravager.biting"
-			},
-			"scripts": {
-				"pre_animation": [
-					"variable.roar_length=1.0;",
-					"variable.bite_anim_duration=0.75f;",
-					"variable.bite_neck_length=10;"
-				],
-				"animate": [
-					"move",
-					"head"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			},
-			"spawn_egg": {
-				"texture": "spawn_egg_ravager"
-			}
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:ravager",
+            "animations": {
+                "walk": "animation.ravager.walk",
+                "look_at_target": "animation.common.look_at_target",
+                "idle_mouth": "animation.ravager.idle_mouth",
+                "stunned": "animation.ravager.stunned",
+                "roaring": "animation.ravager.roaring",
+                "move": "controller.animation.ravager.move",
+                "head": "controller.animation.ravager.head_movement",
+                "biting": "animation.ravager.biting"
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.roar_length=1.0;",
+                    "variable.bite_anim_duration=0.75f;",
+                    "variable.bite_neck_length=10;"
+                ],
+                "animate": [
+                    "move",
+                    "head"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg_ravager"
+            }
+        }
+    }
 }

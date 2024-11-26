@@ -1,8 +1,8 @@
 {
-	"format_version": "1.16.100",
-	"minecraft:texture_set": {
-		"color": "grass_block_snow",
-		"metalness_emissive_roughness": "grass_block_snow_mer",
-		"heightmap": "grass_block_snow_heightmap"
-	}
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "grass_block_snow",
+        "metalness_emissive_roughness": "grass_block_snow_mer",
+        "heightmap": "grass_block_snow_heightmap"
+    }
 }

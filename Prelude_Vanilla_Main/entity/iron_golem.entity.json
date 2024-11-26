@@ -1,38 +1,38 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:iron_golem",
-			"textures": {
-				"default": "textures/entity/iron_golem/iron_golem",
-				"cracked_high": "textures/entity/iron_golem/cracked_high",
-				"cracked_med": "textures/entity/iron_golem/cracked_medium",
-				"cracked_low": "textures/entity/iron_golem/cracked_low",
-				"cracked_none": "textures/entity/iron_golem/iron_golem"
-			},
-			"animations": {
-				"walk": "animation.iron_golem.walk",
-				"move": "animation.iron_golem.move",
-				"attack": "animation.iron_golem.attack",
-				"flower": "animation.iron_golem.flower",
-				"look_at_target": "animation.common.look_at_target",
-				"move_controller": "controller.animation.iron_golem.move",
-				"arm": "controller.animation.iron_golem.arm_movement"
-			},
-			"scripts": {
-				"animate": [
-					"move_controller",
-					"arm"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			},
-			"render_controllers": [
-				"controller.render.iron_golem",
-				"controller.render.iron_golem_cracks"
-			],
-			"spawn_egg": {
-				"texture": "spawn_egg_iron_golem"
-			}
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:iron_golem",
+            "textures": {
+                "default": "textures/entity/iron_golem/iron_golem",
+                "cracked_high": "textures/entity/iron_golem/cracked_high",
+                "cracked_med": "textures/entity/iron_golem/cracked_medium",
+                "cracked_low": "textures/entity/iron_golem/cracked_low",
+                "cracked_none": "textures/entity/iron_golem/iron_golem"
+            },
+            "animations": {
+                "walk": "animation.iron_golem.walk",
+                "move": "animation.iron_golem.move",
+                "attack": "animation.iron_golem.attack",
+                "flower": "animation.iron_golem.flower",
+                "look_at_target": "animation.common.look_at_target",
+                "move_controller": "controller.animation.iron_golem.move",
+                "arm": "controller.animation.iron_golem.arm_movement"
+            },
+            "scripts": {
+                "animate": [
+                    "move_controller",
+                    "arm"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "render_controllers": [
+                "controller.render.iron_golem",
+                "controller.render.iron_golem_cracks"
+            ],
+            "spawn_egg": {
+                "texture": "spawn_egg_iron_golem"
+            }
+        }
+    }
 }
