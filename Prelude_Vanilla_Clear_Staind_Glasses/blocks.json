@@ -4,7 +4,7 @@
         1,
         0
     ],
-	"black_stained_glass": {
+    "black_stained_glass": {
         "carried_textures": "black_stained_glass_carried",
         "sound": "glass",
         "textures": "black_stained_glass"
