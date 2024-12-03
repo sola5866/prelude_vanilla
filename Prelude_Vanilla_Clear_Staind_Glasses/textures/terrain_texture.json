@@ -22,7 +22,7 @@
         "blue_stained_glass_pane_top_carried": {
             "textures": "textures/blocks/carried_textures/glass_pane_top_blue_carried"
         },
-        "bluek_stained_glass": {
+        "blue_stained_glass": {
             "textures": "textures/blocks/glass_blue"
         },
         "brown_stained_glass": {
@@ -86,13 +86,13 @@
             "textures": "textures/blocks/carried_textures/glass_pane_top_light_blue_carried"
         },
         "light_gray_stained_glass": {
-            "textures": "textures/blocks/glass_light_gray"
+            "textures": "textures/blocks/glass_silver"
         },
         "light_gray_stained_glass_carried": {
             "textures": "textures/blocks/carried_textures/glass_silver_carried"
         },
         "light_gray_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_light_gray"
+            "textures": "textures/blocks/glass_pane_top_silver"
         },
         "light_gray_stained_glass_pane_top_carried": {
             "textures": "textures/blocks/carried_textures/glass_pane_top_silver_carried"

@@ -1,9 +1,9 @@
 {
-	"format_version": [
-		1,
-		1,
-		0
-	],
+    "format_version": [
+        1,
+        1,
+        0
+    ],
 	"chiseled_bookshelf": {
 		"blockshape": "block",
 		"carried_textures": {
@@ -85,11 +85,11 @@
 		"sound": "stone",
 		"textures": "lit_redstone_ore"
 	},
-	"oxidized_copper_grate": {
-		"carried_textures": "oxidized_copper_grate_carried",
-		"sound": "copper_grate",
-		"textures": "oxidized_copper_grate"
-	},
+    "oxidized_copper_grate": {
+        "carried_textures": "oxidized_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "oxidized_copper_grate"
+    },
 	"redstone_ore": {
 		"sound": "stone",
 		"textures": "redstone_ore"
@@ -204,11 +204,11 @@
 			"up": "waxed_oxidized_copper_door_bottom"
 		}
 	},
-	"waxed_oxidized_copper_grate": {
-		"carried_textures": "oxidized_copper_grate_carried",
-		"sound": "copper_grate",
-		"textures": "waxed_oxidized_copper_grate"
-	},
+    "waxed_oxidized_copper_grate": {
+        "carried_textures": "oxidized_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "waxed_oxidized_copper_grate"
+    },
 	"waxed_oxidized_copper_trapdoor": {
 		"sound": "copper",
 		"textures": "waxed_oxidized_copper_trapdoor"
