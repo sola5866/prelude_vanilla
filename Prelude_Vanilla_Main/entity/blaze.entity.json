@@ -1,25 +1,20 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:blaze",
-            "min_engine_version": "1.8.0",
-            "animations": {
-                "look_at_target": "animation.common.look_at_target",
-                "move": "animation.blaze.move",
-                "move_controller": "controller.animation.blaze.move",
-                "flame": "controller.animation.blaze.flame"
-            },
-            "scripts": {
-                "animate": [
-                    "move_controller",
-                    "flame"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_blaze"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:blaze",
+			"min_engine_version": "1.8.0",
+			"animations": {
+				"move_controller": "controller.animation.blaze.move",
+				"flame_controller": "controller.animation.blaze.flame"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller",
+					"flame_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

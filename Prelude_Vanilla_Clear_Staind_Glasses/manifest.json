@@ -1,40 +1,58 @@
 {
-    "format_version": 2,
-    "header": {
-        "name": "Prelude Vanilla - Clear Staind Glasses v1.8.0",
-        "description": "pack.description",
-        "uuid": "0586fc68-fc70-4853-a4d5-4e36a80f3c5d",
-        "min_engine_version": [
-            1,
-            15,
-            0
-        ],
-        "version": [
-            1,
-            8,
-            0
-        ]
-    },
-    "modules": [
-        {
-            "description": "pack.description",
-            "type": "resources",
-            "uuid": "bfe0b6fd-91e2-4eb8-8a4d-c8f4294c7413",
-            "version": [
-                1,
-                8,
-                0
-            ]
-        }
-    ],
-    "capabilities": [
-        "raytraced"
-    ],
-    "metadata": {
-        "authors": [
-            "sola5866"
-        ],
-        "license": "MIT",
-        "url": "https://github.com/sola5866/prelude_vanilla"
-    }
+	"format_version": 2,
+	"header": {
+		"name": "Prelude\u0020Vanilla\u0020-\u0020Clear\u0020Staind\u0020Glasses\u0020v1.9.1",
+		"description": "pack.description",
+		"uuid": "0586fc68-fc70-4853-a4d5-4e36a80f3c5d",
+		"min_engine_version": [
+			1,
+			15,
+			0
+		],
+		"version": [
+			1,
+			9,
+			1
+		]
+	},
+	"modules": [
+		{
+			"description": "pack.description",
+			"type": "resources",
+			"uuid": "bfe0b6fd-91e2-4eb8-8a4d-c8f4294c7413",
+			"version": [
+				1,
+				9,
+				1
+			]
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "0",
+			"name": "Stained\u0020Glass\u0020and\u0020Normal\u0020Glass",
+			"memory_tier": 0
+		},
+		{
+			"folder_name": "1",
+			"name": "Stained\u0020Glass",
+			"memory_tier": 1
+		}
+	],
+	"settings": [
+		{
+			"type": "label",
+			"text": "Select\u0020the\u0020blocks\u0020to\u0020make\u0020clear"
+		}
+	],
+	"capabilities": [
+		"raytraced"
+	],
+	"metadata": {
+		"authors": [
+			"sola5866"
+		],
+		"license": "MIT",
+		"url": "https://github.com/sola5866/prelude_vanilla"
+	}
 }

@@ -1,34 +1,24 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:cat",
-            "materials": {
-                "default": "wolf"
-            },
-            "animations": {
-                "sneak": "animation.cat.sneak",
-                "walk": "animation.cat.walk",
-                "sprint": "animation.cat.sprint",
-                "sit": "animation.cat.sit",
-                "look_at_target": "animation.common.look_at_target",
-                "baby_transform": "animation.cat.baby_transform",
-                "lie_down": "animation.cat.lie_down",
-                "look_at_target_controller": "controller.animation.cat.look_at_target",
-                "move": "controller.animation.cat.move",
-                "baby": "controller.animation.cat.baby"
-            },
-            "scripts": {
-                "animate": [
-                    "look_at_target_controller",
-                    "move",
-                    "baby"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_cat"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:cat",
+			"materials": {
+				"default": "wolf"
+			},
+			"animations": {
+				"look_at_target_controller": "controller.animation.cat.look_at_target",
+				"move_controller": "controller.animation.cat.move",
+				"baby_controller": "controller.animation.cat.baby"
+			},
+			"scripts": {
+				"animate": [
+					"look_at_target_controller",
+					"move_controller",
+					"baby_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

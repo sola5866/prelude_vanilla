@@ -1,43 +1,43 @@
 {
-    "format_version": "1.8.0",
-    "geometry.villager_v2_level": {
-        "texturewidth": 64,
-        "textureheight": 64,
-        "visible_bounds_width": 3,
-        "visible_bounds_height": 3,
-        "visible_bounds_offset": [
-            0,
-            1.5,
-            0
-        ],
-        "bones": [
-            {
-                "name": "body",
-                "pivot": [
-                    0,
-                    0,
-                    0
-                ],
-                "cubes": [
-                    {
-                        "origin": [
-                            -4,
-                            6,
-                            -3
-                        ],
-                        "size": [
-                            8,
-                            18,
-                            6
-                        ],
-                        "uv": [
-                            0,
-                            38
-                        ],
-                        "inflate": 0.52
-                    }
-                ]
-            }
-        ]
-    }
+	"format_version": "1.8.0",
+	"geometry.villager_v2_level": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [
+			0,
+			1.5,
+			0
+		],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [
+					0,
+					0,
+					0
+				],
+				"cubes": [
+					{
+						"origin": [
+							-4,
+							6,
+							-3
+						],
+						"size": [
+							8,
+							18,
+							6
+						],
+						"uv": [
+							0,
+							38
+						],
+						"inflate": 0.52
+					}
+				]
+			}
+		]
+	}
 }

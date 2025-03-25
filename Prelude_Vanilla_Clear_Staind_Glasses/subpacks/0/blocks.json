@@ -1,0 +1,31 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"glass": {
+		"carried_textures": "glass_carried",
+		"sound": "glass",
+		"textures": "glass"
+	},
+	"glass_pane": {
+		"carried_textures": {
+			"down": "glass_carried",
+			"east": "glass_pane_top_carried",
+			"north": "glass_carried",
+			"south": "glass_carried",
+			"up": "glass_carried",
+			"west": "glass_carried"
+		},
+		"sound": "glass",
+		"textures": {
+			"down": "glass",
+			"east": "glass_pane_top",
+			"north": "glass",
+			"south": "glass",
+			"up": "glass",
+			"west": "glass"
+		}
+	}
+}

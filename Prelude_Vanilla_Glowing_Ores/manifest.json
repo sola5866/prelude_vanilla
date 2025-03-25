@@ -1,58 +1,58 @@
 {
-    "format_version": 2,
-    "header": {
-        "name": "Prelude Vanilla - Glowing Ores v1.8.0",
-        "description": "pack.description",
-        "uuid": "d4f980d0-68cd-4435-a1d6-5c0032cd44bd",
-        "min_engine_version": [
-            1,
-            15,
-            0
-        ],
-        "version": [
-            1,
-            8,
-            0
-        ]
-    },
-    "modules": [
-        {
-            "description": "pack.description",
-            "type": "resources",
-            "uuid": "2c006225-db78-4274-a955-3f24c26be115",
-            "version": [
-                1,
-                8,
-                0
-            ]
-        }
-    ],
-    "subpacks": [
-        {
-            "folder_name": "0",
-            "name": "Ores and Ore Blocks",
-            "memory_tier": 0
-        },
-        {
-            "folder_name": "1",
-            "name": "Ores (Default)",
-            "memory_tier": 1
-        }
-    ],
-    "settings": [
-        {
-            "type": "label",
-            "text": "You can select the type of light emission.\nOres (Default): Only ores glow.\nOres and Ore Blocks: In addition to ores, emerald blocks, lapis blocks, and diamond blocks also emit light."
-        }
-    ],
-    "capabilities": [
-        "raytraced"
-    ],
-    "metadata": {
-        "authors": [
-            "sola5866"
-        ],
-        "license": "MIT",
-        "url": "https://github.com/sola5866/prelude_vanilla"
-    }
+	"format_version": 2,
+	"header": {
+		"name": "Prelude\u0020Vanilla\u0020-\u0020Glowing\u0020Ores\u0020v1.9.1",
+		"description": "pack.description",
+		"uuid": "d4f980d0-68cd-4435-a1d6-5c0032cd44bd",
+		"min_engine_version": [
+			1,
+			15,
+			0
+		],
+		"version": [
+			1,
+			9,
+			1
+		]
+	},
+	"modules": [
+		{
+			"description": "pack.description",
+			"type": "resources",
+			"uuid": "2c006225-db78-4274-a955-3f24c26be115",
+			"version": [
+				1,
+				9,
+				1
+			]
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "0",
+			"name": "Ores\u0020and\u0020Ore\u0020Blocks",
+			"memory_tier": 0
+		},
+		{
+			"folder_name": "1",
+			"name": "Ores\u0020(Default)",
+			"memory_tier": 1
+		}
+	],
+	"settings": [
+		{
+			"type": "label",
+			"text": "You\u0020can\u0020select\u0020the\u0020type\u0020of\u0020light\u0020emission.\nOres\u0020(Default):\u0020Only\u0020ores\u0020glow.\nOres\u0020and\u0020Ore\u0020Blocks:\u0020In\u0020addition\u0020to\u0020ores,\u0020emerald\u0020blocks,\u0020lapis\u0020blocks,\u0020and\u0020diamond\u0020blocks\u0020also\u0020emit\u0020light."
+		}
+	],
+	"capabilities": [
+		"raytraced"
+	],
+	"metadata": {
+		"authors": [
+			"sola5866"
+		],
+		"license": "MIT",
+		"url": "https://github.com/sola5866/prelude_vanilla"
+	}
 }

@@ -1,21 +1,17 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:dolphin",
-            "animations": {
-                "move": "animation.dolphin.move",
-                "general": "controller.animation.dolphin.general"
-            },
-            "scripts": {
-                "animate": [
-                    "general"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_dolphin"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:dolphin",
+			"animations": {
+				"general_controller": "controller.animation.dolphin.general"
+			},
+			"scripts": {
+				"animate": [
+					"general_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

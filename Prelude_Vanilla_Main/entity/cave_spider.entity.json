@@ -1,35 +1,25 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:cave_spider",
-            "min_engine_version": "1.8.0",
-            "materials": {
-                "default": "spider"
-            },
-            "textures": {
-                "default": "textures/entity/spider/cave_spider",
-                "invisible": "textures/entity/spider/spider_invisible"
-            },
-            "scripts": {
-                "scale": "0.7",
-                "animate": [
-                    "move"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "animations": {
-                "default_leg_pose": "animation.spider.default_leg_pose",
-                "look_at_target": "animation.spider.look_at_target",
-                "walk": "animation.spider.walk",
-                "move": "controller.animation.spider.move"
-            },
-            "render_controllers": [
-                "controller.render.spider"
-            ],
-            "spawn_egg": {
-                "texture": "spawn_egg_cave_spider"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:cave_spider",
+			"min_engine_version": "1.8.0",
+			"textures": {
+				"default": "textures/entity/spider/cave_spider",
+				"invisible": "textures/entity/spider/spider_invisible"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"animations": {
+				"move_controller": "controller.animation.spider.move"
+			},
+			"render_controllers": [
+				"controller.render.spider"
+			]
+		}
+	}
 }

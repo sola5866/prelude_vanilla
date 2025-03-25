@@ -1,27 +1,19 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:ghast",
-            "animations": {
-                "move": "animation.ghast.move",
-                "scale": "animation.ghast.scale",
-                "move_controller": "controller.animation.ghast.move",
-                "scale_controller": "controller.animation.ghast.scale"
-            },
-            "scripts": {
-                "pre_animation": [
-                    "variable.holding_trident=query.is_item_name_any('slot.weapon.mainhand','minecraft:trident');"
-                ],
-                "animate": [
-                    "move_controller",
-                    "scale_controller"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_ghast"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:ghast",
+			"animations": {
+				"move_controller": "controller.animation.ghast.move",
+				"scale_controller": "controller.animation.ghast.scale"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller",
+					"scale_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

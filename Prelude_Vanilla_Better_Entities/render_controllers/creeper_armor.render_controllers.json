@@ -1,218 +1,218 @@
 {
-    "format_version": "1.8.0",
-    "render_controllers": {
-        "controller.render.creeper_armor": {
-            "geometry": "Geometry.charged",
-            "part_visibility": [
-                {
-                    "*_00": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==0"
-                },
-                {
-                    "*_01": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==1"
-                },
-                {
-                    "*_02": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==2"
-                },
-                {
-                    "*_03": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==3"
-                },
-                {
-                    "*_04": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==4"
-                },
-                {
-                    "*_05": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==5"
-                },
-                {
-                    "*_06": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==6"
-                },
-                {
-                    "*_07": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==7"
-                },
-                {
-                    "*_08": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==8"
-                },
-                {
-                    "*_09": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==9"
-                },
-                {
-                    "*_10": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==10"
-                },
-                {
-                    "*_11": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==11"
-                },
-                {
-                    "*_12": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==12"
-                },
-                {
-                    "*_13": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==13"
-                },
-                {
-                    "*_14": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==14"
-                },
-                {
-                    "*_15": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==15"
-                },
-                {
-                    "*_16": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==16"
-                },
-                {
-                    "*_17": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==17"
-                },
-                {
-                    "*_18": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==18"
-                },
-                {
-                    "*_19": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==19"
-                },
-                {
-                    "*_20": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==20"
-                },
-                {
-                    "*_21": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==21"
-                },
-                {
-                    "*_22": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==22"
-                },
-                {
-                    "*_23": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==23"
-                },
-                {
-                    "*_24": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==24"
-                },
-                {
-                    "*_25": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==25"
-                },
-                {
-                    "*_26": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==26"
-                },
-                {
-                    "*_27": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==27"
-                },
-                {
-                    "*_28": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==28"
-                },
-                {
-                    "*_29": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==29"
-                },
-                {
-                    "*_30": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==30"
-                },
-                {
-                    "*_31": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==31"
-                },
-                {
-                    "*_32": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==32"
-                },
-                {
-                    "*_33": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==33"
-                },
-                {
-                    "*_34": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==34"
-                },
-                {
-                    "*_35": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==35"
-                },
-                {
-                    "*_36": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==36"
-                },
-                {
-                    "*_37": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==37"
-                },
-                {
-                    "*_38": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==38"
-                },
-                {
-                    "*_39": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==39"
-                },
-                {
-                    "*_40": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==40"
-                },
-                {
-                    "*_41": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==41"
-                },
-                {
-                    "*_42": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==42"
-                },
-                {
-                    "*_43": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==43"
-                },
-                {
-                    "*_44": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==44"
-                },
-                {
-                    "*_45": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==45"
-                },
-                {
-                    "*_46": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==46"
-                },
-                {
-                    "*_47": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==47"
-                },
-                {
-                    "*_48": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==48"
-                },
-                {
-                    "*_49": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==49"
-                },
-                {
-                    "*_50": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==50"
-                },
-                {
-                    "*_51": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==51"
-                },
-                {
-                    "*_52": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==52"
-                },
-                {
-                    "*_53": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==53"
-                },
-                {
-                    "*_54": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==54"
-                },
-                {
-                    "*_55": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==55"
-                },
-                {
-                    "*_56": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==56"
-                },
-                {
-                    "*_57": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==57"
-                },
-                {
-                    "*_58": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==58"
-                },
-                {
-                    "*_59": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==59"
-                },
-                {
-                    "*_60": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==60"
-                },
-                {
-                    "*_61": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==61"
-                },
-                {
-                    "*_62": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==62"
-                },
-                {
-                    "*_63": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==63"
-                }
-            ],
-            "materials": [
-                {
-                    "*": "Material.charged"
-                }
-            ],
-            "textures": [
-                "Texture.charged"
-            ],
-            "overlay_color": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            },
-            "light_color_multiplier": 0.5,
-            "ignore_lighting": true
-        }
-    }
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.creeper_armor": {
+			"geometry": "Geometry.charged",
+			"part_visibility": [
+				{
+					"*_00": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==0"
+				},
+				{
+					"*_01": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==1"
+				},
+				{
+					"*_02": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==2"
+				},
+				{
+					"*_03": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==3"
+				},
+				{
+					"*_04": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==4"
+				},
+				{
+					"*_05": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==5"
+				},
+				{
+					"*_06": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==6"
+				},
+				{
+					"*_07": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==7"
+				},
+				{
+					"*_08": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==8"
+				},
+				{
+					"*_09": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==9"
+				},
+				{
+					"*_10": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==10"
+				},
+				{
+					"*_11": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==11"
+				},
+				{
+					"*_12": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==12"
+				},
+				{
+					"*_13": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==13"
+				},
+				{
+					"*_14": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==14"
+				},
+				{
+					"*_15": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==15"
+				},
+				{
+					"*_16": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==16"
+				},
+				{
+					"*_17": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==17"
+				},
+				{
+					"*_18": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==18"
+				},
+				{
+					"*_19": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==19"
+				},
+				{
+					"*_20": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==20"
+				},
+				{
+					"*_21": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==21"
+				},
+				{
+					"*_22": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==22"
+				},
+				{
+					"*_23": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==23"
+				},
+				{
+					"*_24": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==24"
+				},
+				{
+					"*_25": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==25"
+				},
+				{
+					"*_26": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==26"
+				},
+				{
+					"*_27": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==27"
+				},
+				{
+					"*_28": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==28"
+				},
+				{
+					"*_29": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==29"
+				},
+				{
+					"*_30": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==30"
+				},
+				{
+					"*_31": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==31"
+				},
+				{
+					"*_32": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==32"
+				},
+				{
+					"*_33": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==33"
+				},
+				{
+					"*_34": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==34"
+				},
+				{
+					"*_35": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==35"
+				},
+				{
+					"*_36": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==36"
+				},
+				{
+					"*_37": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==37"
+				},
+				{
+					"*_38": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==38"
+				},
+				{
+					"*_39": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==39"
+				},
+				{
+					"*_40": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==40"
+				},
+				{
+					"*_41": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==41"
+				},
+				{
+					"*_42": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==42"
+				},
+				{
+					"*_43": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==43"
+				},
+				{
+					"*_44": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==44"
+				},
+				{
+					"*_45": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==45"
+				},
+				{
+					"*_46": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==46"
+				},
+				{
+					"*_47": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==47"
+				},
+				{
+					"*_48": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==48"
+				},
+				{
+					"*_49": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==49"
+				},
+				{
+					"*_50": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==50"
+				},
+				{
+					"*_51": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==51"
+				},
+				{
+					"*_52": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==52"
+				},
+				{
+					"*_53": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==53"
+				},
+				{
+					"*_54": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==54"
+				},
+				{
+					"*_55": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==55"
+				},
+				{
+					"*_56": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==56"
+				},
+				{
+					"*_57": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==57"
+				},
+				{
+					"*_58": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==58"
+				},
+				{
+					"*_59": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==59"
+				},
+				{
+					"*_60": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==60"
+				},
+				{
+					"*_61": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==61"
+				},
+				{
+					"*_62": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==62"
+				},
+				{
+					"*_63": "query.is_powered&&math.mod(math.floor(q.life_time*20+q.frame_alpha),64)==63"
+				}
+			],
+			"materials": [
+				{
+					"*": "Material.charged"
+				}
+			],
+			"textures": [
+				"Texture.charged"
+			],
+			"overlay_color": {
+				"r": 0,
+				"g": 0,
+				"b": 0,
+				"a": 0
+			},
+			"light_color_multiplier": 0.5,
+			"ignore_lighting": true
+		}
+	}
 }

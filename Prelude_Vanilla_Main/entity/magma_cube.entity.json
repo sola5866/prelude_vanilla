@@ -1,30 +1,17 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:magma_cube",
-            "animations": {
-                "move": "animation.magma_cube.move",
-                "general": "controller.animation.magma_cube.general"
-            },
-            "scripts": {
-                "pre_animation": [
-                    "variable.slime_squish_factor=(query.previous_squish_value+(query.current_squish_value-query.previous_squish_value)*query.frame_alpha);",
-                    "variable.bounce=1/((variable.slime_squish_factor/(query.variant*0.5+1))+1);",
-                    "variable.horizontal_scale_amount=variable.bounce*query.variant;",
-                    "variable.vertical_scale_amount=(1/variable.bounce)*query.variant;"
-                ],
-                "animate": [
-                    "general"
-                ],
-                "should_update_bones_and_effects_offscreen": true,
-                "scaleX": "variable.horizontal_scale_amount",
-                "scaleY": "variable.vertical_scale_amount",
-                "scaleZ": "variable.horizontal_scale_amount"
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_lava_slime"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:magma_cube",
+			"animations": {
+				"general_controller": "controller.animation.magma_cube.general"
+			},
+			"scripts": {
+				"animate": [
+					"general_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

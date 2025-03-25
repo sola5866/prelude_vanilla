@@ -1,21 +1,17 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:silverfish",
-            "animations": {
-                "move": "animation.silverfish.move",
-                "move_controller": "controller.animation.silverfish.move"
-            },
-            "scripts": {
-                "animate": [
-                    "move_controller"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_silverfish"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:silverfish",
+			"animations": {
+				"move_controller": "controller.animation.silverfish.move"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

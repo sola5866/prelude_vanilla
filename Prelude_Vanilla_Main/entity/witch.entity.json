@@ -1,28 +1,20 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:witch",
-            "min_engine_version": "1.8.0",
-            "animations": {
-                "villager_general": "animation.villager.general",
-                "look_at_target": "animation.common.look_at_target",
-                "move": "animation.villager.move",
-                "general": "animation.witch.general",
-                "general_controller": "controller.animation.witch.general",
-                "move_controller": "controller.animation.villager.move"
-            },
-            "scripts": {
-                "scale": "0.9375",
-                "animate": [
-                    "general_controller",
-                    "move_controller"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_witch"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:witch",
+			"min_engine_version": "1.8.0",
+			"animations": {
+				"general_controller": "controller.animation.witch.general",
+				"move_controller": "controller.animation.villager.move"
+			},
+			"scripts": {
+				"animate": [
+					"general_controller",
+					"move_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

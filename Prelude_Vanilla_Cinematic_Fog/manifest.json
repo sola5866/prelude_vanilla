@@ -1,108 +1,108 @@
 {
-    "format_version": 2,
-    "header": {
-        "name": "Prelude Vanilla - Cinematic Fog v1.8.0",
-        "description": "pack.description",
-        "uuid": "d57f0643-44b6-40c5-9472-42b75fe5fd31",
-        "min_engine_version": [
-            1,
-            15,
-            0
-        ],
-        "version": [
-            1,
-            8,
-            0
-        ]
-    },
-    "modules": [
-        {
-            "description": "pack.description",
-            "type": "resources",
-            "uuid": "b1d9eeef-ef6b-4c26-857b-4a43d160a0e6",
-            "version": [
-                1,
-                8,
-                0
-            ]
-        }
-    ],
-    "subpacks": [
-        {
-            "folder_name": "0",
-            "name": "0",
-            "memory_tier": 0
-        },
-        {
-            "folder_name": "1",
-            "name": "1",
-            "memory_tier": 1
-        },
-        {
-            "folder_name": "2",
-            "name": "2",
-            "memory_tier": 2
-        },
-        {
-            "folder_name": "3",
-            "name": "3",
-            "memory_tier": 3
-        },
-        {
-            "folder_name": "4",
-            "name": "4",
-            "memory_tier": 4
-        },
-        {
-            "folder_name": "5",
-            "name": "5",
-            "memory_tier": 5
-        },
-        {
-            "folder_name": "6",
-            "name": "6",
-            "memory_tier": 6
-        },
-        {
-            "folder_name": "7",
-            "name": "7",
-            "memory_tier": 7
-        },
-        {
-            "folder_name": "8",
-            "name": "8",
-            "memory_tier": 8
-        },
-        {
-            "folder_name": "9",
-            "name": "9",
-            "memory_tier": 9
-        },
-        {
-            "folder_name": "10",
-            "name": "10",
-            "memory_tier": 10
-        },
-        {
-            "folder_name": "11",
-            "name": "Default",
-            "memory_tier": 11
-        }
-    ],
-    "settings": [
-        {
-            "type": "label",
-            "text": "You can set the fog density."
-        }
-    ],
-    "capabilities": [
-        "raytraced"
-    ],
-    "metadata": {
-        "authors": [
-            "sola5866"
-        ],
-        "license": "MIT",
-        "url": "https://github.com/sola5866/prelude_vanilla"
-    }
+	"format_version": 2,
+	"header": {
+		"name": "Prelude\u0020Vanilla\u0020-\u0020Cinematic\u0020Fog\u0020v1.9.1",
+		"description": "pack.description",
+		"uuid": "d57f0643-44b6-40c5-9472-42b75fe5fd31",
+		"min_engine_version": [
+			1,
+			15,
+			0
+		],
+		"version": [
+			1,
+			9,
+			1
+		]
+	},
+	"modules": [
+		{
+			"description": "pack.description",
+			"type": "resources",
+			"uuid": "b1d9eeef-ef6b-4c26-857b-4a43d160a0e6",
+			"version": [
+				1,
+				9,
+				1
+			]
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "0",
+			"name": "0",
+			"memory_tier": 0
+		},
+		{
+			"folder_name": "1",
+			"name": "1",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "2",
+			"name": "2",
+			"memory_tier": 2
+		},
+		{
+			"folder_name": "3",
+			"name": "3",
+			"memory_tier": 3
+		},
+		{
+			"folder_name": "4",
+			"name": "4",
+			"memory_tier": 4
+		},
+		{
+			"folder_name": "5",
+			"name": "5",
+			"memory_tier": 5
+		},
+		{
+			"folder_name": "6",
+			"name": "6",
+			"memory_tier": 6
+		},
+		{
+			"folder_name": "7",
+			"name": "7",
+			"memory_tier": 7
+		},
+		{
+			"folder_name": "8",
+			"name": "8",
+			"memory_tier": 8
+		},
+		{
+			"folder_name": "9",
+			"name": "9",
+			"memory_tier": 9
+		},
+		{
+			"folder_name": "10",
+			"name": "10",
+			"memory_tier": 10
+		},
+		{
+			"folder_name": "11",
+			"name": "Default",
+			"memory_tier": 11
+		}
+	],
+	"settings": [
+		{
+			"type": "label",
+			"text": "You\u0020can\u0020set\u0020the\u0020fog\u0020density."
+		}
+	],
+	"capabilities": [
+		"raytraced"
+	],
+	"metadata": {
+		"authors": [
+			"sola5866"
+		],
+		"license": "MIT",
+		"url": "https://github.com/sola5866/prelude_vanilla"
+	}
 }

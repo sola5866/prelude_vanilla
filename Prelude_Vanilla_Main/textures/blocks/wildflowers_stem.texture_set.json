@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "wildflowers_stem",
+		"metalness_emissive_roughness": "wildflowers_stem_mer",
+		"heightmap": "wildflowers_stem_heightmap"
+	}
+}

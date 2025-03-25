@@ -1,40 +1,40 @@
 {
-    "format_version": 2,
-    "header": {
-        "name": "Prelude Vanilla v1.8.0",
-        "description": "pack.description",
-        "uuid": "8e4bf3b2-ce79-4b87-9e1f-7b2d10aebe07",
-        "min_engine_version": [
-            1,
-            15,
-            0
-        ],
-        "version": [
-            1,
-            8,
-            0
-        ]
-    },
-    "modules": [
-        {
-            "description": "pack.description",
-            "type": "resources",
-            "uuid": "13d402d3-b360-4381-b7b9-74ef94e13eda",
-            "version": [
-                1,
-                8,
-                0
-            ]
-        }
-    ],
-    "capabilities": [
-        "raytraced"
-    ],
-    "metadata": {
-        "authors": [
-            "sola5866"
-        ],
-        "license": "MIT",
-        "url": "https://github.com/sola5866/prelude_vanilla"
-    }
+	"format_version": 2,
+	"header": {
+		"name": "Prelude\u0020Vanilla\u0020v1.9.1",
+		"description": "pack.description",
+		"uuid": "8e4bf3b2-ce79-4b87-9e1f-7b2d10aebe07",
+		"min_engine_version": [
+			1,
+			15,
+			0
+		],
+		"version": [
+			1,
+			9,
+			1
+		]
+	},
+	"modules": [
+		{
+			"description": "pack.description",
+			"type": "resources",
+			"uuid": "13d402d3-b360-4381-b7b9-74ef94e13eda",
+			"version": [
+				1,
+				9,
+				1
+			]
+		}
+	],
+	"capabilities": [
+		"raytraced"
+	],
+	"metadata": {
+		"authors": [
+			"sola5866"
+		],
+		"license": "MIT",
+		"url": "https://github.com/sola5866/prelude_vanilla"
+	}
 }

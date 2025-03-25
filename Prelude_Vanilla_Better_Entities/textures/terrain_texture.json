@@ -1,0 +1,35 @@
+{
+	"texture_name": "atlas.terrain",
+	"num_mip_levels": 0,
+	"padding": 0,
+	"resource_pack_name": "prelude_vanilla",
+	"texture_data": {
+		"beacon_shell": {
+			"textures": "textures/blocks/beacon_shell"
+		},
+		"copper_grate_carried": {
+			"textures": "textures/blocks/carried_textures/copper_grate_carried"
+		},
+		"exposed_copper_grate_carried": {
+			"textures": "textures/blocks/carried_textures/exposed_copper_grate_carried"
+		},
+		"oxidized_copper_grate_carried": {
+			"textures": "textures/blocks/carried_textures/oxidized_copper_grate_carried"
+		},
+		"waxed_copper_grate": {
+			"textures": "textures/blocks/waxed_copper/waxed_copper_grate"
+		},
+		"waxed_exposed_copper_grate": {
+			"textures": "textures/blocks/waxed_copper/waxed_exposed_copper_grate"
+		},
+		"waxed_oxidized_copper_grate": {
+			"textures": "textures/blocks/waxed_copper/waxed_oxidized_copper_grate"
+		},
+		"waxed_weathered_copper_grate": {
+			"textures": "textures/blocks/waxed_copper/waxed_weathered_copper_grate"
+		},
+		"weathered_copper_grate_carried": {
+			"textures": "textures/blocks/carried_textures/weathered_copper_grate_carried"
+		}
+	}
+}

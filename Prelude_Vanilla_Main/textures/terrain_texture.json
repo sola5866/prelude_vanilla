@@ -1,748 +1,748 @@
 {
-    "num_mip_levels": 0,
-    "padding": 0,
-    "resource_pack_name": "prelude_vanilla",
-    "texture_data": {
-        "black_stained_glass": {
-            "textures": "textures/blocks/glass_black"
-        },
-        "black_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_black_carried"
-        },
-        "black_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_black"
-        },
-        "black_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_black_carried"
-        },
-        "blue_stained_glass": {
-            "textures": "textures/blocks/glass_blue"
-        },
-        "blue_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_blue_carried"
-        },
-        "blue_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_blue"
-        },
-        "blue_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_blue_carried"
-        },
-        "brown_stained_glass": {
-            "textures": "textures/blocks/glass_brown"
-        },
-        "brown_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_brown_carried"
-        },
-        "brown_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_brown"
-        },
-        "brown_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_brown_carried"
-        },
-        "chiseled_bookshelf_empty": {
-            "textures": "textures/blocks/chiseled_bookshelf_empty"
-        },
-        "chiseled_bookshelf_front": {
-            "textures": [
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_00",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_00",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_00",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_00",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_01",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_01",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_01",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_01",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_02",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_02",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_02",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_02",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_03",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_03",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_03",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_03",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_04",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_04",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_04",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_04",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_05",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_05",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_05",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_05",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_06",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_06",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_06",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_06",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_07",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_07",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_07",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_07",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_08",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_08",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_08",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_08",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_09",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_09",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_09",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_09",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_10",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_10",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_10",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_10",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_11",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_11",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_11",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_11",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_12",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_12",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_12",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_12",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_13",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_13",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_13",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_13",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_14",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_14",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_14",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_14",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_15",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_15",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_15",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_15",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_16",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_16",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_16",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_16",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_17",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_17",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_17",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_17",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_18",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_18",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_18",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_18",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_19",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_19",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_19",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_19",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_20",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_20",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_20",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_20",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_21",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_21",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_21",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_21",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_22",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_22",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_22",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_22",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_23",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_23",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_23",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_23",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_24",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_24",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_24",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_24",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_25",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_25",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_25",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_25",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_26",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_26",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_26",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_26",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_27",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_27",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_27",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_27",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_28",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_28",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_28",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_28",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_29",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_29",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_29",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_29",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_30",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_30",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_30",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_30",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_31",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_31",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_31",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_31",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_32",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_32",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_32",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_32",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_33",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_33",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_33",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_33",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_34",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_34",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_34",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_34",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_35",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_35",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_35",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_35",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_36",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_36",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_36",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_36",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_37",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_37",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_37",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_37",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_38",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_38",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_38",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_38",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_39",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_39",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_39",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_39",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_40",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_40",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_40",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_40",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_41",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_41",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_41",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_41",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_42",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_42",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_42",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_42",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_43",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_43",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_43",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_43",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_44",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_44",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_44",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_44",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_45",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_45",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_45",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_45",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_46",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_46",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_46",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_46",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_47",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_47",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_47",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_47",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_48",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_48",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_48",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_48",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_49",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_49",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_49",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_49",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_50",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_50",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_50",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_50",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_51",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_51",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_51",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_51",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_52",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_52",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_52",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_52",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_53",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_53",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_53",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_53",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_54",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_54",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_54",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_54",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_55",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_55",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_55",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_55",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_56",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_56",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_56",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_56",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_57",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_57",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_57",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_57",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_58",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_58",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_58",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_58",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_59",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_59",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_59",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_59",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_60",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_60",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_60",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_60",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_61",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_61",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_61",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_61",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_62",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_62",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_62",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_62",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_63",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_63",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_63",
-                "textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_63"
-            ]
-        },
-        "chiseled_bookshelf_occupied": {
-            "textures": "textures/blocks/chiseled_bookshelf_occupied"
-        },
-        "chiseled_bookshelf_side": {
-            "textures": "textures/blocks/chiseled_bookshelf_side"
-        },
-        "chiseled_bookshelf_top": {
-            "textures": "textures/blocks/chiseled_bookshelf_top"
-        },
-        "copper_grate_carried": {
-            "textures": "textures/blocks/carried_textures/copper_grate_carried"
-        },
-        "cyan_stained_glass": {
-            "textures": "textures/blocks/glass_cyan"
-        },
-        "cyan_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_cyan_carried"
-        },
-        "cyan_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_cyan"
-        },
-        "cyan_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_cyan_carried"
-        },
-        "dried_kelp_block_bottom": {
-            "textures": "textures/blocks/dried_kelp_bottom"
-        },
-        "dried_kelp_block_side_a": {
-            "textures": "textures/blocks/dried_kelp_side_a"
-        },
-        "dried_kelp_block_side_b": {
-            "textures": "textures/blocks/dried_kelp_side_b"
-        },
-        "dried_kelp_block_top": {
-            "textures": "textures/blocks/dried_kelp_top"
-        },
-        "endframe_bottom": {
-            "textures": "textures/blocks/end_stone"
-        },
-        "endframe_eye": {
-            "textures": "textures/blocks/endframe_eye"
-        },
-        "endframe_side": {
-            "textures": [
-                "textures/blocks/endframe_side",
-                "textures/blocks/endframe_side",
-                "textures/blocks/endframe_side",
-                "textures/blocks/endframe_side",
-                "textures/blocks/endframe_side_filled",
-                "textures/blocks/endframe_side_filled",
-                "textures/blocks/endframe_side_filled",
-                "textures/blocks/endframe_side_filled"
-            ]
-        },
-        "endframe_top": {
-            "textures": [
-                "textures/blocks/endframe_top",
-                "textures/blocks/endframe_top",
-                "textures/blocks/endframe_top",
-                "textures/blocks/endframe_top",
-                "textures/blocks/endframe_top_filled",
-                "textures/blocks/endframe_top_filled",
-                "textures/blocks/endframe_top_filled",
-                "textures/blocks/endframe_top_filled"
-            ]
-        },
-        "exposed_copper_grate_carried": {
-            "textures": "textures/blocks/carried_textures/exposed_copper_grate_carried"
-        },
-        "glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_carried"
-        },
-        "gray_stained_glass": {
-            "textures": "textures/blocks/glass_gray"
-        },
-        "gray_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_gray_carried"
-        },
-        "gray_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_gray"
-        },
-        "gray_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_gray_carried"
-        },
-        "green_stained_glass": {
-            "textures": "textures/blocks/glass_green"
-        },
-        "green_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_green_carried"
-        },
-        "green_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_green"
-        },
-        "green_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_green_carried"
-        },
-        "light_blue_stained_glass": {
-            "textures": "textures/blocks/glass_light_blue"
-        },
-        "light_blue_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_light_blue_carried"
-        },
-        "light_blue_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_light_blue"
-        },
-        "light_blue_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_light_blue_carried"
-        },
-        "light_gray_stained_glass": {
-            "textures": "textures/blocks/glass_silver"
-        },
-        "light_gray_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_silver_carried"
-        },
-        "light_gray_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_silver"
-        },
-        "light_gray_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_silver_carried"
-        },
-        "lime_stained_glass": {
-            "textures": "textures/blocks/glass_lime"
-        },
-        "lime_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_lime_carried"
-        },
-        "lime_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_lime"
-        },
-        "lime_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_lime_carried"
-        },
-        "lit_deepslate_redstone_ore": {
-            "textures": "textures/blocks/lit_deepslate_redstone_ore"
-        },
-        "lit_pumpkin_side": {
-            "textures": [
-                "textures/blocks/lit_pumpkin_side",
-                "textures/blocks/lit_pumpkin_side",
-                "textures/blocks/lit_pumpkin_side"
-            ]
-        },
-        "lit_pumpkin_top": {
-            "textures": [
-                "textures/blocks/lit_pumpkin_top"
-            ]
-        },
-        "lit_redstone_ore": {
-            "textures": "textures/blocks/lit_redstone_ore"
-        },
-        "magenta_stained_glass": {
-            "textures": "textures/blocks/glass_magenta"
-        },
-        "magenta_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_magenta_carried"
-        },
-        "magenta_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_magenta"
-        },
-        "magenta_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_magenta_carried"
-        },
-        "orange_stained_glass": {
-            "textures": "textures/blocks/glass_orange"
-        },
-        "orange_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_white_carried"
-        },
-        "orange_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_orange"
-        },
-        "orange_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_orange_carried"
-        },
-        "oxidized_copper_grate_carried": {
-            "textures": "textures/blocks/carried_textures/oxidized_copper_grate_carried"
-        },
-        "pink_stained_glass": {
-            "textures": "textures/blocks/glass_pink"
-        },
-        "pink_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pink_carried"
-        },
-        "pink_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_pink"
-        },
-        "pink_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_pink_carried"
-        },
-        "pumpkin_face_on": {
-            "textures": [
-                "textures/blocks/pumpkin_face_on"
-            ]
-        },
-        "purple_stained_glass": {
-            "textures": "textures/blocks/glass_purple"
-        },
-        "purple_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_purple_carried"
-        },
-        "purple_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_purple"
-        },
-        "purple_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_purple_carried"
-        },
-        "red_stained_glass": {
-            "textures": "textures/blocks/glass_red"
-        },
-        "red_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_red_carried"
-        },
-        "red_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_red"
-        },
-        "red_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_red_carried"
-        },
-        "stained_glass": {
-            "textures": [
-                "textures/blocks/glass_white",
-                "textures/blocks/glass_orange",
-                "textures/blocks/glass_magenta",
-                "textures/blocks/glass_light_blue",
-                "textures/blocks/glass_yellow",
-                "textures/blocks/glass_lime",
-                "textures/blocks/glass_pink",
-                "textures/blocks/glass_gray",
-                "textures/blocks/glass_silver",
-                "textures/blocks/glass_cyan",
-                "textures/blocks/glass_purple",
-                "textures/blocks/glass_blue",
-                "textures/blocks/glass_brown",
-                "textures/blocks/glass_green",
-                "textures/blocks/glass_red",
-                "textures/blocks/glass_black"
-            ]
-        },
-        "stained_glass_carried": {
-            "textures": [
-                "textures/blocks/carried_textures/glass_white_carried",
-                "textures/blocks/carried_textures/glass_orange_carried",
-                "textures/blocks/carried_textures/glass_magenta_carried",
-                "textures/blocks/carried_textures/glass_light_blue_carried",
-                "textures/blocks/carried_textures/glass_yellow_carried",
-                "textures/blocks/carried_textures/glass_lime_carried",
-                "textures/blocks/carried_textures/glass_pink_carried",
-                "textures/blocks/carried_textures/glass_gray_carried",
-                "textures/blocks/carried_textures/glass_silver_carried",
-                "textures/blocks/carried_textures/glass_cyan_carried",
-                "textures/blocks/carried_textures/glass_purple_carried",
-                "textures/blocks/carried_textures/glass_blue_carried",
-                "textures/blocks/carried_textures/glass_brown_carried",
-                "textures/blocks/carried_textures/glass_green_carried",
-                "textures/blocks/carried_textures/glass_red_carried",
-                "textures/blocks/carried_textures/glass_black_carried"
-            ]
-        },
-        "stained_glass_pane_top": {
-            "textures": [
-                "textures/blocks/glass_pane_top_white",
-                "textures/blocks/glass_pane_top_orange",
-                "textures/blocks/glass_pane_top_magenta",
-                "textures/blocks/glass_pane_top_light_blue",
-                "textures/blocks/glass_pane_top_yellow",
-                "textures/blocks/glass_pane_top_lime",
-                "textures/blocks/glass_pane_top_pink",
-                "textures/blocks/glass_pane_top_gray",
-                "textures/blocks/glass_pane_top_silver",
-                "textures/blocks/glass_pane_top_cyan",
-                "textures/blocks/glass_pane_top_purple",
-                "textures/blocks/glass_pane_top_blue",
-                "textures/blocks/glass_pane_top_brown",
-                "textures/blocks/glass_pane_top_green",
-                "textures/blocks/glass_pane_top_red",
-                "textures/blocks/glass_pane_top_black"
-            ]
-        },
-        "stained_glass_pane_top_carried": {
-            "textures": [
-                "textures/blocks/carried_textures/glass_pane_top_white_carried",
-                "textures/blocks/carried_textures/glass_pane_top_orange_carried",
-                "textures/blocks/carried_textures/glass_pane_top_magenta_carried",
-                "textures/blocks/carried_textures/glass_pane_top_light_blue_carried",
-                "textures/blocks/carried_textures/glass_pane_top_yellow_carried",
-                "textures/blocks/carried_textures/glass_pane_top_lime_carried",
-                "textures/blocks/carried_textures/glass_pane_top_pink_carried",
-                "textures/blocks/carried_textures/glass_pane_top_gray_carried",
-                "textures/blocks/carried_textures/glass_pane_top_silver_carried",
-                "textures/blocks/carried_textures/glass_pane_top_cyan_carried",
-                "textures/blocks/carried_textures/glass_pane_top_purple_carried",
-                "textures/blocks/carried_textures/glass_pane_top_blue_carried",
-                "textures/blocks/carried_textures/glass_pane_top_brown_carried",
-                "textures/blocks/carried_textures/glass_pane_top_green_carried",
-                "textures/blocks/carried_textures/glass_pane_top_red_carried",
-                "textures/blocks/carried_textures/glass_pane_top_black_carried"
-            ]
-        },
-        "waxed_chiseled_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_chiseled_copper"
-        },
-        "waxed_copper_block": {
-            "textures": "textures/blocks/waxed_copper/waxed_copper_block"
-        },
-        "waxed_copper_bulb": {
-            "textures": [
-                "textures/blocks/waxed_copper/waxed_copper_bulb",
-                "textures/blocks/waxed_copper/waxed_copper_bulb_lit",
-                "textures/blocks/waxed_copper/waxed_copper_bulb_powered",
-                "textures/blocks/waxed_copper/waxed_copper_bulb_lit_powered"
-            ]
-        },
-        "waxed_copper_door_bottom": {
-            "textures": "textures/blocks/waxed_copper/waxed_copper_door_bottom"
-        },
-        "waxed_copper_door_top": {
-            "textures": "textures/blocks/waxed_copper/waxed_copper_door_top"
-        },
-        "waxed_copper_grate": {
-            "textures": "textures/blocks/waxed_copper/waxed_copper_grate"
-        },
-        "waxed_copper_trapdoor": {
-            "textures": "textures/blocks/waxed_copper/waxed_copper_trapdoor"
-        },
-        "waxed_cut_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_cut_copper"
-        },
-        "waxed_exposed_chiseled_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_exposed_chiseled_copper"
-        },
-        "waxed_exposed_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_exposed_copper"
-        },
-        "waxed_exposed_copper_bulb": {
-            "textures": [
-                "textures/blocks/waxed_copper/waxed_exposed_copper_bulb",
-                "textures/blocks/waxed_copper/waxed_exposed_copper_bulb_lit",
-                "textures/blocks/waxed_copper/waxed_exposed_copper_bulb_powered",
-                "textures/blocks/waxed_copper/waxed_exposed_copper_bulb_lit_powered"
-            ]
-        },
-        "waxed_exposed_copper_door_bottom": {
-            "textures": "textures/blocks/waxed_copper/waxed_exposed_copper_door_bottom"
-        },
-        "waxed_exposed_copper_door_top": {
-            "textures": "textures/blocks/waxed_copper/waxed_exposed_copper_door_top"
-        },
-        "waxed_exposed_copper_grate": {
-            "textures": "textures/blocks/waxed_copper/waxed_exposed_copper_grate"
-        },
-        "waxed_exposed_copper_trapdoor": {
-            "textures": "textures/blocks/waxed_copper/waxed_exposed_copper_trapdoor"
-        },
-        "waxed_exposed_cut_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_exposed_cut_copper"
-        },
-        "waxed_oxidized_chiseled_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_oxidized_chiseled_copper"
-        },
-        "waxed_oxidized_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_oxidized_copper"
-        },
-        "waxed_oxidized_copper_bulb": {
-            "textures": [
-                "textures/blocks/waxed_copper/waxed_oxidized_copper_bulb",
-                "textures/blocks/waxed_copper/waxed_oxidized_copper_bulb_lit",
-                "textures/blocks/waxed_copper/waxed_oxidized_copper_bulb_powered",
-                "textures/blocks/waxed_copper/waxed_oxidized_copper_bulb_lit_powered"
-            ]
-        },
-        "waxed_oxidized_copper_door_bottom": {
-            "textures": "textures/blocks/waxed_copper/waxed_oxidized_copper_door_bottom"
-        },
-        "waxed_oxidized_copper_door_top": {
-            "textures": "textures/blocks/waxed_copper/waxed_oxidized_copper_door_top"
-        },
-        "waxed_oxidized_copper_grate": {
-            "textures": "textures/blocks/waxed_copper/waxed_oxidized_copper_grate"
-        },
-        "waxed_oxidized_copper_trapdoor": {
-            "textures": "textures/blocks/waxed_copper/waxed_oxidized_copper_trapdoor"
-        },
-        "waxed_oxidized_cut_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_oxidized_cut_copper"
-        },
-        "waxed_weathered_chiseled_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_weathered_chiseled_copper"
-        },
-        "waxed_weathered_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_weathered_copper"
-        },
-        "waxed_weathered_copper_bulb": {
-            "textures": [
-                "textures/blocks/waxed_copper/waxed_weathered_copper_bulb",
-                "textures/blocks/waxed_copper/waxed_weathered_copper_bulb_lit",
-                "textures/blocks/waxed_copper/waxed_weathered_copper_bulb_powered",
-                "textures/blocks/waxed_copper/waxed_weathered_copper_bulb_lit_powered"
-            ]
-        },
-        "waxed_weathered_copper_door_bottom": {
-            "textures": "textures/blocks/waxed_copper/waxed_weathered_copper_door_bottom"
-        },
-        "waxed_weathered_copper_door_top": {
-            "textures": "textures/blocks/waxed_copper/waxed_weathered_copper_door_top"
-        },
-        "waxed_weathered_copper_grate": {
-            "textures": "textures/blocks/waxed_copper/waxed_weathered_copper_grate"
-        },
-        "waxed_weathered_copper_trapdoor": {
-            "textures": "textures/blocks/waxed_copper/waxed_weathered_copper_trapdoor"
-        },
-        "waxed_weathered_cut_copper": {
-            "textures": "textures/blocks/waxed_copper/waxed_weathered_cut_copper"
-        },
-        "weathered_copper_grate_carried": {
-            "textures": "textures/blocks/carried_textures/weathered_copper_grate_carried"
-        },
-        "white_stained_glass": {
-            "textures": "textures/blocks/glass_white"
-        },
-        "white_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_white_carried"
-        },
-        "white_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_white"
-        },
-        "white_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_white_carried"
-        },
-        "yellow_stained_glass": {
-            "textures": "textures/blocks/glass_yellow"
-        },
-        "yellow_stained_glass_carried": {
-            "textures": "textures/blocks/carried_textures/glass_yellow_carried"
-        },
-        "yellow_stained_glass_pane_top": {
-            "textures": "textures/blocks/glass_pane_top_yellow"
-        },
-        "yellow_stained_glass_pane_top_carried": {
-            "textures": "textures/blocks/carried_textures/glass_pane_top_yellow_carried"
-        }
-    },
-    "texture_name": "atlas.terrain"
+	"num_mip_levels": 0,
+	"padding": 0,
+	"resource_pack_name": "prelude_vanilla",
+	"texture_data": {
+		"black_stained_glass": {
+			"textures": "textures/blocks/glass_black"
+		},
+		"black_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_black_carried"
+		},
+		"black_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_black"
+		},
+		"black_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_black_carried"
+		},
+		"blue_stained_glass": {
+			"textures": "textures/blocks/glass_blue"
+		},
+		"blue_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_blue_carried"
+		},
+		"blue_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_blue"
+		},
+		"blue_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_blue_carried"
+		},
+		"brown_stained_glass": {
+			"textures": "textures/blocks/glass_brown"
+		},
+		"brown_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_brown_carried"
+		},
+		"brown_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_brown"
+		},
+		"brown_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_brown_carried"
+		},
+		"chiseled_bookshelf_empty": {
+			"textures": "textures/blocks/chiseled_bookshelf_empty"
+		},
+		"chiseled_bookshelf_front": {
+			"textures": [
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_00",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_00",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_00",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_00",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_01",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_01",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_01",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_01",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_02",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_02",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_02",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_02",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_03",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_03",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_03",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_03",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_04",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_04",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_04",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_04",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_05",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_05",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_05",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_05",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_06",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_06",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_06",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_06",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_07",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_07",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_07",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_07",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_08",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_08",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_08",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_08",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_09",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_09",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_09",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_09",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_10",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_10",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_10",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_10",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_11",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_11",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_11",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_11",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_12",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_12",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_12",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_12",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_13",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_13",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_13",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_13",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_14",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_14",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_14",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_14",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_15",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_15",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_15",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_15",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_16",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_16",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_16",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_16",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_17",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_17",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_17",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_17",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_18",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_18",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_18",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_18",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_19",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_19",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_19",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_19",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_20",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_20",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_20",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_20",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_21",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_21",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_21",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_21",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_22",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_22",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_22",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_22",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_23",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_23",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_23",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_23",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_24",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_24",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_24",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_24",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_25",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_25",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_25",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_25",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_26",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_26",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_26",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_26",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_27",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_27",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_27",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_27",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_28",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_28",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_28",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_28",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_29",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_29",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_29",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_29",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_30",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_30",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_30",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_30",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_31",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_31",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_31",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_31",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_32",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_32",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_32",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_32",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_33",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_33",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_33",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_33",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_34",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_34",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_34",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_34",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_35",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_35",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_35",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_35",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_36",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_36",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_36",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_36",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_37",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_37",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_37",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_37",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_38",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_38",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_38",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_38",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_39",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_39",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_39",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_39",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_40",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_40",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_40",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_40",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_41",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_41",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_41",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_41",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_42",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_42",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_42",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_42",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_43",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_43",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_43",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_43",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_44",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_44",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_44",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_44",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_45",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_45",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_45",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_45",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_46",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_46",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_46",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_46",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_47",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_47",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_47",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_47",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_48",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_48",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_48",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_48",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_49",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_49",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_49",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_49",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_50",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_50",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_50",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_50",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_51",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_51",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_51",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_51",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_52",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_52",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_52",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_52",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_53",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_53",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_53",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_53",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_54",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_54",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_54",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_54",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_55",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_55",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_55",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_55",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_56",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_56",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_56",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_56",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_57",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_57",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_57",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_57",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_58",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_58",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_58",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_58",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_59",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_59",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_59",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_59",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_60",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_60",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_60",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_60",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_61",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_61",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_61",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_61",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_62",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_62",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_62",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_62",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_63",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_63",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_63",
+				"textures/blocks/chiseled_bookshelf_front/chiseled_bookshelf_front_63"
+			]
+		},
+		"chiseled_bookshelf_occupied": {
+			"textures": "textures/blocks/chiseled_bookshelf_occupied"
+		},
+		"chiseled_bookshelf_side": {
+			"textures": "textures/blocks/chiseled_bookshelf_side"
+		},
+		"chiseled_bookshelf_top": {
+			"textures": "textures/blocks/chiseled_bookshelf_top"
+		},
+		"copper_grate_carried": {
+			"textures": "textures/blocks/carried_textures/copper_grate_carried"
+		},
+		"cyan_stained_glass": {
+			"textures": "textures/blocks/glass_cyan"
+		},
+		"cyan_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_cyan_carried"
+		},
+		"cyan_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_cyan"
+		},
+		"cyan_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_cyan_carried"
+		},
+		"dried_kelp_block_bottom": {
+			"textures": "textures/blocks/dried_kelp_bottom"
+		},
+		"dried_kelp_block_side_a": {
+			"textures": "textures/blocks/dried_kelp_side_a"
+		},
+		"dried_kelp_block_side_b": {
+			"textures": "textures/blocks/dried_kelp_side_b"
+		},
+		"dried_kelp_block_top": {
+			"textures": "textures/blocks/dried_kelp_top"
+		},
+		"endframe_bottom": {
+			"textures": "textures/blocks/end_stone"
+		},
+		"endframe_eye": {
+			"textures": "textures/blocks/endframe_eye"
+		},
+		"endframe_side": {
+			"textures": [
+				"textures/blocks/endframe_side",
+				"textures/blocks/endframe_side",
+				"textures/blocks/endframe_side",
+				"textures/blocks/endframe_side",
+				"textures/blocks/endframe_side_filled",
+				"textures/blocks/endframe_side_filled",
+				"textures/blocks/endframe_side_filled",
+				"textures/blocks/endframe_side_filled"
+			]
+		},
+		"endframe_top": {
+			"textures": [
+				"textures/blocks/endframe_top",
+				"textures/blocks/endframe_top",
+				"textures/blocks/endframe_top",
+				"textures/blocks/endframe_top",
+				"textures/blocks/endframe_top_filled",
+				"textures/blocks/endframe_top_filled",
+				"textures/blocks/endframe_top_filled",
+				"textures/blocks/endframe_top_filled"
+			]
+		},
+		"exposed_copper_grate_carried": {
+			"textures": "textures/blocks/carried_textures/exposed_copper_grate_carried"
+		},
+		"glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_carried"
+		},
+		"gray_stained_glass": {
+			"textures": "textures/blocks/glass_gray"
+		},
+		"gray_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_gray_carried"
+		},
+		"gray_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_gray"
+		},
+		"gray_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_gray_carried"
+		},
+		"green_stained_glass": {
+			"textures": "textures/blocks/glass_green"
+		},
+		"green_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_green_carried"
+		},
+		"green_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_green"
+		},
+		"green_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_green_carried"
+		},
+		"light_blue_stained_glass": {
+			"textures": "textures/blocks/glass_light_blue"
+		},
+		"light_blue_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_light_blue_carried"
+		},
+		"light_blue_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_light_blue"
+		},
+		"light_blue_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_light_blue_carried"
+		},
+		"light_gray_stained_glass": {
+			"textures": "textures/blocks/glass_silver"
+		},
+		"light_gray_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_silver_carried"
+		},
+		"light_gray_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_silver"
+		},
+		"light_gray_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_silver_carried"
+		},
+		"lime_stained_glass": {
+			"textures": "textures/blocks/glass_lime"
+		},
+		"lime_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_lime_carried"
+		},
+		"lime_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_lime"
+		},
+		"lime_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_lime_carried"
+		},
+		"lit_deepslate_redstone_ore": {
+			"textures": "textures/blocks/lit_deepslate_redstone_ore"
+		},
+		"lit_pumpkin_side": {
+			"textures": [
+				"textures/blocks/lit_pumpkin_side",
+				"textures/blocks/lit_pumpkin_side",
+				"textures/blocks/lit_pumpkin_side"
+			]
+		},
+		"lit_pumpkin_top": {
+			"textures": [
+				"textures/blocks/lit_pumpkin_top"
+			]
+		},
+		"lit_redstone_ore": {
+			"textures": "textures/blocks/lit_redstone_ore"
+		},
+		"magenta_stained_glass": {
+			"textures": "textures/blocks/glass_magenta"
+		},
+		"magenta_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_magenta_carried"
+		},
+		"magenta_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_magenta"
+		},
+		"magenta_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_magenta_carried"
+		},
+		"orange_stained_glass": {
+			"textures": "textures/blocks/glass_orange"
+		},
+		"orange_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_white_carried"
+		},
+		"orange_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_orange"
+		},
+		"orange_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_orange_carried"
+		},
+		"oxidized_copper_grate_carried": {
+			"textures": "textures/blocks/carried_textures/oxidized_copper_grate_carried"
+		},
+		"pink_stained_glass": {
+			"textures": "textures/blocks/glass_pink"
+		},
+		"pink_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pink_carried"
+		},
+		"pink_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_pink"
+		},
+		"pink_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_pink_carried"
+		},
+		"pumpkin_face_on": {
+			"textures": [
+				"textures/blocks/pumpkin_face_on"
+			]
+		},
+		"purple_stained_glass": {
+			"textures": "textures/blocks/glass_purple"
+		},
+		"purple_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_purple_carried"
+		},
+		"purple_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_purple"
+		},
+		"purple_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_purple_carried"
+		},
+		"red_stained_glass": {
+			"textures": "textures/blocks/glass_red"
+		},
+		"red_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_red_carried"
+		},
+		"red_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_red"
+		},
+		"red_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_red_carried"
+		},
+		"stained_glass": {
+			"textures": [
+				"textures/blocks/glass_white",
+				"textures/blocks/glass_orange",
+				"textures/blocks/glass_magenta",
+				"textures/blocks/glass_light_blue",
+				"textures/blocks/glass_yellow",
+				"textures/blocks/glass_lime",
+				"textures/blocks/glass_pink",
+				"textures/blocks/glass_gray",
+				"textures/blocks/glass_silver",
+				"textures/blocks/glass_cyan",
+				"textures/blocks/glass_purple",
+				"textures/blocks/glass_blue",
+				"textures/blocks/glass_brown",
+				"textures/blocks/glass_green",
+				"textures/blocks/glass_red",
+				"textures/blocks/glass_black"
+			]
+		},
+		"stained_glass_carried": {
+			"textures": [
+				"textures/blocks/carried_textures/glass_white_carried",
+				"textures/blocks/carried_textures/glass_orange_carried",
+				"textures/blocks/carried_textures/glass_magenta_carried",
+				"textures/blocks/carried_textures/glass_light_blue_carried",
+				"textures/blocks/carried_textures/glass_yellow_carried",
+				"textures/blocks/carried_textures/glass_lime_carried",
+				"textures/blocks/carried_textures/glass_pink_carried",
+				"textures/blocks/carried_textures/glass_gray_carried",
+				"textures/blocks/carried_textures/glass_silver_carried",
+				"textures/blocks/carried_textures/glass_cyan_carried",
+				"textures/blocks/carried_textures/glass_purple_carried",
+				"textures/blocks/carried_textures/glass_blue_carried",
+				"textures/blocks/carried_textures/glass_brown_carried",
+				"textures/blocks/carried_textures/glass_green_carried",
+				"textures/blocks/carried_textures/glass_red_carried",
+				"textures/blocks/carried_textures/glass_black_carried"
+			]
+		},
+		"stained_glass_pane_top": {
+			"textures": [
+				"textures/blocks/glass_pane_top_white",
+				"textures/blocks/glass_pane_top_orange",
+				"textures/blocks/glass_pane_top_magenta",
+				"textures/blocks/glass_pane_top_light_blue",
+				"textures/blocks/glass_pane_top_yellow",
+				"textures/blocks/glass_pane_top_lime",
+				"textures/blocks/glass_pane_top_pink",
+				"textures/blocks/glass_pane_top_gray",
+				"textures/blocks/glass_pane_top_silver",
+				"textures/blocks/glass_pane_top_cyan",
+				"textures/blocks/glass_pane_top_purple",
+				"textures/blocks/glass_pane_top_blue",
+				"textures/blocks/glass_pane_top_brown",
+				"textures/blocks/glass_pane_top_green",
+				"textures/blocks/glass_pane_top_red",
+				"textures/blocks/glass_pane_top_black"
+			]
+		},
+		"stained_glass_pane_top_carried": {
+			"textures": [
+				"textures/blocks/carried_textures/glass_pane_top_white_carried",
+				"textures/blocks/carried_textures/glass_pane_top_orange_carried",
+				"textures/blocks/carried_textures/glass_pane_top_magenta_carried",
+				"textures/blocks/carried_textures/glass_pane_top_light_blue_carried",
+				"textures/blocks/carried_textures/glass_pane_top_yellow_carried",
+				"textures/blocks/carried_textures/glass_pane_top_lime_carried",
+				"textures/blocks/carried_textures/glass_pane_top_pink_carried",
+				"textures/blocks/carried_textures/glass_pane_top_gray_carried",
+				"textures/blocks/carried_textures/glass_pane_top_silver_carried",
+				"textures/blocks/carried_textures/glass_pane_top_cyan_carried",
+				"textures/blocks/carried_textures/glass_pane_top_purple_carried",
+				"textures/blocks/carried_textures/glass_pane_top_blue_carried",
+				"textures/blocks/carried_textures/glass_pane_top_brown_carried",
+				"textures/blocks/carried_textures/glass_pane_top_green_carried",
+				"textures/blocks/carried_textures/glass_pane_top_red_carried",
+				"textures/blocks/carried_textures/glass_pane_top_black_carried"
+			]
+		},
+		"waxed_chiseled_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_chiseled_copper"
+		},
+		"waxed_copper_block": {
+			"textures": "textures/blocks/waxed_copper/waxed_copper_block"
+		},
+		"waxed_copper_bulb": {
+			"textures": [
+				"textures/blocks/waxed_copper/waxed_copper_bulb",
+				"textures/blocks/waxed_copper/waxed_copper_bulb_lit",
+				"textures/blocks/waxed_copper/waxed_copper_bulb_powered",
+				"textures/blocks/waxed_copper/waxed_copper_bulb_lit_powered"
+			]
+		},
+		"waxed_copper_door_bottom": {
+			"textures": "textures/blocks/waxed_copper/waxed_copper_door_bottom"
+		},
+		"waxed_copper_door_top": {
+			"textures": "textures/blocks/waxed_copper/waxed_copper_door_top"
+		},
+		"waxed_copper_grate": {
+			"textures": "textures/blocks/waxed_copper/waxed_copper_grate"
+		},
+		"waxed_copper_trapdoor": {
+			"textures": "textures/blocks/waxed_copper/waxed_copper_trapdoor"
+		},
+		"waxed_cut_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_cut_copper"
+		},
+		"waxed_exposed_chiseled_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_exposed_chiseled_copper"
+		},
+		"waxed_exposed_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_exposed_copper"
+		},
+		"waxed_exposed_copper_bulb": {
+			"textures": [
+				"textures/blocks/waxed_copper/waxed_exposed_copper_bulb",
+				"textures/blocks/waxed_copper/waxed_exposed_copper_bulb_lit",
+				"textures/blocks/waxed_copper/waxed_exposed_copper_bulb_powered",
+				"textures/blocks/waxed_copper/waxed_exposed_copper_bulb_lit_powered"
+			]
+		},
+		"waxed_exposed_copper_door_bottom": {
+			"textures": "textures/blocks/waxed_copper/waxed_exposed_copper_door_bottom"
+		},
+		"waxed_exposed_copper_door_top": {
+			"textures": "textures/blocks/waxed_copper/waxed_exposed_copper_door_top"
+		},
+		"waxed_exposed_copper_grate": {
+			"textures": "textures/blocks/waxed_copper/waxed_exposed_copper_grate"
+		},
+		"waxed_exposed_copper_trapdoor": {
+			"textures": "textures/blocks/waxed_copper/waxed_exposed_copper_trapdoor"
+		},
+		"waxed_exposed_cut_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_exposed_cut_copper"
+		},
+		"waxed_oxidized_chiseled_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_oxidized_chiseled_copper"
+		},
+		"waxed_oxidized_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_oxidized_copper"
+		},
+		"waxed_oxidized_copper_bulb": {
+			"textures": [
+				"textures/blocks/waxed_copper/waxed_oxidized_copper_bulb",
+				"textures/blocks/waxed_copper/waxed_oxidized_copper_bulb_lit",
+				"textures/blocks/waxed_copper/waxed_oxidized_copper_bulb_powered",
+				"textures/blocks/waxed_copper/waxed_oxidized_copper_bulb_lit_powered"
+			]
+		},
+		"waxed_oxidized_copper_door_bottom": {
+			"textures": "textures/blocks/waxed_copper/waxed_oxidized_copper_door_bottom"
+		},
+		"waxed_oxidized_copper_door_top": {
+			"textures": "textures/blocks/waxed_copper/waxed_oxidized_copper_door_top"
+		},
+		"waxed_oxidized_copper_grate": {
+			"textures": "textures/blocks/waxed_copper/waxed_oxidized_copper_grate"
+		},
+		"waxed_oxidized_copper_trapdoor": {
+			"textures": "textures/blocks/waxed_copper/waxed_oxidized_copper_trapdoor"
+		},
+		"waxed_oxidized_cut_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_oxidized_cut_copper"
+		},
+		"waxed_weathered_chiseled_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_weathered_chiseled_copper"
+		},
+		"waxed_weathered_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_weathered_copper"
+		},
+		"waxed_weathered_copper_bulb": {
+			"textures": [
+				"textures/blocks/waxed_copper/waxed_weathered_copper_bulb",
+				"textures/blocks/waxed_copper/waxed_weathered_copper_bulb_lit",
+				"textures/blocks/waxed_copper/waxed_weathered_copper_bulb_powered",
+				"textures/blocks/waxed_copper/waxed_weathered_copper_bulb_lit_powered"
+			]
+		},
+		"waxed_weathered_copper_door_bottom": {
+			"textures": "textures/blocks/waxed_copper/waxed_weathered_copper_door_bottom"
+		},
+		"waxed_weathered_copper_door_top": {
+			"textures": "textures/blocks/waxed_copper/waxed_weathered_copper_door_top"
+		},
+		"waxed_weathered_copper_grate": {
+			"textures": "textures/blocks/waxed_copper/waxed_weathered_copper_grate"
+		},
+		"waxed_weathered_copper_trapdoor": {
+			"textures": "textures/blocks/waxed_copper/waxed_weathered_copper_trapdoor"
+		},
+		"waxed_weathered_cut_copper": {
+			"textures": "textures/blocks/waxed_copper/waxed_weathered_cut_copper"
+		},
+		"weathered_copper_grate_carried": {
+			"textures": "textures/blocks/carried_textures/weathered_copper_grate_carried"
+		},
+		"white_stained_glass": {
+			"textures": "textures/blocks/glass_white"
+		},
+		"white_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_white_carried"
+		},
+		"white_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_white"
+		},
+		"white_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_white_carried"
+		},
+		"yellow_stained_glass": {
+			"textures": "textures/blocks/glass_yellow"
+		},
+		"yellow_stained_glass_carried": {
+			"textures": "textures/blocks/carried_textures/glass_yellow_carried"
+		},
+		"yellow_stained_glass_pane_top": {
+			"textures": "textures/blocks/glass_pane_top_yellow"
+		},
+		"yellow_stained_glass_pane_top_carried": {
+			"textures": "textures/blocks/carried_textures/glass_pane_top_yellow_carried"
+		}
+	},
+	"texture_name": "atlas.terrain"
 }

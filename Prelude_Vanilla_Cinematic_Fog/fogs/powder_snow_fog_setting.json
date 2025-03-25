@@ -1,38 +1,38 @@
 {
-    "format_version": "1.16.100",
-    "minecraft:fog_settings": {
-        "description": {
-            "identifier": "prevanilla:fog_powder_snow"
-        },
-        "distance": {
-            "powder_snow": {
-                "fog_start": 0.0,
-                "fog_end": 2.0,
-                "fog_color": "#9FBBC8",
-                "render_distance_type": "fixed"
-            }
-        },
-        "volumetric": {
-            "density": {
-                "air": {
-                    "max_density": 1.0,
-                    "uniform": true
-                }
-            },
-            "media_coefficients": {
-                "air": {
-                    "scattering": [
-                        0.01,
-                        0.01,
-                        0.01
-                    ],
-                    "absorption": [
-                        0.5,
-                        0.5,
-                        0.5
-                    ]
-                }
-            }
-        }
-    }
+	"format_version": "1.16.100",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "prevanilla:fog_powder_snow"
+		},
+		"distance": {
+			"powder_snow": {
+				"fog_start": 0.0,
+				"fog_end": 2.0,
+				"fog_color": "#9FBBC8",
+				"render_distance_type": "fixed"
+			}
+		},
+		"volumetric": {
+			"density": {
+				"air": {
+					"max_density": 1.0,
+					"uniform": true
+				}
+			},
+			"media_coefficients": {
+				"air": {
+					"scattering": [
+						0.01,
+						0.01,
+						0.01
+					],
+					"absorption": [
+						0.5,
+						0.5,
+						0.5
+					]
+				}
+			}
+		}
+	}
 }

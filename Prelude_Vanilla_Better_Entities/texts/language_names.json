@@ -1,31 +1,118 @@
 [
-  [ "en_US", "English (United States)" ],
-  [ "en_GB", "English (United Kingdom)" ],
-  [ "de_DE", "Deutsch (Deutschland)" ],
-  [ "es_ES", "Español (España)" ],
-  [ "es_MX", "Español (México)" ],
-  [ "fr_FR", "Français (France)" ],
-  [ "fr_CA", "Français (Canada)" ],
-  [ "it_IT", "Italiano (Italia)" ],
-  [ "ja_JP", "日本語 (日本)" ],
-  [ "ko_KR", "한국어 (대한민국)" ],
-  [ "pt_BR", "Português (Brasil)" ],
-  [ "pt_PT", "Português (Portugal)" ],
-  [ "ru_RU", "Русский (Россия)" ],
-  [ "zh_CN", "中文(简体)" ],
-  [ "zh_TW", "中文(繁體)" ],
-  [ "nl_NL", "Nederlands (Nederland)" ],
-  [ "bg_BG", "Български (България)" ],
-  [ "cs_CZ", "Čeština (Česko)" ],
-  [ "da_DK", "Dansk (Danmark)" ],
-  [ "el_GR", "Ελληνικά (Ελλάδα)" ],
-  [ "fi_FI", "Suomi (Suomi)" ],
-  [ "hu_HU", "Magyar (Magyarország)" ],
-  [ "id_ID", "Indonesia (Indonesia)" ],
-  [ "nb_NO", "Norsk bokmål (Norge)" ],
-  [ "pl_PL", "Polski (Polska)" ],
-  [ "sk_SK", "Slovenčina (Slovensko)" ],
-  [ "sv_SE", "Svenska (Sverige)" ],
-  [ "tr_TR", "Türkçe (Türkiye)" ],
-  [ "uk_UA", "Українська (Україна)" ]
+	[
+		"en_US",
+		"English\u0020(United\u0020States)"
+	],
+	[
+		"en_GB",
+		"English\u0020(United\u0020Kingdom)"
+	],
+	[
+		"de_DE",
+		"Deutsch\u0020(Deutschland)"
+	],
+	[
+		"es_ES",
+		"Español\u0020(España)"
+	],
+	[
+		"es_MX",
+		"Español\u0020(México)"
+	],
+	[
+		"fr_FR",
+		"Français\u0020(France)"
+	],
+	[
+		"fr_CA",
+		"Français\u0020(Canada)"
+	],
+	[
+		"it_IT",
+		"Italiano\u0020(Italia)"
+	],
+	[
+		"ja_JP",
+		"日本語\u0020(日本)"
+	],
+	[
+		"ko_KR",
+		"한국어\u0020(대한민국)"
+	],
+	[
+		"pt_BR",
+		"Português\u0020(Brasil)"
+	],
+	[
+		"pt_PT",
+		"Português\u0020(Portugal)"
+	],
+	[
+		"ru_RU",
+		"Русский\u0020(Россия)"
+	],
+	[
+		"zh_CN",
+		"中文(简体)"
+	],
+	[
+		"zh_TW",
+		"中文(繁體)"
+	],
+	[
+		"nl_NL",
+		"Nederlands\u0020(Nederland)"
+	],
+	[
+		"bg_BG",
+		"Български\u0020(България)"
+	],
+	[
+		"cs_CZ",
+		"Čeština\u0020(Česko)"
+	],
+	[
+		"da_DK",
+		"Dansk\u0020(Danmark)"
+	],
+	[
+		"el_GR",
+		"Ελληνικά\u0020(Ελλάδα)"
+	],
+	[
+		"fi_FI",
+		"Suomi\u0020(Suomi)"
+	],
+	[
+		"hu_HU",
+		"Magyar\u0020(Magyarország)"
+	],
+	[
+		"id_ID",
+		"Indonesia\u0020(Indonesia)"
+	],
+	[
+		"nb_NO",
+		"Norsk\u0020bokmål\u0020(Norge)"
+	],
+	[
+		"pl_PL",
+		"Polski\u0020(Polska)"
+	],
+	[
+		"sk_SK",
+		"Slovenčina\u0020(Slovensko)"
+	],
+	[
+		"sv_SE",
+		"Svenska\u0020(Sverige)"
+	],
+	[
+		"tr_TR",
+		"Türkçe\u0020(Türkiye)"
+	],
+	[
+		"uk_UA",
+		"Українська\u0020(Україна)"
+	]
 ]

@@ -1,26 +1,17 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:cod",
-            "animations": {
-                "flop": "animation.cod.flop",
-                "swim": "animation.cod.swim",
-                "general": "controller.animation.fish.general"
-            },
-            "scripts": {
-                "pre_animation": [
-                    "variable.ZRot=!query.is_in_water?Math.cos((query.time_stamp+query.frame_alpha)*14.32)*90:0.0;",
-                    "variable.AnimationAmountBlend=Math.lerp(variable.AnimationAmountPrev,variable.AnimationAmount,query.frame_alpha);"
-                ],
-                "animate": [
-                    "general"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_cod"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:cod",
+			"animations": {
+				"general_controller": "controller.animation.fish.general"
+			},
+			"scripts": {
+				"animate": [
+					"general_controller"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

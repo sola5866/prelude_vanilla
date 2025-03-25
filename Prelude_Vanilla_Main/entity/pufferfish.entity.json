@@ -1,29 +1,12 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:pufferfish",
-            "min_engine_version": "1.8.0",
-            "animations": {
-                "flop": "animation.pufferfish.flop",
-                "swim": "animation.pufferfish.swim",
-                "general": "controller.animation.fish.general"
-            },
-            "scripts": {
-                "pre_animation": [
-                    "variable.ZRot=!query.is_in_water?Math.cos(query.time_stamp*14.32)*90:0.0;",
-                    "variable.AnimationAmountBlend=Math.lerp(variable.AnimationAmountPrev,variable.AnimationAmount,query.frame_alpha);"
-                ],
-                "animate": [
-                    "floop",
-                    "swim",
-                    "general"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_pufferfish"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:pufferfish",
+			"min_engine_version": "1.8.0",
+			"scripts": {
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }

@@ -1,29 +1,11 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:bee",
-            "animations": {
-                "flying": "animation.bee.flying",
-                "drip": "controller.animation.bee.drip",
-                "controller_bee_sting": "controller.animation.bee.sting",
-                "bee_sting": "animation.bee.sting",
-                "bee_no_stinger": "animation.bee.no_stinger",
-                "bee_fly_bobbing": "animation.bee.fly.bobbing",
-                "bee_root_controller": "controller.animation.bee.root"
-            },
-            "scripts": {
-                "animate": [
-                    "bee_root_controller",
-                    {
-                        "bee_no_stinger": "query.mark_variant==1"
-                    }
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "spawn_egg": {
-                "texture": "spawn_egg_bee"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:bee",
+			"scripts": {
+				"should_update_bones_and_effects_offscreen": true
+			}
+		}
+	}
 }
