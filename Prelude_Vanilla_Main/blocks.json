@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"black_stained_glass": {
 		"carried_textures": "black_stained_glass_carried",
 		"sound": "glass",
@@ -71,6 +72,13 @@
 			"west": "brown_stained_glass"
 		}
 	},
+=======
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+>>>>>>> 10af19a5b2355ddae3ec99e8cee06d5f1bc0519d
 	"chiseled_bookshelf": {
 		"blockshape": "block",
 		"carried_textures": {
@@ -301,6 +309,7 @@
 		"sound": "stone",
 		"textures": "lit_redstone_ore"
 	},
+<<<<<<< HEAD
 	"magenta_stained_glass": {
 		"carried_textures": "magenta_stained_glass_carried",
 		"sound": "glass",
@@ -426,6 +435,13 @@
 			"west": "red_stained_glass"
 		}
 	},
+=======
+    "oxidized_copper_grate": {
+        "carried_textures": "oxidized_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "oxidized_copper_grate"
+    },
+>>>>>>> 10af19a5b2355ddae3ec99e8cee06d5f1bc0519d
 	"redstone_ore": {
 		"sound": "stone",
 		"textures": "redstone_ore"
@@ -564,11 +580,11 @@
 			"up": "waxed_oxidized_copper_door_bottom"
 		}
 	},
-	"waxed_oxidized_copper_grate": {
-		"carried_textures": "oxidized_copper_grate_carried",
-		"sound": "copper_grate",
-		"textures": "waxed_oxidized_copper_grate"
-	},
+    "waxed_oxidized_copper_grate": {
+        "carried_textures": "oxidized_copper_grate_carried",
+        "sound": "copper_grate",
+        "textures": "waxed_oxidized_copper_grate"
+    },
 	"waxed_oxidized_copper_trapdoor": {
 		"sound": "copper",
 		"textures": "waxed_oxidized_copper_trapdoor"
