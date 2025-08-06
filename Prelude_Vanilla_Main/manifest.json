@@ -1,7 +1,7 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Prelude\u0020Vanilla\u0020v1.9.1",
+		"name": "Prelude\u0020Vanilla\u0020v1.10.1",
 		"description": "pack.description",
 		"uuid": "8e4bf3b2-ce79-4b87-9e1f-7b2d10aebe07",
 		"min_engine_version": [
@@ -11,7 +11,7 @@
 		],
 		"version": [
 			1,
-			9,
+			10,
 			1
 		]
 	},
@@ -22,7 +22,7 @@
 			"uuid": "13d402d3-b360-4381-b7b9-74ef94e13eda",
 			"version": [
 				1,
-				9,
+				10,
 				1
 			]
 		}

@@ -4,13 +4,11 @@
 		"description": {
 			"identifier": "minecraft:ghast",
 			"animations": {
-				"move_controller": "controller.animation.ghast.move",
-				"scale_controller": "controller.animation.ghast.scale"
+				"move_controller": "controller.animation.ghast.move"
 			},
 			"scripts": {
 				"animate": [
-					"move_controller",
-					"scale_controller"
+					"move_controller"
 				],
 				"should_update_bones_and_effects_offscreen": true
 			}

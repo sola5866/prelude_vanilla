@@ -7,6 +7,10 @@
 			"materials": {
 				"default": "entity_alphatest"
 			},
+			"textures": {
+				"default": "textures/entity/cow/mooshroom_v2",
+				"brown": "textures/entity/cow/brown_mooshroom_v2"
+			},
 			"geometry": {
 				"default": "geometry.mooshroom.v2"
 			},

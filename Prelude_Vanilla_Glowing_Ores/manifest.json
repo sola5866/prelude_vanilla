@@ -1,7 +1,7 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Prelude\u0020Vanilla\u0020-\u0020Glowing\u0020Ores\u0020v1.9.1",
+		"name": "Prelude\u0020Vanilla\u0020-\u0020Glowing\u0020Ores\u0020v1.10.1",
 		"description": "pack.description",
 		"uuid": "d4f980d0-68cd-4435-a1d6-5c0032cd44bd",
 		"min_engine_version": [
@@ -11,7 +11,7 @@
 		],
 		"version": [
 			1,
-			9,
+			10,
 			1
 		]
 	},
@@ -22,7 +22,7 @@
 			"uuid": "2c006225-db78-4274-a955-3f24c26be115",
 			"version": [
 				1,
-				9,
+				10,
 				1
 			]
 		}
