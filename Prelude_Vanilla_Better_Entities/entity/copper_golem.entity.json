@@ -1,0 +1,17 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:copper_golem",
+            "min_engine_version": "1.12.0",
+            "materials": {
+                "default": "entity_alphatest",
+                "eyes": "entity_alphatest",
+                "flower": "entity_alphatest"
+            },
+            "geometry": {
+                "default_eyes": "geometry.copper_golem_eyes"
+            }
+        }
+    }
+}

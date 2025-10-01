@@ -1,17 +1,17 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Prelude\u0020Vanilla\u0020-\u0020Cinematic\u0020Fog\u0020v1.10.1",
+		"name": "Prelude\u0020Vanilla\u0020-\u0020Cinematic\u0020Fog\u0020v1.11.1",
 		"description": "pack.description",
 		"uuid": "d57f0643-44b6-40c5-9472-42b75fe5fd31",
 		"min_engine_version": [
 			1,
-			15,
-			0
+			21,
+			80
 		],
 		"version": [
 			1,
-			10,
+			11,
 			1
 		]
 	},
@@ -22,7 +22,7 @@
 			"uuid": "b1d9eeef-ef6b-4c26-857b-4a43d160a0e6",
 			"version": [
 				1,
-				10,
+				11,
 				1
 			]
 		}

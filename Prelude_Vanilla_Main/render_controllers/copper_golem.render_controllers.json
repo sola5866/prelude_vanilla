@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.copper_golem_eyes": {
+            "arrays": {
+                "textures": {
+                    "Array.textures": [
+                        "Texture.eyes_default",
+                        "Texture.eyes_exposed",
+                        "Texture.eyes_weathered",
+                        "Texture.eyes_oxidized"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default_eyes",
+            "materials": [
+                {
+                    "*": "Material.eyes"
+                }
+            ],
+            "textures": [
+                "Array.textures[v.index]"
+            ],
+            "ignore_lighting": true
+        }
+    }
+}

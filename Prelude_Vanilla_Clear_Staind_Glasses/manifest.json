@@ -1,17 +1,17 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Prelude\u0020Vanilla\u0020-\u0020Clear\u0020Staind\u0020Glasses\u0020v1.10.1",
+		"name": "Prelude\u0020Vanilla\u0020-\u0020Clear\u0020Staind\u0020Glasses\u0020v1.11.1",
 		"description": "pack.description",
 		"uuid": "0586fc68-fc70-4853-a4d5-4e36a80f3c5d",
 		"min_engine_version": [
 			1,
-			15,
-			0
+			21,
+			80
 		],
 		"version": [
 			1,
-			10,
+			11,
 			1
 		]
 	},
@@ -22,7 +22,7 @@
 			"uuid": "bfe0b6fd-91e2-4eb8-8a4d-c8f4294c7413",
 			"version": [
 				1,
-				10,
+				11,
 				1
 			]
 		}
