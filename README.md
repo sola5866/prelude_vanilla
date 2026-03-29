@@ -41,7 +41,7 @@ Assets の下の Prelude*Vanilla*○○○.mcpack をクリックしてダウン
 
 このパックを使うためには以下の要件を満たす必要があります。
 
-- Windows 10/11 の Minecraft 統合版 1.16.200 以降
+- Windows 11 の Minecraft 統合版 26.10 以降
 - Intel Core i5/AMD Ryzen 5 以上の CPU
 - レイトレーシング対応のグラフィックスカード (Nvidia RTX 2000+/AMD RX 6000+)
 - 8GB 以上のメモリ
