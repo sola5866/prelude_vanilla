@@ -1,17 +1,17 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Prelude\u0020Vanilla\u0020-\u0020Better\u0020Entities\u0020v1.11.1",
+		"name": "Prelude\u0020Vanilla\u0020-\u0020Better\u0020Entities\u0020v26.3.1",
 		"description": "pack.description",
 		"uuid": "674ecbc1-89d4-4016-847d-e0628c391ed4",
 		"min_engine_version": [
 			1,
-			21,
-			80
+			26,
+			10
 		],
 		"version": [
-			1,
-			11,
+			26,
+			3,
 			1
 		]
 	},
@@ -21,14 +21,15 @@
 			"type": "resources",
 			"uuid": "a8309c5b-d1b5-40cf-b637-4dde01ff013f",
 			"version": [
-				1,
-				11,
+				26,
+				3,
 				1
 			]
 		}
 	],
 	"capabilities": [
-		"raytraced"
+		"raytraced",
+		"pbr"
 	],
 	"metadata": {
 		"authors": [

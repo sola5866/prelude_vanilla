@@ -6,15 +6,13 @@
 			"animations": {
 				"move_controller": "controller.animation.panda.move",
 				"unhappy_controller": "controller.animation.panda.unhappy",
-				"sneezing_controller": "controller.animation.panda.sneezing",
-				"baby_controller": "controller.animation.panda.baby"
+				"sneezing_controller": "controller.animation.panda.sneezing"
 			},
 			"scripts": {
 				"animate": [
 					"move_controller",
 					"unhappy_controller",
-					"sneezing_controller",
-					"baby_controller"
+					"sneezing_controller"
 				],
 				"should_update_bones_and_effects_offscreen": true
 			}

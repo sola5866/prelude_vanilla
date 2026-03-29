@@ -9,21 +9,23 @@
 			},
 			"textures": {
 				"default": "textures/entity/cow/mooshroom_v2",
-				"brown": "textures/entity/cow/brown_mooshroom_v2"
+				"brown": "textures/entity/cow/brown_mooshroom_v2",
+				"baby_default": "textures/entity/cow/mooshroom_red_baby",
+				"baby_brown": "textures/entity/cow/mooshroom_brown_baby"
 			},
 			"geometry": {
-				"default": "geometry.mooshroom.v2"
+				"default": "geometry.mooshroom.v2",
+				"baby": "geometry.cow.baby"
 			},
 			"animations": {
 				"setup_controller": "controller.animation.mooshroom.setup",
-				"move_controller": "controller.animation.mooshroom.move",
-				"baby_controller": "controller.animation.mooshroom.baby"
+				"move_controller": "controller.animation.mooshroom.move"
 			},
 			"scripts": {
+				"scale": "query.is_baby ? 2.0 : 1.0",
 				"animate": [
 					"setup_controller",
-					"move_controller",
-					"baby_controller"
+					"move_controller"
 				],
 				"should_update_bones_and_effects_offscreen": true
 			}

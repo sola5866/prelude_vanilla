@@ -514,86 +514,86 @@
         "red_stained_glass_pane_top_carried": {
             "textures": "textures/blocks/carried_textures/glass_pane_top_red_carried"
         },
-        "stained_glass": {
-            "textures": [
-                "textures/blocks/glass_white",
-                "textures/blocks/glass_orange",
-                "textures/blocks/glass_magenta",
-                "textures/blocks/glass_light_blue",
-                "textures/blocks/glass_yellow",
-                "textures/blocks/glass_lime",
-                "textures/blocks/glass_pink",
-                "textures/blocks/glass_gray",
-                "textures/blocks/glass_silver",
-                "textures/blocks/glass_cyan",
-                "textures/blocks/glass_purple",
-                "textures/blocks/glass_blue",
-                "textures/blocks/glass_brown",
-                "textures/blocks/glass_green",
-                "textures/blocks/glass_red",
-                "textures/blocks/glass_black"
-            ]
-        },
-        "stained_glass_carried": {
-            "textures": [
-                "textures/blocks/carried_textures/glass_white_carried",
-                "textures/blocks/carried_textures/glass_orange_carried",
-                "textures/blocks/carried_textures/glass_magenta_carried",
-                "textures/blocks/carried_textures/glass_light_blue_carried",
-                "textures/blocks/carried_textures/glass_yellow_carried",
-                "textures/blocks/carried_textures/glass_lime_carried",
-                "textures/blocks/carried_textures/glass_pink_carried",
-                "textures/blocks/carried_textures/glass_gray_carried",
-                "textures/blocks/carried_textures/glass_silver_carried",
-                "textures/blocks/carried_textures/glass_cyan_carried",
-                "textures/blocks/carried_textures/glass_purple_carried",
-                "textures/blocks/carried_textures/glass_blue_carried",
-                "textures/blocks/carried_textures/glass_brown_carried",
-                "textures/blocks/carried_textures/glass_green_carried",
-                "textures/blocks/carried_textures/glass_red_carried",
-                "textures/blocks/carried_textures/glass_black_carried"
-            ]
-        },
-        "stained_glass_pane_top": {
-            "textures": [
-                "textures/blocks/glass_pane_top_white",
-                "textures/blocks/glass_pane_top_orange",
-                "textures/blocks/glass_pane_top_magenta",
-                "textures/blocks/glass_pane_top_light_blue",
-                "textures/blocks/glass_pane_top_yellow",
-                "textures/blocks/glass_pane_top_lime",
-                "textures/blocks/glass_pane_top_pink",
-                "textures/blocks/glass_pane_top_gray",
-                "textures/blocks/glass_pane_top_silver",
-                "textures/blocks/glass_pane_top_cyan",
-                "textures/blocks/glass_pane_top_purple",
-                "textures/blocks/glass_pane_top_blue",
-                "textures/blocks/glass_pane_top_brown",
-                "textures/blocks/glass_pane_top_green",
-                "textures/blocks/glass_pane_top_red",
-                "textures/blocks/glass_pane_top_black"
-            ]
-        },
-        "stained_glass_pane_top_carried": {
-            "textures": [
-                "textures/blocks/carried_textures/glass_pane_top_white_carried",
-                "textures/blocks/carried_textures/glass_pane_top_orange_carried",
-                "textures/blocks/carried_textures/glass_pane_top_magenta_carried",
-                "textures/blocks/carried_textures/glass_pane_top_light_blue_carried",
-                "textures/blocks/carried_textures/glass_pane_top_yellow_carried",
-                "textures/blocks/carried_textures/glass_pane_top_lime_carried",
-                "textures/blocks/carried_textures/glass_pane_top_pink_carried",
-                "textures/blocks/carried_textures/glass_pane_top_gray_carried",
-                "textures/blocks/carried_textures/glass_pane_top_silver_carried",
-                "textures/blocks/carried_textures/glass_pane_top_cyan_carried",
-                "textures/blocks/carried_textures/glass_pane_top_purple_carried",
-                "textures/blocks/carried_textures/glass_pane_top_blue_carried",
-                "textures/blocks/carried_textures/glass_pane_top_brown_carried",
-                "textures/blocks/carried_textures/glass_pane_top_green_carried",
-                "textures/blocks/carried_textures/glass_pane_top_red_carried",
-                "textures/blocks/carried_textures/glass_pane_top_black_carried"
-            ]
-        },
+        // "stained_glass": {
+        //     "textures": [
+        //         "textures/blocks/glass_white",
+        //         "textures/blocks/glass_orange",
+        //         "textures/blocks/glass_magenta",
+        //         "textures/blocks/glass_light_blue",
+        //         "textures/blocks/glass_yellow",
+        //         "textures/blocks/glass_lime",
+        //         "textures/blocks/glass_pink",
+        //         "textures/blocks/glass_gray",
+        //         "textures/blocks/glass_silver",
+        //         "textures/blocks/glass_cyan",
+        //         "textures/blocks/glass_purple",
+        //         "textures/blocks/glass_blue",
+        //         "textures/blocks/glass_brown",
+        //         "textures/blocks/glass_green",
+        //         "textures/blocks/glass_red",
+        //         "textures/blocks/glass_black"
+        //     ]
+        // },
+        // "stained_glass_carried": {
+        //     "textures": [
+        //         "textures/blocks/carried_textures/glass_white_carried",
+        //         "textures/blocks/carried_textures/glass_orange_carried",
+        //         "textures/blocks/carried_textures/glass_magenta_carried",
+        //         "textures/blocks/carried_textures/glass_light_blue_carried",
+        //         "textures/blocks/carried_textures/glass_yellow_carried",
+        //         "textures/blocks/carried_textures/glass_lime_carried",
+        //         "textures/blocks/carried_textures/glass_pink_carried",
+        //         "textures/blocks/carried_textures/glass_gray_carried",
+        //         "textures/blocks/carried_textures/glass_silver_carried",
+        //         "textures/blocks/carried_textures/glass_cyan_carried",
+        //         "textures/blocks/carried_textures/glass_purple_carried",
+        //         "textures/blocks/carried_textures/glass_blue_carried",
+        //         "textures/blocks/carried_textures/glass_brown_carried",
+        //         "textures/blocks/carried_textures/glass_green_carried",
+        //         "textures/blocks/carried_textures/glass_red_carried",
+        //         "textures/blocks/carried_textures/glass_black_carried"
+        //     ]
+        // },
+        // "stained_glass_pane_top": {
+        //     "textures": [
+        //         "textures/blocks/glass_pane_top_white",
+        //         "textures/blocks/glass_pane_top_orange",
+        //         "textures/blocks/glass_pane_top_magenta",
+        //         "textures/blocks/glass_pane_top_light_blue",
+        //         "textures/blocks/glass_pane_top_yellow",
+        //         "textures/blocks/glass_pane_top_lime",
+        //         "textures/blocks/glass_pane_top_pink",
+        //         "textures/blocks/glass_pane_top_gray",
+        //         "textures/blocks/glass_pane_top_silver",
+        //         "textures/blocks/glass_pane_top_cyan",
+        //         "textures/blocks/glass_pane_top_purple",
+        //         "textures/blocks/glass_pane_top_blue",
+        //         "textures/blocks/glass_pane_top_brown",
+        //         "textures/blocks/glass_pane_top_green",
+        //         "textures/blocks/glass_pane_top_red",
+        //         "textures/blocks/glass_pane_top_black"
+        //     ]
+        // },
+        // "stained_glass_pane_top_carried": {
+        //     "textures": [
+        //         "textures/blocks/carried_textures/glass_pane_top_white_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_orange_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_magenta_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_light_blue_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_yellow_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_lime_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_pink_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_gray_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_silver_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_cyan_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_purple_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_blue_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_brown_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_green_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_red_carried",
+        //         "textures/blocks/carried_textures/glass_pane_top_black_carried"
+        //     ]
+        // },
         "waxed_chiseled_copper": {
             "textures": "textures/blocks/waxed_copper/waxed_chiseled_copper"
         },

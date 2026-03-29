@@ -34,7 +34,7 @@
 							0,
 							38
 						],
-						"inflate": 0.51
+						"inflate": 0.52
 					}
 				],
 				"locators": {
@@ -130,7 +130,7 @@
 							30,
 							47
 						],
-						"inflate": 0.1,
+						"inflate": 0.02,
 						"mirror": true
 					}
 				]
@@ -159,7 +159,7 @@
 							40,
 							38
 						],
-						"inflate": 0.01
+						"inflate": 0.02
 					},
 					{
 						"origin": [
@@ -176,7 +176,7 @@
 							44,
 							22
 						],
-						"inflate": 0.01
+						"inflate": 0.02
 					},
 					{
 						"origin": [
@@ -193,7 +193,7 @@
 							44,
 							22
 						],
-						"inflate": 0.01,
+						"inflate": 0.02,
 						"mirror": true
 					}
 				]
@@ -222,7 +222,7 @@
 							0,
 							22
 						],
-						"inflate": 0.01
+						"inflate": 0.02
 					}
 				]
 			},
@@ -250,7 +250,7 @@
 							0,
 							22
 						],
-						"inflate": 0.01,
+						"inflate": 0.02,
 						"mirror": true
 					}
 				]

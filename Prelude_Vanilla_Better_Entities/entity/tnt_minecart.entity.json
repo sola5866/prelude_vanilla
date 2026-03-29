@@ -10,21 +10,9 @@
 			"geometry": {
 				"default": "geometry.tnt_minecart.v1.8"
 			},
-			"animations": {
-				"move": "animation.minecart.move"
-			},
 			"scripts": {
-				"pre_animation": [
-					"variable.hurt=query.hurt_time-query.frame_alpha;"
-				],
-				"animate": [
-					"move"
-				],
 				"should_update_bones_and_effects_offscreen": true
-			},
-			"render_controllers": [
-				"controller.render.minecart"
-			]
+			}
 		}
 	}
 }

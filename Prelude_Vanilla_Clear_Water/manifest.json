@@ -1,17 +1,17 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Prelude\u0020Vanilla\u0020-\u0020Clear\u0020Water\u0020v1.11.1",
+		"name": "Prelude\u0020Vanilla\u0020-\u0020Clear\u0020Water\u0020v26.3.1",
 		"description": "pack.description",
 		"uuid": "9bdb1aac-0bf2-4d9a-b3ad-5062a8a55a3f",
 		"min_engine_version": [
 			1,
-			21,
-			80
+			26,
+			10
 		],
 		"version": [
-			1,
-			11,
+			26,
+			3,
 			1
 		]
 	},
@@ -21,14 +21,15 @@
 			"type": "resources",
 			"uuid": "b3cf5715-dab6-40bf-8b48-39bfcfe03bb5",
 			"version": [
-				1,
-				11,
+				26,
+				3,
 				1
 			]
 		}
 	],
 	"capabilities": [
-		"raytraced"
+		"raytraced",
+		"pbr"
 	],
 	"metadata": {
 		"authors": [

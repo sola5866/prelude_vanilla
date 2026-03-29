@@ -3,9 +3,9 @@
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "minecraft:thrown_trident",
-			"materials": {
-				"default": "entity_emissive_alpha",
-				"enchanted": "entity_glint"
+			"textures": {
+				"default": "textures/entity/thrown_trident",
+				"loyalty_rope": "textures/entity/loyalty_rope"
 			},
 			"scripts": {
 				"should_update_bones_and_effects_offscreen": true

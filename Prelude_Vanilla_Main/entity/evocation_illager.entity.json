@@ -5,10 +5,8 @@
 			"identifier": "minecraft:evocation_illager",
 			"min_engine_version": "1.8.0",
 			"animations": {
-				"move": "animation.evoker.move",
 				"general_controller": "controller.animation.evoker.general",
-				"move_controller": "controller.animation.villager.move",
-				"riding_controller": "controller.animation.humanoid.riding_legs_only"
+				"move_controller": "controller.animation.villager.move"
 			},
 			"scripts": {
 				"animate": [

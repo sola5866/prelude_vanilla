@@ -6,15 +6,13 @@
 			"animations": {
 				"walk_controller": "controller.animation.hoglin.walk",
 				"look_at_target_controller": "controller.animation.hoglin.look_at_target",
-				"attack_controller": "controller.animation.hoglin.attack",
-				"hoglin_baby_scaling_controller": "controller.animation.hoglin.baby_scaling"
+				"attack_controller": "controller.animation.hoglin.attack"
 			},
 			"scripts": {
 				"animate": [
 					"walk_controller",
 					"look_at_target_controller",
-					"attack_controller",
-					"hoglin_baby_scaling_controller"
+					"attack_controller"
 				],
 				"should_update_bones_and_effects_offscreen": true
 			}

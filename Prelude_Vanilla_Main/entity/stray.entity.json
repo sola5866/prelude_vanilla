@@ -17,7 +17,8 @@
 				"damage_nearby_mobs_controller": "controller.animation.humanoid.damage_nearby_mobs",
 				"bow_and_arrow_controller": "controller.animation.humanoid.bow_and_arrow",
 				"swimming_controller": "controller.animation.zombie.swimming",
-				"use_item_progress_controller": "controller.animation.humanoid.use_item_progress"
+				"use_item_progress_controller": "controller.animation.humanoid.use_item_progress",
+				"skeleton_attack_controller": "controller.animation.skeleton.attack"
 			},
 			"scripts": {
 				"animate": [
@@ -33,7 +34,8 @@
 					"damage_nearby_mobs_controller",
 					"bow_and_arrow_controller",
 					"swimming_controller",
-					"use_item_progress_controller"
+					"use_item_progress_controller",
+					"skeleton_attack_controller"
 				],
 				"should_update_bones_and_effects_offscreen": true
 			}

@@ -10,15 +10,7 @@
 				"cracked_low": "textures/entity/iron_golem/cracked_low",
 				"cracked_none": "textures/entity/iron_golem/iron_golem"
 			},
-			"animations": {
-				"move_controller": "controller.animation.iron_golem.move",
-				"arm_controller": "controller.animation.iron_golem.arm_movement"
-			},
 			"scripts": {
-				"animate": [
-					"move_controller",
-					"arm_controller"
-				],
 				"should_update_bones_and_effects_offscreen": true
 			},
 			"render_controllers": [

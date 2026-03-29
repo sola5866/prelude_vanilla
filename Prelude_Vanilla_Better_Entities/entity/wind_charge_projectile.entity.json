@@ -9,13 +9,7 @@
 			"geometry": {
 				"default": "geometry.wind_charge"
 			},
-			"animations": {
-				"rotate": "animation.wind_charge.rotate"
-			},
 			"scripts": {
-				"animate": [
-					"rotate"
-				],
 				"should_update_bones_and_effects_offscreen": true
 			},
 			"render_controllers": [

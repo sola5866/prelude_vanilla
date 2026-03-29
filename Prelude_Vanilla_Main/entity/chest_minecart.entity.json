@@ -3,13 +3,9 @@
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "minecraft:chest_minecart",
-			"min_engine_version": "1.8.0",
 			"scripts": {
 				"should_update_bones_and_effects_offscreen": true
-			},
-			"render_controllers": [
-				"controller.render.minecart"
-			]
+			}
 		}
 	}
 }

@@ -6,13 +6,11 @@
 			"min_engine_version": "1.8.0",
 			"animations": {
 				"move_controller": "controller.animation.ocelot.move",
-				"baby_controller": "controller.animation.ocelot.baby",
 				"look_at_target_controller": "controller.animation.ocelot.look_at_target"
 			},
 			"scripts": {
 				"animate": [
 					"move_controller",
-					"baby_controller",
 					"look_at_target_controller"
 				],
 				"should_update_bones_and_effects_offscreen": true

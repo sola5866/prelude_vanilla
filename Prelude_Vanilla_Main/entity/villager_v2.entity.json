@@ -3,32 +3,36 @@
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "minecraft:villager_v2",
+			"materials": {
+				"default": "entity_alphatest",
+				"masked": "entity_alphatest"
+			},
 			"geometry": {
 				"default": "geometry.villager_v2",
 				"biome": "geometry.villager_v2_biome",
 				"profession": "geometry.villager_v2_profession",
-				"level": "geometry.villager_v2_level"
+				"level": "geometry.villager_v2_level",
+				"baby": "geometry.villager.baby",
+				"baby_biome": "geometry.villager.baby_biome"
 			},
 			"animations": {
 				"general_controller": "controller.animation.villager_v2.general",
 				"move_controller": "controller.animation.villager_v2.move",
-				"raise_arms_controller": "controller.animation.villager_v2.raise_arms",
-				"baby_controller": "controller.animation.villager_v2.baby"
+				"raise_arms_controller": "controller.animation.villager_v2.raise_arms"
 			},
 			"scripts": {
 				"animate": [
 					"general_controller",
 					"move_controller",
-					"raise_arms_controller",
-					"baby_controller"
+					"raise_arms_controller"
 				],
 				"should_update_bones_and_effects_offscreen": true
 			},
 			"render_controllers": [
-				"controller.render.villager_v2_base",
-				"controller.render.villager_v2_biome",
-				"controller.render.villager_v2_masked",
-				"controller.render.villager_v2_level"
+				"controller.render.villager_v3_base",
+				"controller.render.villager_v3_biome",
+				"controller.render.villager_v3_profession",
+				"controller.render.villager_v3_level"
 			]
 		}
 	}

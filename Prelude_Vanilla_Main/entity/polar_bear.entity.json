@@ -3,7 +3,13 @@
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "minecraft:polar_bear",
+			"animations" : {
+				"move_controller": "controller.animation.polar_bear.move"
+			},
 			"scripts": {
+				"animate" : [
+					"move_controller"
+				],
 				"should_update_bones_and_effects_offscreen": true
 			}
 		}

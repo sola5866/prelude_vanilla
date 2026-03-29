@@ -6,9 +6,6 @@
 			"min_engine_version": "1.2.6",
 			"scripts": {
 				"should_update_bones_and_effects_offscreen": true
-			},
-			"spawn_egg": {
-				"texture": "spawn_egg_donkey"
 			}
 		}
 	}

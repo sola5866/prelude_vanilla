@@ -5,7 +5,6 @@
 			"identifier": "minecraft:sniffer",
 			"animations": {
 				"general_controller": "controller.animation.sniffer.general",
-				"baby_controller": "controller.animation.sniffer.baby",
 				"walk_controller": "controller.animation.sniffer.walk",
 				"sniffsniff_controller": "controller.animation.sniffer.sniffsniff",
 				"long_sniff_controller": "controller.animation.sniffer.long_sniff",
@@ -17,7 +16,6 @@
 			"scripts": {
 				"animate": [
 					"general_controller",
-					"baby_controller",
 					"walk_controller",
 					"sniffsniff_controller",
 					"long_sniff_controller",

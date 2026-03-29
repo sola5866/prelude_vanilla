@@ -1,0 +1,12 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:skeleton_horse",
+      "min_engine_version": "1.17.10",
+      "scripts": {
+        "should_update_bones_and_effects_offscreen": true
+      }
+    }
+  }
+}

@@ -19,7 +19,10 @@
 				"controller.render.warden_spots_2",
 				"controller.render.warden_tendrils",
 				"controller.render.warden_heart"
-			]
+			],
+			"scripts": {
+				"should_update_bones_and_effects_offscreen": true
+			}
 		}
 	}
 }

@@ -6,7 +6,6 @@
 			"animations": {
 				"wolf_setup_controller": "controller.animation.wolf.setup",
 				"wolf_look_at_controller": "controller.animation.wolf.look_at",
-				"wolf_baby_scaling_controller": "controller.animation.wolf.baby_scaling",
 				"wolf_head_rot_z_controller": "controller.animation.wolf.head_rot_z",
 				"wolf_tail_default_controller": "controller.animation.wolf.tail_default",
 				"wolf_angry_controller": "controller.animation.wolf.angry",
@@ -17,7 +16,6 @@
 				"animate": [
 					"wolf_setup_controller",
 					"wolf_look_at_controller",
-					"wolf_baby_scaling_controller",
 					"wolf_head_rot_z_controller",
 					"wolf_tail_default_controller",
 					"wolf_angry_controller",

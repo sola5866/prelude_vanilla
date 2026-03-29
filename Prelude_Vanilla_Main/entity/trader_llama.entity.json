@@ -4,13 +4,11 @@
 		"description": {
 			"identifier": "minecraft:trader_llama",
 			"animations": {
-				"move_controller": "controller.animation.llama.move",
-				"baby_controller": "controller.animation.llama.baby"
+				"move_controller": "controller.animation.llama.move"
 			},
 			"scripts": {
 				"animate": [
-					"move_controller",
-					"baby_controller"
+					"move_controller"
 				],
 				"should_update_bones_and_effects_offscreen": true
 			}
