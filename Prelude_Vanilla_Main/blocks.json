@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.40",
+    "format_version": "1.21.40",
     "black_stained_glass": {
         "carried_textures": "black_stained_glass_carried",
         "sound": "glass",

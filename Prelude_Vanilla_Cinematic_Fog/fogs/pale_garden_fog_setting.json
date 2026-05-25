@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.90",
 	"minecraft:fog_settings": {
 		"description": {
 			"identifier": "prevanilla:fog_pale_garden"
@@ -32,6 +32,10 @@
 		},
 		"volumetric": {
 			"density": {
+				"air": {
+					"max_density": 0.01,
+					"uniform": true
+				},
 				"water": {
 					"max_density": 0.9,
 					"uniform": true
@@ -61,6 +65,11 @@
 						0.045,
 						0.052
 					]
+				}
+			},
+			"henyey_greenstein_g": {
+				"air": {
+					"henyey_greenstein_g": 0.3
 				}
 			}
 		}

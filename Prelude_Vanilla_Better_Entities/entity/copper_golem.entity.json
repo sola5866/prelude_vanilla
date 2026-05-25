@@ -7,9 +7,9 @@
             "geometry": {
                 "default_eyes": "geometry.copper_golem_eyes"
             },
-			"scripts": {
-				"should_update_bones_and_effects_offscreen": true
-			}
+            "scripts": {
+                "should_update_bones_and_effects_offscreen": true
+            }
         }
     }
 }

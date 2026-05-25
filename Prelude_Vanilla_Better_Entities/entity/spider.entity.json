@@ -1,26 +1,26 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:spider",
-			"min_engine_version": "1.8.0",
-			"textures": {
-				"default": "textures/entity/spider/spider",
-				"invisible": "textures/entity/spider/spider_invisible"
-			},
-			"animations": {
-				"walk": "animation.spider.walk",
-				"move_controller": "controller.animation.spider.move"
-			},
-			"scripts": {
-				"animate": [
-					"move_controller"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			},
-			"render_controllers": [
-				"controller.render.spider"
-			]
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:spider",
+            "min_engine_version": "1.8.0",
+            "textures": {
+                "default": "textures/entity/spider/spider",
+                "invisible": "textures/entity/spider/spider_invisible"
+            },
+            "animations": {
+                "walk": "animation.spider.walk",
+                "move_controller": "controller.animation.spider.move"
+            },
+            "scripts": {
+                "animate": [
+                    "move_controller"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "render_controllers": [
+                "controller.render.spider"
+            ]
+        }
+    }
 }

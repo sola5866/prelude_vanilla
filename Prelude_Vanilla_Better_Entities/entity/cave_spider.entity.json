@@ -1,25 +1,25 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:cave_spider",
-			"min_engine_version": "1.8.0",
-			"textures": {
-				"default": "textures/entity/spider/cave_spider",
-				"invisible": "textures/entity/spider/spider_invisible"
-			},
-			"scripts": {
-				"animate": [
-					"move_controller"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			},
-			"animations": {
-				"move_controller": "controller.animation.spider.move"
-			},
-			"render_controllers": [
-				"controller.render.spider"
-			]
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:cave_spider",
+            "min_engine_version": "1.8.0",
+            "textures": {
+                "default": "textures/entity/spider/cave_spider",
+                "invisible": "textures/entity/spider/spider_invisible"
+            },
+            "scripts": {
+                "animate": [
+                    "move_controller"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            },
+            "animations": {
+                "move_controller": "controller.animation.spider.move"
+            },
+            "render_controllers": [
+                "controller.render.spider"
+            ]
+        }
+    }
 }
