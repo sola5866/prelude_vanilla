@@ -21,17 +21,47 @@ Prelude Vanilla の全アドオンを同一バージョンで配布し、GitHub 
 例:
 
 ```text
-26.5.1
+26.6.1
 ```
 
 リリース時は全アドオンをビルドし、すべての成果物を同時に公開する。
 
 ---
 
+# Release Trigger
+
+main へのマージだけではリリースしない。
+
+リリースは Git Tag の作成によって開始する。
+
+例:
+
+```text
+feature/*
+↓
+develop
+↓
+main
+↓
+Git Tag
+↓
+Release
+```
+
+ドキュメント更新や CI/CD 更新のみの場合は、main へマージしてもリリースしない。
+
+アドオンの変更を配布する場合のみ Git Tag を作成する。
+
+---
+
 # リリースフロー
 
 ```text
-Version決定
+Version確定
+↓
+manifest.json更新
+↓
+mainへ反映
 ↓
 Git Tag作成
 ↓
@@ -54,20 +84,53 @@ Publish Release
 
 ---
 
-# バージョン番号
+# Version Consistency
 
-バージョン番号はリポジトリ全体で共有する。
+リリース時は以下のバージョンを一致させる。
+
+```text
+manifest.json
+Artifact File Name
+Git Tag
+GitHub Release
+```
 
 例:
 
 ```text
-26.5.1
+manifest.json
+26.6.1
+
+Artifact
+Prelude_Vanilla_26.6.1.mcpack
+
+Git Tag
+v26.6.1
+
+Release Title
+Prelude Vanilla 26.6.1
+```
+
+Git Tag のみ `v` プレフィックスを付与する。
+
+---
+
+# バージョン番号
+
+バージョン番号はリポジトリ全体で共有する。
+
+詳細は `versioning.md` を参照する。
+
+例:
+
+```text
+26.6.1
 ```
 
 Git Tag は以下の形式とする。
 
 ```text
-v26.5.1
+v26.6.1
 ```
 
 ---
@@ -77,8 +140,8 @@ v26.5.1
 例:
 
 ```bash
-git tag v26.5.1
-git push origin v26.5.1
+git tag v26.6.1
+git push origin v26.6.1
 ```
 
 Tag を Push すると GitHub Actions の Release Workflow が開始される。
@@ -121,20 +184,43 @@ Artifact Validation を実行する。
 
 Release Workflow は公開済み Release ではなく Draft Release を作成する。
 
-作成される Draft には以下が添付される。
+---
+
+## Release Title
+
+Release Title は以下の形式とする。
 
 ```text
-dist/v<version>/*.mcpack
-dist/v<version>/build-report.json
+Prelude Vanilla <version>
 ```
 
 例:
 
 ```text
-Prelude_Vanilla_Main_26.5.1.mcpack
-Prelude_Vanilla_Clear_Water_26.5.1.mcpack
-build-report.json
+Prelude Vanilla 26.6.1
+Prelude Vanilla 26.6.2
+Prelude Vanilla 26.7.1
 ```
+
+Git Tag の `v` は含めない。
+
+---
+
+## Assets
+
+Draft Release には `.mcpack` 成果物のみを添付する。
+
+例:
+
+```text
+Prelude_Vanilla_26.6.1.mcpack
+Prelude_Vanilla_Clear_Water_26.6.1.mcpack
+Prelude_Vanilla_Glowing_Ores_26.6.1.mcpack
+```
+
+`build-report.json` は添付しない。
+
+`build-report.json` は開発用成果物として保持する。
 
 ---
 
@@ -175,6 +261,8 @@ Changelog を確認した後、GitHub の Release 画面から Publish Release �
 * Changelog が記入されている
 * Build Report に問題がない
 
+Build Report は配布しないが、公開前の確認には使用する。
+
 ---
 
 # 成果物
@@ -182,13 +270,49 @@ Changelog を確認した後、GitHub の Release 画面から Publish Release �
 成果物は以下の命名規則に従う。
 
 ```text
-<addon_name>_<version>.mcpack
+<artifact_name>_<version>.mcpack
 ```
+
+---
+
+## Artifact Name
+
+Artifact Name は配布時に使用する名前とする。
+
+通常は Addon Name と同一とする。
 
 例:
 
 ```text
-Prelude_Vanilla_Main_26.5.1.mcpack
+Addon Name
+Prelude_Vanilla_Clear_Water
+
+Artifact Name
+Prelude_Vanilla_Clear_Water
+```
+
+---
+
+## Prelude_Vanilla_Main
+
+`Prelude_Vanilla_Main` はリポジトリ内の識別名である。
+
+配布時は `Main` を付与しない。
+
+例:
+
+```text
+Addon Name
+Prelude_Vanilla_Main
+
+Artifact Name
+Prelude_Vanilla
+```
+
+成果物名:
+
+```text
+Prelude_Vanilla_26.6.1.mcpack
 ```
 
 ---
