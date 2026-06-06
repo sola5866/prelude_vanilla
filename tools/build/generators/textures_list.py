@@ -20,8 +20,12 @@ def generate_textures_list(workspace_path: Path) -> Path:
         Path to the generated ``textures/textures_list.json`` file.
     """
 
-    entries = sorted(_collect_texture_entries(workspace_path))
     output_path = workspace_path / "textures" / "textures_list.json"
+    textures_path = workspace_path / "textures"
+    if not textures_path.is_dir():
+        return output_path
+
+    entries = sorted(_collect_texture_entries(workspace_path))
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
         json.dumps(entries, ensure_ascii=False, indent=2) + "\n",

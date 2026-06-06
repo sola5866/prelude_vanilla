@@ -7,13 +7,6 @@ from pathlib import Path
 from tools.validate.context import ValidationContext
 from tools.validate.results import RuleResult, ValidationStatus
 
-REQUIRED_GENERATED_FILES = (
-    "LICENSE",
-    "textures/textures_list.json",
-    "contents.json",
-)
-
-
 class GeneratedFilesExistRule:
     """Validate that required generated files exist in the workspace."""
 
@@ -24,10 +17,13 @@ class GeneratedFilesExistRule:
         """Check the workspace for required generated files."""
 
         workspace_path = get_workspace_path(context)
+        required_files = ["LICENSE", "contents.json"]
+        if has_textures_directory(workspace_path):
+            required_files.append("textures/textures_list.json")
 
         missing_files = [
             relative_path
-            for relative_path in REQUIRED_GENERATED_FILES
+            for relative_path in required_files
             if not (workspace_path / relative_path).is_file()
         ]
 
@@ -65,3 +61,9 @@ def format_missing_file_message(relative_path: str) -> str:
     """Format a human-readable missing generated file message."""
 
     return f"Missing generated file:\n{relative_path}"
+
+
+def has_textures_directory(workspace_path: Path) -> bool:
+    """Return whether the workspace contains a textures directory."""
+
+    return (workspace_path / "textures").is_dir()

@@ -11,7 +11,7 @@ Generated Files は `addons/` 配下の元ファイルを変更せず、Workspac
 Generated Files は次のことを目的とする。
 
 * 配布時に必要な補助ファイルを安定して生成する
-* 生成処理を Build pipeline から分離して保守しやすくする
+* 生成処理を Build Pipeline から分離して保守しやすくする
 * OS に依存しない再現性のある出力を行う
 
 ---
@@ -35,12 +35,14 @@ Generated Files は次のことを目的とする。
 ```text
 LICENSE Copy
 ↓
-textures_list.json Generate
+textures/textures_list.json Generate
 ↓
 contents.json Generate
 ```
 
-`contents.json` は Workspace 配下のファイル一覧から生成するため、`textures_list.json` 生成後に作成する。
+`contents.json` は Minecraft に Contents 情報の生成を要求するためのファイルである。
+
+Build System は Contents 一覧を生成しない。
 
 ---
 
@@ -60,11 +62,9 @@ contents.json Generate
 
 `build-addon.py` はリポジトリルートの `LICENSE` を Workspace へコピーする。
 
-コピーされた `LICENSE` は `contents.json` に含まれる。
-
 ---
 
-## textures_list.json
+## textures/textures_list.json
 
 ### Destination
 
@@ -80,21 +80,45 @@ generate_textures_list(
 ) -> Path
 ```
 
+### Purpose
+
+Resource Pack 内で使用する Texture 一覧を定義する。
+
 ### Specification
 
-`textures_list.json` は `textures/` 配下の PNG を列挙する。
+`textures/textures_list.json` は `textures/` 配下の PNG を列挙して生成する。
 
 生成仕様は次のとおりである。
 
-* 拡張子は含めない
+* `textures/**/*.png` を対象とする
+* 拡張子 `.png` は含めない
 * パス区切りは `/` を使用する
 * ソートする
-* `textures/` が存在しない場合は空リストとする
 * UTF-8 で書き出す
 * JSON のトップレベルは配列とする
 * 配列の要素は文字列とする
 
-例:
+### Generation Conditions
+
+`textures/` ディレクトリが存在する場合のみ生成する。
+
+```text
+textures/
+```
+
+が存在しない場合は、
+
+```text
+textures/textures_list.json
+```
+
+を生成しない。
+
+空配列を書き出すことはしない。
+
+### Example
+
+入力:
 
 ```text
 textures/entity/enderman/enderman.png
@@ -106,11 +130,15 @@ textures/entity/enderman/enderman.png
 textures/entity/enderman/enderman
 ```
 
-`textures/textures_list.json` は `contents.json` に含まれる。
+### Example Output
 
-### Reference
+```json
+[
+  "textures/entity/enderman/enderman",
+  "textures/items/apple"
+]
+```
 
-* https://wiki.bedrock.dev/concepts/textures-list
 
 ---
 
@@ -130,26 +158,47 @@ generate_contents(
 ) -> Path
 ```
 
+### Purpose
+
+Minecraft に Contents 情報の生成を要求する。
+
+Build System は Contents 一覧を生成しない。
+
+Contents 一覧の生成は Minecraft が行う。
+
 ### Specification
 
-`contents.json` は Workspace 配下のファイル一覧から生成する。
+Build System は次の内容を書き込む。
+
+```json
+{}
+```
 
 生成仕様は次のとおりである。
 
-* Workspace 配下のファイル一覧から生成する
-* `contents.json` 自身は含めない
-* `LICENSE` を含める
-* `textures/textures_list.json` を含める
-* パス区切りは `/` を使用する
-* 再現性のためソートする
 * UTF-8 で書き出す
-* JSON のトップレベルは配列とする
-* 配列の要素は文字列とする
-* OS 非依存で扱う
+* JSON Object とする
+* 空 Object を出力する
+* Workspace の内容は走査しない
+* Contents 一覧は生成しない
 
-### Reference
+### Responsibility
 
-* https://wiki.bedrock.dev/concepts/contents
+Build System の責務:
+
+```text
+contents.json を配置する
+```
+
+Build System の責務ではない:
+
+```text
+Contents 一覧を生成する
+```
+
+Minecraft は Resource Pack の初回読み込み時に Contents 情報を生成する。
+
+Build System はその生成処理に関与しない。
 
 ---
 
@@ -171,4 +220,4 @@ mcpack Build
 
 Generated Files は Minecraft の仕様検証を行わない。
 
-配布用 Workspace を整える Build tooling の一部として扱う。
+配布用 Workspace を整える Build Tooling の一部として扱う。

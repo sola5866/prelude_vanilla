@@ -1,8 +1,8 @@
 # Validation
 
-このドキュメントは Prelude Vanilla の Validation システムの設計方針を定義する。
+このドキュメントは Prelude Vanilla の Validation System の設計方針を定義する。
 
-## 目的
+## Purpose
 
 Validation は Minecraft の仕様検証を目的としない。
 
@@ -13,11 +13,11 @@ Validation は以下を目的とする。
 * 配布可能であること
 * リポジトリ全体で整合性が保たれていること
 
-Validation はビルド前の品質ゲートとして機能する。
+Validation はビルド前およびビルド中の品質ゲートとして機能する。
 
 ---
 
-# 対象外
+# Out of Scope
 
 以下は Minecraft 自体が検証するため、Validation の対象としない。
 
@@ -36,27 +36,44 @@ Validation は Minecraft Validator ではない。
 
 # Validation Pipeline
 
-Validation はビルド前に実行する。
+Validation は複数の段階で実行する。
 
 ```text
-Addon Discovery
- ↓
-Validation
- ↓
+Repository Validation
+↓
+Addon Validation
+↓
 Workspace Creation
- ↓
+↓
 Build
- ↓
+↓
+Build Validation
+↓
+Artifact Build
+↓
+Artifact Validation
+↓
 Build Report
 ```
 
-Validation に失敗した場合はビルドを実行しない。
+Validation に失敗した場合は次の段階へ進まない。
 
 ---
 
-# Validation の分類
+# Validation Categories
 
 Validation Rule は以下の分類を持つ。
+
+## Repository Rule
+
+リポジトリ全体を対象とする。
+
+目的:
+
+* リポジトリ構成確認
+* アドオン間の整合性確認
+
+---
 
 ## Addon Rule
 
@@ -69,14 +86,25 @@ Validation Rule は以下の分類を持つ。
 
 ---
 
-## Repository Rule
+## Build Rule
 
-リポジトリ全体を対象とする。
+Workspace を対象とする。
 
 目的:
 
-* アドオン間の整合性確認
-* リポジトリ構成確認
+* Build Pipeline が生成した成果物を確認する
+* 配布前の Workspace が妥当であることを確認する
+
+---
+
+## Artifact Rule
+
+生成済み Artifact を対象とする。
+
+目的:
+
+* 配布物として成立していることを確認する
+* Build 結果と成果物の整合性を確認する
 
 ---
 
@@ -86,8 +114,10 @@ Validation Rule は以下の分類を持つ。
 
 目的:
 
-* 配布成果物の整合性確認
 * リリース前チェック
+* 配布成果物の整合性確認
+
+現在は未実装とする。
 
 ---
 
@@ -102,6 +132,8 @@ repo_root: Path
 addons_root: Path | None
 addon: Addon | None
 version: str | None
+workspace_path: Path | None
+artifact_path: Path | None
 ```
 
 Validation Rule は ValidationContext から必要な情報を取得する。
@@ -159,11 +191,11 @@ Runner は Rule の内容を知らない。
 
 ```text
 Rule
- ↓
+↓
 Rule
- ↓
+↓
 Rule
- ↓
+↓
 ValidationReport
 ```
 
@@ -171,7 +203,7 @@ ValidationReport
 
 ---
 
-# Rule 設計方針
+# Rule Design
 
 Rule は単一責務とする。
 
@@ -186,11 +218,10 @@ Rule は単一責務とする。
 例:
 
 ```text
-manifest_exists
-addon_recognizable
 repository_structure
 addon_name_unique
-artifact_name_collision
+generated_files_exist
+artifact_is_zip_readable
 ```
 
 Build Report やログでは rule_id を利用する。
@@ -209,45 +240,15 @@ manifest.json not found
 
 ---
 
-# 現在実装済みの Rule
-
-## Addon Rule
-
-### manifest_exists
-
-対象:
-
-単一アドオン
-
-責務:
-
-manifest.json が存在すること
-
----
-
-### addon_recognizable
-
-対象:
-
-単一アドオン
-
-責務:
-
-tools.shared.addons.is_addon() が True を返すこと
-
----
+# Implemented Rules
 
 ## Repository Rule
 
 ### repository_structure
 
-対象:
-
-リポジトリ全体
-
 責務:
 
-以下が存在すること
+以下が存在すること。
 
 ```text
 addons/
@@ -260,52 +261,17 @@ LICENSE
 
 ### addon_name_unique
 
-対象:
-
-リポジトリ全体
-
 責務:
 
-アドオン名が一意であること
+アドオン名が一意であること。
 
 Windows の大小文字差異を考慮する。
 
-例:
-
-```text
-Prelude_Vanilla_Main
-prelude_vanilla_main
-```
-
-は重複とみなす。
-
 ---
 
-## Release Rule
-
-### artifact_name_collision
-
-対象:
-
-リリース対象
+### addon_uuid_unique
 
 責務:
-
-生成される成果物名が衝突しないこと
-
-例:
-
-```text
-<addon_name>_<version>.mcpack
-```
-
----
-
-# 将来追加予定の Rule
-
-優先度順。
-
-## addon_uuid_unique
 
 manifest.json の UUID が重複していないこと。
 
@@ -316,25 +282,128 @@ manifest.json の UUID が重複していないこと。
 
 ---
 
-## license_source_exists
+### license_source_exists
+
+責務:
 
 ビルド時に利用する LICENSE が存在すること。
 
 ---
 
-## build_report_writable
+## Addon Rule
 
-Build Report の出力先へ書き込み可能であること。
+### manifest_exists
 
----
+責務:
 
-## dist_directory_writable
-
-成果物出力先へ書き込み可能であること。
+manifest.json が存在すること。
 
 ---
 
-# Rule の追加方針
+### addon_recognizable
+
+責務:
+
+tools.shared.addons.is_addon() が True を返すこと。
+
+---
+
+## Build Rule
+
+### generated_files_exist
+
+責務:
+
+Build Pipeline が生成または配置するファイルが存在すること。
+
+確認対象:
+
+```text
+LICENSE
+contents.json
+```
+
+条件付き対象:
+
+```text
+textures/textures_list.json
+```
+
+---
+
+### generated_files_valid
+
+責務:
+
+生成ファイルの内容が最低限妥当であること。
+
+確認対象:
+
+```text
+contents.json
+```
+
+期待値:
+
+```json
+{}
+```
+
+条件付き対象:
+
+```text
+textures/textures_list.json
+```
+
+---
+
+## Artifact Rule
+
+### artifact_is_zip_readable
+
+責務:
+
+Artifact が ZIP として読み取り可能であること。
+
+---
+
+### artifact_contains_generated_files
+
+責務:
+
+Artifact に必要な生成ファイルが含まれていること。
+
+確認対象:
+
+```text
+LICENSE
+contents.json
+```
+
+条件付き対象:
+
+```text
+textures/textures_list.json
+```
+
+---
+
+### artifact_name_matches_convention
+
+責務:
+
+Artifact 名が命名規則に従うこと。
+
+例:
+
+```text
+Prelude_Vanilla_26.6.1.mcpack
+Prelude_Vanilla_Clear_Water_26.6.1.mcpack
+```
+
+---
+
+# Rule Addition Policy
 
 新しい Validation を追加する場合は既存 Rule を変更しない。
 
@@ -346,7 +415,7 @@ ValidationContext と RuleResult を利用して統合する。
 
 ---
 
-# ディレクトリ構成
+# Directory Structure
 
 ```text
 tools/
@@ -358,6 +427,7 @@ tools/
    └─ rules/
       ├─ addon/
       ├─ repository/
+      ├─ build/
       └─ release/
 ```
 
@@ -367,23 +437,14 @@ CLI は Validation 基盤とは分離して実装する。
 
 ---
 
-# 将来の統合
+# Future Extensions
 
-Validation Report は将来的に Build Report と統合する可能性がある。
+将来的に以下を追加する可能性がある。
 
-例:
-
-```json
-{
-  "validation": {
-    "successful": 5,
-    "failed": 0
-  },
-  "build": {
-    "successful": 6,
-    "failed": 0
-  }
-}
-```
+* Release Rule
+* release_artifacts_complete
+* release_version_consistent
+* build_report_present
+* changelog_present
 
 Validation と Build は独立した責務を維持する。

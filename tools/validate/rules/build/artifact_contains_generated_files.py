@@ -8,13 +8,6 @@ from tools.validate.context import ValidationContext
 from tools.validate.results import RuleResult, ValidationStatus
 from tools.validate.rules.build.artifact_is_zip_readable import get_artifact_path
 
-REQUIRED_ARTIFACT_FILES = (
-    "LICENSE",
-    "contents.json",
-    "textures/textures_list.json",
-)
-
-
 class ArtifactContainsGeneratedFilesRule:
     """Validate that required generated files are present in the artifact."""
 
@@ -28,7 +21,11 @@ class ArtifactContainsGeneratedFilesRule:
         with ZipFile(artifact_path, "r") as archive:
             names = {entry.filename for entry in archive.infolist()}
 
-        for relative_path in REQUIRED_ARTIFACT_FILES:
+        required_files = ["LICENSE", "contents.json"]
+        if has_textures_directory(names):
+            required_files.append("textures/textures_list.json")
+
+        for relative_path in required_files:
             if relative_path not in names:
                 return [
                     RuleResult(
@@ -49,3 +46,9 @@ class ArtifactContainsGeneratedFilesRule:
                 message=None,
             )
         ]
+
+
+def has_textures_directory(names: set[str]) -> bool:
+    """Return whether the artifact contains a textures directory."""
+
+    return any(name.startswith("textures/") for name in names)

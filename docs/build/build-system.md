@@ -1,14 +1,14 @@
 # Build System
 
-Prelude Vanilla の Build system は、`addons/` 配下の各 Addon を独立した入力として扱い、`dist/` 配下へ配布用の `.mcpack` を生成する仕組みである。
+Prelude Vanilla の Build System は、`addons/` 配下の各 Addon を独立した入力として扱い、`dist/` 配下へ配布用の `.mcpack` を生成する仕組みである。
 
-Build tooling は Python 3.12+ と `uv` を前提とし、`tools/` 配下へ責務ごとに分割して配置する。
+Build Tooling は Python 3.12+ と `uv` を前提とし、`tools/` 配下へ責務ごとに分割して配置する。
 
 ---
 
 ## Purpose
 
-Build system は次のことを目的とする。
+Build System は次のことを目的とする。
 
 * `addons/` 配下の Addon を自動検出する
 * 単一 Addon と全体 Build の両方を扱う
@@ -33,14 +33,14 @@ Build system は次のことを目的とする。
 主な出力は次のとおりである。
 
 * `build/workspaces/<addon_name>/`
-* `dist/v<version>/<addon_name>_<version>.mcpack`
+* `dist/v<version>/<artifact_name>_<version>.mcpack`
 * `dist/v<version>/build-report.json`
 
 ---
 
 ## Tooling
 
-現在の Build tooling は次の役割に分かれる。
+現在の Build Tooling は次の役割に分かれる。
 
 ```text
 tools/
@@ -61,7 +61,7 @@ tools/
 例:
 
 ```bash
-uv run python tools/build/build-addon.py addons/Prelude_Vanilla_Main --version 26.5.1
+uv run python tools/build/build-addon.py addons/Prelude_Vanilla_Main --version 26.6.1
 ```
 
 ### build-all.py
@@ -80,7 +80,16 @@ CI や差分 Build と連携する前提で扱う。
 
 Workspace 内へ生成ファイルを書き出す。
 
-現在は `contents.json` と `textures/textures_list.json` の生成 API を提供する。
+現在は次の Generator を提供する。
+
+* `textures/textures_list.json`
+* `contents.json`
+
+`textures/textures_list.json` は Texture 一覧を生成する。
+
+`contents.json` は Minecraft に Contents 情報の生成を要求するための空ファイルを配置する。
+
+Generator の詳細は `generated-files.md` を参照する。
 
 ### transforms
 
@@ -92,7 +101,7 @@ Workspace 内の既存ファイルを変換する。
 
 ## Build Pipeline
 
-単一 Addon の Build pipeline は次のとおりである。
+単一 Addon の Build Pipeline は次のとおりである。
 
 ```text
 Addon Validation
@@ -124,9 +133,27 @@ Artifact Validation に失敗した場合は Build 失敗扱いとする。
 
 ---
 
+## Generated Files
+
+Build Pipeline は次の Generated Files を扱う。
+
+```text
+LICENSE
+textures/textures_list.json
+contents.json
+```
+
+`textures/textures_list.json` は Build System が生成する。
+
+`contents.json` は Minecraft に Contents 情報の生成を要求するためのファイルであり、Build System は Contents 一覧を生成しない。
+
+詳細は `generated-files.md` を参照する。
+
+---
+
 ## Validation
 
-Build system は Minecraft の仕様検証を行わない。
+Build System は Minecraft の仕様検証を行わない。
 
 Validation は Prelude Vanilla の Build / Release 前提を確認するために実行する。
 
@@ -136,7 +163,7 @@ Validation は Prelude Vanilla の Build / Release 前提を確認するため�
 * `build-addon.py` は Workspace 上の Build Artifact Rule を実行する
 * `build-addon.py` は生成済み `.mcpack` に対する Artifact Rule を実行する
 * `build-all.py` は Repository Rule を実行する
-* Release Rule は Build pipeline には統合しない
+* Release Rule は Build Pipeline には統合しない
 
 Validation の詳細は `docs/validation/validation.md` を参照する。
 
@@ -162,14 +189,21 @@ Repository Validation に失敗した場合は Build Report を生成しない�
 Artifact は次の命名規則に従う。
 
 ```text
-<addon_name>_<version>.mcpack
+<artifact_name>_<version>.mcpack
 ```
 
 例:
 
 ```text
-Prelude_Vanilla_Main_26.5.1.mcpack
+Prelude_Vanilla_26.6.1.mcpack
+Prelude_Vanilla_Clear_Water_26.6.1.mcpack
 ```
+
+Artifact Name は配布時に使用する名前である。
+
+通常は Addon Name と同一とする。
+
+ただし `Prelude_Vanilla_Main` は例外として、Artifact Name を `Prelude_Vanilla` とする。
 
 Artifact は ZIP として読み取り可能であることを前提とする。
 
@@ -177,6 +211,6 @@ Artifact は ZIP として読み取り可能であることを前提とする。
 
 ## Scope
 
-Build system は既存 Addon を配布可能な形へ整えるための基盤である。
+Build System は既存 Addon を配布可能な形へ整えるための基盤である。
 
 Addon の Minecraft 仕様や Resource Pack の内容を変更するための仕組みではない。
