@@ -13,6 +13,9 @@ Thumbs.db
 **pycache**/
 *.py[cod]
 
+# uv cache
+.uv-cache/
+
 # 仮想環境
 .venv/
 
