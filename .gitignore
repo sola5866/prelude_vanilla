@@ -1,9 +1,30 @@
-contents.json
-textures_list.json
-/Prelude_Vanilla_Better_Entities/LICENSE
-/Prelude_Vanilla_Cinematic_Fog/LICENSE
-/Prelude_Vanilla_Clear_Staind_Glasses/LICENSE
-/Prelude_Vanilla_Clear_Water/LICENSE
-/Prelude_Vanilla_Glowing_Ores/LICENSE
-/Prelude_Vanilla_Main/LICENSE
+# Windows
 desktop.ini
+Thumbs.db
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+.nfs*
+
+# Python
+**pycache**/
+*.py[cod]
+
+# 仮想環境
+.venv/
+
+# ビルド用ワークスペース
+/build/
+
+# ビルド成果物
+/dist/
+
+# ビルド時に生成されるファイル
+**/contents.json
+**/textures_list.json
+
+# ビルド時に配置される LICENSE
+/addons/*/LICENSE

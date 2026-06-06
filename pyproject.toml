@@ -1,0 +1,10 @@
+[project]
+name = "prelude-vanilla-tools"
+version = "0.1.0"
+description = "Prelude Vanilla monorepo build tooling scaffold"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false
+
