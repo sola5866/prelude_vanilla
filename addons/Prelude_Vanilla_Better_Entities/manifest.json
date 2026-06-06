@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "header": {
-        "name": "Prelude\u0020Vanilla\u0020-\u0020Better\u0020Entities\u0020v26.5.8",
+        "name": "Prelude\u0020Vanilla\u0020-\u0020Better\u0020Entities\u0020v26.5.9",
         "description": "pack.description",
         "uuid": "674ecbc1-89d4-4016-847d-e0628c391ed4",
         "min_engine_version": [
@@ -12,7 +12,7 @@
         "version": [
             26,
             5,
-            8
+            9
         ]
     },
     "modules": [
@@ -23,7 +23,7 @@
             "version": [
                 26,
                 5,
-                8
+                9
             ]
         }
     ],
