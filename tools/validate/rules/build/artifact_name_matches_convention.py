@@ -19,7 +19,7 @@ class ArtifactNameMatchesConventionRule:
         artifact_path = get_artifact_path(context)
         addon = get_addon(context)
         version = get_version(context)
-        expected_name = f"{addon.name}_{version}.mcpack"
+        expected_name = f"{get_artifact_name(addon.name)}_{version}.mcpack"
         actual_name = artifact_path.name
 
         if actual_name == expected_name:
@@ -62,3 +62,11 @@ def get_version(context: ValidationContext) -> str:
     if context.version is None:
         raise ValueError("Artifact validation requires context.version")
     return context.version
+
+
+def get_artifact_name(addon_name: str) -> str:
+    """Return the distributable artifact name for the addon."""
+
+    if addon_name == "Prelude_Vanilla_Main":
+        return "Prelude_Vanilla"
+    return addon_name

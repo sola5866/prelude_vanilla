@@ -315,7 +315,8 @@ def build_mcpack(
     dist_dir = repo_root / "dist" / f"v{version}"
     dist_dir.mkdir(parents=True, exist_ok=True)
 
-    artifact_path = dist_dir / f"{addon.name}_{version}.mcpack"
+    artifact_name = get_artifact_name(addon)
+    artifact_path = dist_dir / f"{artifact_name}_{version}.mcpack"
     if artifact_path.exists():
         artifact_path.unlink()
 
@@ -325,6 +326,14 @@ def build_mcpack(
                 archive.write(file_path, file_path.relative_to(workspace_path))
 
     return artifact_path
+
+
+def get_artifact_name(addon: Addon) -> str:
+    """Return the distributable artifact name for the addon."""
+
+    if addon.name == "Prelude_Vanilla_Main":
+        return "Prelude_Vanilla"
+    return addon.name
 
 
 def cleanup_workspace(workspace_path: Path) -> None:
