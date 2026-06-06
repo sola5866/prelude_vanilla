@@ -41,7 +41,6 @@ def _collect_workspace_files(workspace_path: Path) -> list[str]:
         relative_path = file_path.relative_to(workspace_path).as_posix()
         if relative_path == "contents.json":
             continue
-
         files.append(relative_path)
 
     return files

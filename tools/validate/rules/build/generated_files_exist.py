@@ -9,7 +9,7 @@ from tools.validate.results import RuleResult, ValidationStatus
 
 REQUIRED_GENERATED_FILES = (
     "LICENSE",
-    "textures_list.json",
+    "textures/textures_list.json",
     "contents.json",
 )
 

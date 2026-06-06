@@ -9,7 +9,7 @@ from tools.validate.context import ValidationContext
 from tools.validate.results import RuleResult, ValidationStatus
 from tools.validate.rules.build.generated_files_exist import get_workspace_path
 
-TARGET_FILES = ("contents.json", "textures_list.json")
+TARGET_FILES = ("contents.json", "textures/textures_list.json")
 
 
 class GeneratedFilesValidRule:

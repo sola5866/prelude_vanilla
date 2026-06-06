@@ -80,7 +80,7 @@ CI や差分 Build と連携する前提で扱う。
 
 Workspace 内へ生成ファイルを書き出す。
 
-現在は `contents.json` と `textures_list.json` の生成 API を提供する。
+現在は `contents.json` と `textures/textures_list.json` の生成 API を提供する。
 
 ### transforms
 
@@ -105,7 +105,7 @@ LICENSE Copy
 ↓
 JSON Minify
 ↓
-textures_list.json Generate
+textures/textures_list.json Generate
 ↓
 contents.json Generate
 ↓

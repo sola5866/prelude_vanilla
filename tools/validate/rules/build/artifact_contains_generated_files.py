@@ -11,7 +11,7 @@ from tools.validate.rules.build.artifact_is_zip_readable import get_artifact_pat
 REQUIRED_ARTIFACT_FILES = (
     "LICENSE",
     "contents.json",
-    "textures_list.json",
+    "textures/textures_list.json",
 )
 
 

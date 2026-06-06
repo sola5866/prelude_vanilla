@@ -111,6 +111,90 @@ YY.M.N
 
 ---
 
+## Release Procedure
+
+実運用は次の順序で行う。
+
+### 開発
+
+```text
+feature/*
+↓
+develop
+↓
+main
+```
+
+### リリース対象判定
+
+アドオン変更なしの場合は終了する。
+
+```text
+終了
+```
+
+アドオン変更ありの場合はリリースを実施する。
+
+```text
+リリース実施
+```
+
+### Version 確定
+
+manifest.json の version を更新する。
+
+例:
+
+```text
+26.6.1
+```
+
+### Validation
+
+```bash
+uv run python tools/validate/validate.py
+```
+
+成功することを確認する。
+
+### Build
+
+```bash
+uv run python tools/build/build-all.py --version 26.6.1
+```
+
+成功することを確認する。
+
+### Tag 作成
+
+```bash
+git tag v26.6.1
+git push origin v26.6.1
+```
+
+### Draft Release
+
+GitHub Actions により Draft Release が生成される。
+
+確認項目:
+
+```text
+Release Title
+添付 mcpack
+Version
+Build Result
+```
+
+### Changelog
+
+Draft Release 上で手動記入する。
+
+### Publish
+
+GitHub Release 画面から Publish Release を実行する。
+
+---
+
 ## Create Tag
 
 例:

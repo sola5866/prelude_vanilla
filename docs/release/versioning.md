@@ -142,6 +142,63 @@ Release Workflow は Git Tag を起点に実行される。
 
 ---
 
+# Version Consistency
+
+リリース時は以下のバージョンを一致させる。
+
+```text
+manifest.json
+Artifact File Name
+Git Tag
+GitHub Release Title
+```
+
+例:
+
+```text
+manifest.json
+26.6.1
+
+Artifact
+Prelude_Vanilla_26.6.1.mcpack
+
+Git Tag
+v26.6.1
+
+Release Title
+Prelude Vanilla 26.6.1
+```
+
+Git Tag のみ `v` プレフィックスを付与する。
+
+その他には付与しない。
+
+---
+
+# リリース前チェック
+
+リリース前に以下を確認する。
+
+```text
+manifest.json の version
+=
+Git Tag の version
+```
+
+例:
+
+```text
+manifest.json
+26.6.1
+
+Git Tag
+v26.6.1
+```
+
+一致しない状態でリリースしない。
+
+---
+
 # 成果物
 
 成果物にはバージョン番号を含める。

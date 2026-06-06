@@ -261,6 +261,41 @@ Changelog を確認した後、GitHub の Release 画面から Publish Release �
 * Changelog が記入されている
 * Build Report に問題がない
 
+---
+
+## Release Checklist
+
+Publish Release 前に以下を確認する。
+
+```text
+manifest.json の version が正しい
+Git Tag が正しい
+Release Title が正しい
+添付された mcpack が正しい
+Changelog が記入されている
+Validation が成功している
+Build が成功している
+Artifact Validation が成功している
+```
+
+---
+
+## Release Title
+
+Release Title は以下の形式とする。
+
+```text
+Prelude Vanilla <version>
+```
+
+例:
+
+```text
+Prelude Vanilla 26.6.1
+```
+
+Git Tag の `v` は含めない。
+
 Build Report は配布しないが、公開前の確認には使用する。
 
 ---

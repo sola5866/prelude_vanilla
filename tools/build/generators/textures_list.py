@@ -1,4 +1,4 @@
-"""Generate ``textures_list.json`` from a prepared addon workspace."""
+"""Generate ``textures/textures_list.json`` from a prepared addon workspace."""
 
 from __future__ import annotations
 
@@ -11,22 +11,23 @@ LOGGER = get_logger(__name__)
 
 
 def generate_textures_list(workspace_path: Path) -> Path:
-    """Generate ``textures_list.json`` from ``textures/**/*.png`` files.
+    """Generate ``textures/textures_list.json`` from ``textures/**/*.png`` files.
 
     Args:
         workspace_path: Root path of the prepared addon workspace.
 
     Returns:
-        Path to the generated ``textures_list.json`` file.
+        Path to the generated ``textures/textures_list.json`` file.
     """
 
     entries = sorted(_collect_texture_entries(workspace_path))
-    output_path = workspace_path / "textures_list.json"
+    output_path = workspace_path / "textures" / "textures_list.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
         json.dumps(entries, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    LOGGER.info("textures_list.json generated")
+    LOGGER.info("textures/textures_list.json generated")
     return output_path
 
 

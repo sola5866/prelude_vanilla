@@ -21,10 +21,10 @@ Generated Files は次のことを目的とする。
 現在の対象は次の 3 つである。
 
 * `LICENSE`
-* `textures_list.json`
+* `textures/textures_list.json`
 * `contents.json`
 
-`LICENSE` はコピーであり、`textures_list.json` と `contents.json` は Generator により生成する。
+`LICENSE` はコピーであり、`textures/textures_list.json` と `contents.json` は Generator により生成する。
 
 ---
 
@@ -69,7 +69,7 @@ contents.json Generate
 ### Destination
 
 ```text
-<workspace>/textures_list.json
+<workspace>/textures/textures_list.json
 ```
 
 ### Public API
@@ -106,7 +106,7 @@ textures/entity/enderman/enderman.png
 textures/entity/enderman/enderman
 ```
 
-`textures_list.json` は `contents.json` に含まれる。
+`textures/textures_list.json` は `contents.json` に含まれる。
 
 ### Reference
 
@@ -139,7 +139,7 @@ generate_contents(
 * Workspace 配下のファイル一覧から生成する
 * `contents.json` 自身は含めない
 * `LICENSE` を含める
-* `textures_list.json` を含める
+* `textures/textures_list.json` を含める
 * パス区切りは `/` を使用する
 * 再現性のためソートする
 * UTF-8 で書き出す
@@ -160,7 +160,7 @@ Generated Files は JSON Minify の後、Package Build の前に扱う。
 ```text
 JSON Minify
 ↓
-textures_list.json Generate
+textures/textures_list.json Generate
 ↓
 contents.json Generate
 ↓
