@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 
 from tools.shared.logging import get_logger
+from tools.shared.jsonc import loads_jsonc
 
 LOGGER = get_logger(__name__)
 
@@ -53,73 +54,9 @@ def _load_jsonc(source_text: str, relative_path: str) -> object:
     """Parse JSONC text after removing comments."""
 
     try:
-        return json.loads(_strip_json_comments(source_text))
+        return loads_jsonc(source_text)
     except json.JSONDecodeError as exc:
         raise ValueError(f"Failed to parse JSON:\n{relative_path}") from exc
-
-
-def _strip_json_comments(source_text: str) -> str:
-    """Remove JSONC comments while preserving string contents."""
-
-    output: list[str] = []
-    index = 0
-    in_string = False
-    escape = False
-    length = len(source_text)
-
-    while index < length:
-        current = source_text[index]
-        next_char = source_text[index + 1] if index + 1 < length else ""
-
-        if in_string:
-            output.append(current)
-            if escape:
-                escape = False
-            elif current == "\\":
-                escape = True
-            elif current == '"':
-                in_string = False
-            index += 1
-            continue
-
-        if current == '"':
-            in_string = True
-            output.append(current)
-            index += 1
-            continue
-
-        if current == "/" and next_char == "/":
-            index = _skip_single_line_comment(source_text, index + 2)
-            continue
-
-        if current == "/" and next_char == "*":
-            index = _skip_multi_line_comment(source_text, index + 2)
-            continue
-
-        output.append(current)
-        index += 1
-
-    return "".join(output)
-
-
-def _skip_single_line_comment(source_text: str, index: int) -> int:
-    """Skip a single-line comment and preserve the line ending."""
-
-    length = len(source_text)
-    while index < length and source_text[index] not in "\r\n":
-        index += 1
-    return index
-
-
-def _skip_multi_line_comment(source_text: str, index: int) -> int:
-    """Skip a multi-line comment."""
-
-    length = len(source_text)
-    while index < length - 1:
-        if source_text[index] == "*" and source_text[index + 1] == "/":
-            return index + 2
-        index += 1
-    return length
 
 
 def _normalize_relative_path(path: str) -> str:

@@ -1,3 +1,6 @@
+#環境変数
+.env
+
 # Windows
 desktop.ini
 Thumbs.db

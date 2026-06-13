@@ -1,21 +1,21 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:creeper",
-			"animations": {
-				"creeper_head_controller": "controller.animation.creeper.head",
-				"creeper_legs_controller": "controller.animation.creeper.legs",
-				"creeper_swelling_controller": "controller.animation.creeper.swelling"
-			},
-			"scripts": {
-				"animate": [
-					"creeper_head_controller",
-					"creeper_legs_controller",
-					"creeper_swelling_controller"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			}
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:creeper",
+      "animations": {
+        "creeper_head_controller": "controller.animation.creeper.head",
+        "creeper_legs_controller": "controller.animation.creeper.legs",
+        "creeper_swelling_controller": "controller.animation.creeper.swelling"
+      },
+      "scripts": {
+        "animate": [
+          "creeper_head_controller",
+          "creeper_legs_controller",
+          "creeper_swelling_controller"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      }
+    }
+  }
 }

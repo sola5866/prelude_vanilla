@@ -1,21 +1,21 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:panda",
-			"animations": {
-				"move_controller": "controller.animation.panda.move",
-				"unhappy_controller": "controller.animation.panda.unhappy",
-				"sneezing_controller": "controller.animation.panda.sneezing"
-			},
-			"scripts": {
-				"animate": [
-					"move_controller",
-					"unhappy_controller",
-					"sneezing_controller"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			}
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:panda",
+      "animations": {
+        "move_controller": "controller.animation.panda.move",
+        "unhappy_controller": "controller.animation.panda.unhappy",
+        "sneezing_controller": "controller.animation.panda.sneezing"
+      },
+      "scripts": {
+        "animate": [
+          "move_controller",
+          "unhappy_controller",
+          "sneezing_controller"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      }
+    }
+  }
 }

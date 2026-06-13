@@ -17,9 +17,10 @@ def generate_contents(workspace_path: Path) -> Path:
         Path to the generated ``contents.json`` file.
     """
 
+    entries = {}
     output_path = workspace_path / "contents.json"
     output_path.write_text(
-        json.dumps({}, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(entries, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
     LOGGER.info("contents.json generated")

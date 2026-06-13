@@ -1,29 +1,29 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:wolf",
-			"animations": {
-				"wolf_setup_controller": "controller.animation.wolf.setup",
-				"wolf_look_at_controller": "controller.animation.wolf.look_at",
-				"wolf_head_rot_z_controller": "controller.animation.wolf.head_rot_z",
-				"wolf_tail_default_controller": "controller.animation.wolf.tail_default",
-				"wolf_angry_controller": "controller.animation.wolf.angry",
-				"wolf_sitting_controller": "controller.animation.wolf.sitting",
-				"wolf_shaking_controller": "controller.animation.wolf.shaking"
-			},
-			"scripts": {
-				"animate": [
-					"wolf_setup_controller",
-					"wolf_look_at_controller",
-					"wolf_head_rot_z_controller",
-					"wolf_tail_default_controller",
-					"wolf_angry_controller",
-					"wolf_sitting_controller",
-					"wolf_shaking_controller"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			}
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:wolf",
+      "animations": {
+        "wolf_setup_controller": "controller.animation.wolf.setup",
+        "wolf_look_at_controller": "controller.animation.wolf.look_at",
+        "wolf_head_rot_z_controller": "controller.animation.wolf.head_rot_z",
+        "wolf_tail_default_controller": "controller.animation.wolf.tail_default",
+        "wolf_angry_controller": "controller.animation.wolf.angry",
+        "wolf_sitting_controller": "controller.animation.wolf.sitting",
+        "wolf_shaking_controller": "controller.animation.wolf.shaking"
+      },
+      "scripts": {
+        "animate": [
+          "wolf_setup_controller",
+          "wolf_look_at_controller",
+          "wolf_head_rot_z_controller",
+          "wolf_tail_default_controller",
+          "wolf_angry_controller",
+          "wolf_sitting_controller",
+          "wolf_shaking_controller"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      }
+    }
+  }
 }

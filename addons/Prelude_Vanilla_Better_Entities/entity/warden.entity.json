@@ -1,28 +1,28 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:warden",
-            "materials": {
-                "default": "entity_alphatest"
-            },
-            "geometry": {
-                "default": "geometry.warden",
-                "spots_1": "geometry.warden.spots.1",
-                "spots_2": "geometry.warden.spots.2",
-                "tendrils": "geometry.warden.tendrils",
-                "heart": "geometry.warden.heart"
-            },
-            "render_controllers": [
-                "controller.render.warden",
-                "controller.render.warden_spots_1",
-                "controller.render.warden_spots_2",
-                "controller.render.warden_tendrils",
-                "controller.render.warden_heart"
-            ],
-            "scripts": {
-                "should_update_bones_and_effects_offscreen": true
-            }
-        }
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:warden",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.warden",
+        "spots_1": "geometry.warden.spots.1",
+        "spots_2": "geometry.warden.spots.2",
+        "tendrils": "geometry.warden.tendrils",
+        "heart": "geometry.warden.heart"
+      },
+      "render_controllers": [
+        "controller.render.warden",
+        "controller.render.warden_spots_1",
+        "controller.render.warden_spots_2",
+        "controller.render.warden_tendrils",
+        "controller.render.warden_heart"
+      ],
+      "scripts": {
+        "should_update_bones_and_effects_offscreen": true
+      }
     }
+  }
 }

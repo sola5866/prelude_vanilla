@@ -28,7 +28,7 @@ def generate_textures_list(workspace_path: Path) -> Path:
     entries = sorted(_collect_texture_entries(workspace_path))
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
-        json.dumps(entries, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(entries, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
     LOGGER.info("textures/textures_list.json generated")

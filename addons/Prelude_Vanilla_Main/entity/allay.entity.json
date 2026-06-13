@@ -1,23 +1,23 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:allay",
-			"animations": {
-				"general_controller": "controller.animation.allay.general",
-				"look_at_target_controller": "controller.animation.allay.look_at_target",
-				"holding_controller": "controller.animation.allay.holding",
-				"dancing_controller": "controller.animation.allay.dancing"
-			},
-			"scripts": {
-				"animate": [
-					"general_controller",
-					"look_at_target_controller",
-					"holding_controller",
-					"dancing_controller"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			}
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:allay",
+      "animations": {
+        "general_controller": "controller.animation.allay.general",
+        "look_at_target_controller": "controller.animation.allay.look_at_target",
+        "holding_controller": "controller.animation.allay.holding",
+        "dancing_controller": "controller.animation.allay.dancing"
+      },
+      "scripts": {
+        "animate": [
+          "general_controller",
+          "look_at_target_controller",
+          "holding_controller",
+          "dancing_controller"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      }
+    }
+  }
 }

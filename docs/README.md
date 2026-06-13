@@ -26,6 +26,12 @@ Branch 運用、Version ルール、Release 手順に関するドキュメント
 
 詳細は `docs/release/README.md` を参照する。
 
+### development
+
+開発支援ツールと開発時の作業手順に関するドキュメントを配置する。
+
+詳細は `docs/development/README.md` を参照する。
+
 ---
 
 ## Structure
@@ -35,6 +41,7 @@ docs/
 ├─ README.md
 ├─ documentation-style.md
 ├─ build/
+├─ development/
 ├─ validation/
 └─ release/
 ```

@@ -1,27 +1,27 @@
 {
-	"format_version": "1.26.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:zombie_villager_v2",
-			"materials": {
-				"default": "entity_alphatest",
-				"masked": "entity_alphatest"
-			},
-			"geometry": {
-				"default": "geometry.zombie.villager_v2",
-				"biome": "geometry.zombie.villager_v2_biome",
-				"profession": "geometry.zombie.villager_v2_profession",
-				"baby": "geometry.villagerzombie.baby",
-				"baby_biome": "geometry.villagerzombie.baby_biome"
-			},
-			"scripts": {
-				"should_update_bones_and_effects_offscreen": true
-			},
-			"render_controllers": [
-				"controller.render.zombie_villager_v3_base",
-				"controller.render.zombie_villager_v3_biome",
-				"controller.render.zombie_villager_v3_profession"
-			]
-		}
-	}
+  "format_version": "1.26.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:zombie_villager_v2",
+      "materials": {
+        "default": "entity_alphatest",
+        "masked": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.zombie.villager_v2",
+        "biome": "geometry.zombie.villager_v2_biome",
+        "profession": "geometry.zombie.villager_v2_profession",
+        "baby": "geometry.villagerzombie.baby",
+        "baby_biome": "geometry.villagerzombie.baby_biome"
+      },
+      "scripts": {
+        "should_update_bones_and_effects_offscreen": true
+      },
+      "render_controllers": [
+        "controller.render.zombie_villager_v3_base",
+        "controller.render.zombie_villager_v3_biome",
+        "controller.render.zombie_villager_v3_profession"
+      ]
+    }
+  }
 }

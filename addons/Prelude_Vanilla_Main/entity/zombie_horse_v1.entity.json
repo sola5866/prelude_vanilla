@@ -3,9 +3,9 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:zombie_horse",
-			"scripts": {
-				"should_update_bones_and_effects_offscreen": true
-			}
+      "scripts": {
+        "should_update_bones_and_effects_offscreen": true
+      }
     }
   }
 }

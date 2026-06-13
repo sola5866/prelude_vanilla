@@ -4,9 +4,9 @@
     "description": {
       "identifier": "minecraft:zombie_horse",
       "min_engine_version": "1.17.10",
-			"scripts": {
-				"should_update_bones_and_effects_offscreen": true
-			}
+      "scripts": {
+        "should_update_bones_and_effects_offscreen": true
+      }
     }
   }
 }

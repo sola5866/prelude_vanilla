@@ -1,20 +1,20 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:ocelot",
-			"min_engine_version": "1.8.0",
-			"animations": {
-				"move_controller": "controller.animation.ocelot.move",
-				"look_at_target_controller": "controller.animation.ocelot.look_at_target"
-			},
-			"scripts": {
-				"animate": [
-					"move_controller",
-					"look_at_target_controller"
-				],
-				"should_update_bones_and_effects_offscreen": true
-			}
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:ocelot",
+      "min_engine_version": "1.8.0",
+      "animations": {
+        "move_controller": "controller.animation.ocelot.move",
+        "look_at_target_controller": "controller.animation.ocelot.look_at_target"
+      },
+      "scripts": {
+        "animate": [
+          "move_controller",
+          "look_at_target_controller"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      }
+    }
+  }
 }

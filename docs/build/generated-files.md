@@ -95,6 +95,7 @@ Resource Pack 内で使用する Texture 一覧を定義する。
 * パス区切りは `/` を使用する
 * ソートする
 * UTF-8 で書き出す
+* Minified JSON として 1 行で書き出す
 * JSON のトップレベルは配列とする
 * 配列の要素は文字列とする
 
@@ -133,10 +134,7 @@ textures/entity/enderman/enderman
 ### Example Output
 
 ```json
-[
-  "textures/entity/enderman/enderman",
-  "textures/items/apple"
-]
+["textures/entity/enderman/enderman","textures/items/apple"]
 ```
 
 

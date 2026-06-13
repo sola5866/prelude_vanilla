@@ -1,39 +1,39 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:creeper",
-            "min_engine_version": "1.8.0",
-            "materials": {
-                "default": "creeper",
-                "charged": "entity_alphatest"
-            },
-            "textures": {
-                "default": "textures/entity/creeper/creeper",
-                "charged": "textures/entity/creeper/creeper_armor",
-                "flashing": "textures/entity/creeper/creeper_flashing"
-            },
-            "geometry": {
-                "default": "geometry.creeper.v1.8",
-                "charged": "geometry.creeper.armor"
-            },
-            "animations": {
-                "creeper_head_controller": "controller.animation.creeper.head",
-                "creeper_legs_controller": "controller.animation.creeper.legs",
-                "creeper_swelling_controller": "controller.animation.creeper.swelling"
-            },
-            "scripts": {
-                "animate": [
-                    "creeper_head_controller",
-                    "creeper_legs_controller",
-                    "creeper_swelling_controller"
-                ],
-                "should_update_bones_and_effects_offscreen": true
-            },
-            "render_controllers": [
-                "controller.render.creeper",
-                "controller.render.creeper_armor"
-            ]
-        }
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:creeper",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "creeper",
+        "charged": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/creeper/creeper",
+        "charged": "textures/entity/creeper/creeper_armor",
+        "flashing": "textures/entity/creeper/creeper_flashing"
+      },
+      "geometry": {
+        "default": "geometry.creeper.v1.8",
+        "charged": "geometry.creeper.armor"
+      },
+      "animations": {
+        "creeper_head_controller": "controller.animation.creeper.head",
+        "creeper_legs_controller": "controller.animation.creeper.legs",
+        "creeper_swelling_controller": "controller.animation.creeper.swelling"
+      },
+      "scripts": {
+        "animate": [
+          "creeper_head_controller",
+          "creeper_legs_controller",
+          "creeper_swelling_controller"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      },
+      "render_controllers": [
+        "controller.render.creeper",
+        "controller.render.creeper_armor"
+      ]
     }
+  }
 }
