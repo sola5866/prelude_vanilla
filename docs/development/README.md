@@ -7,6 +7,7 @@
 ## Documents
 
 * `format-json.md`
+* `fog-density-subpacks.md`
 * `minecraft-junctions.md`
 
 ---
@@ -15,4 +16,11 @@
 
 ```text
 format-json.md
+fog-density-subpacks.md
 ```
+
+---
+
+## Tools
+
+* `tools/development/generate-fog-density-subpacks.py`

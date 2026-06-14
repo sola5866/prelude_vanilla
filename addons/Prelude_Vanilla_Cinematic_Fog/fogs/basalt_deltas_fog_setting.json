@@ -6,21 +6,21 @@
     },
     "distance": {
       "air": {
-        "fog_start": 10.0,
-        "fog_end": 96.0,
-        "fog_color": "#1B4745",
+        "fog_start": 10,
+        "fog_end": 96,
+        "fog_color": "#685f70",
         "render_distance_type": "fixed"
       },
       "water": {
-        "fog_start": 48.0,
-        "fog_end": 64.0,
-        "fog_color": "#905957",
+        "fog_start": 48,
+        "fog_end": 64,
+        "fog_color": "#423e42",
         "render_distance_type": "fixed",
         "transition_fog": {
           "init_fog": {
-            "fog_start": 8.0,
-            "fog_end": 16.0,
-            "fog_color": "#905957",
+            "fog_start": 8,
+            "fog_end": 16,
+            "fog_color": "#423e42",
             "render_distance_type": "fixed"
           },
           "min_percent": 0.25,
@@ -30,9 +30,9 @@
         }
       },
       "weather": {
-        "fog_start": 10.0,
-        "fog_end": 96.0,
-        "fog_color": "#1B4745",
+        "fog_start": 10,
+        "fog_end": 96,
+        "fog_color": "#685f70",
         "render_distance_type": "fixed"
       }
     },
@@ -43,7 +43,7 @@
           "uniform": true
         },
         "water": {
-          "max_density": 1.0,
+          "max_density": 1,
           "uniform": true
         }
       },

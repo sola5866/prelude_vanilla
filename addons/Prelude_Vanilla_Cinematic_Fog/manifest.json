@@ -85,8 +85,58 @@
     },
     {
       "folder_name": "11",
-      "name": "Default",
+      "name": "11",
       "memory_tier": 11
+    },
+    {
+      "folder_name": "12",
+      "name": "12",
+      "memory_tier": 12
+    },
+    {
+      "folder_name": "13",
+      "name": "13",
+      "memory_tier": 13
+    },
+    {
+      "folder_name": "14",
+      "name": "14",
+      "memory_tier": 14
+    },
+    {
+      "folder_name": "15",
+      "name": "15",
+      "memory_tier": 15
+    },
+    {
+      "folder_name": "16",
+      "name": "16",
+      "memory_tier": 16
+    },
+    {
+      "folder_name": "17",
+      "name": "17",
+      "memory_tier": 17
+    },
+    {
+      "folder_name": "18",
+      "name": "18",
+      "memory_tier": 18
+    },
+    {
+      "folder_name": "19",
+      "name": "19",
+      "memory_tier": 19
+    },
+    {
+      "folder_name": "20",
+      "name": "20",
+      "memory_tier": 20
+    },
+    {
+      "folder_name": "default",
+      "name": "Default",
+      "memory_tier": 21
     }
   ],
   "settings": [

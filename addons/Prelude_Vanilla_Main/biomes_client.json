@@ -182,6 +182,9 @@
     "soulsand_valley": {
       "fog_identifier": "prevanilla:fog_soulsand_valley"
     },
+    "sulfur_caves": {
+      "fog_identifier": "prevanilla:fog_sulfur_caves"
+    },
     "stone_beach": {
       "fog_identifier": "prevanilla:fog_default"
     },
