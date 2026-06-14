@@ -1,31 +1,31 @@
 {
-  "format_version": "1.10.0",
-  "minecraft:client_entity": {
-    "description": {
-      "identifier": "minecraft:sniffer",
-      "animations": {
-        "general_controller": "controller.animation.sniffer.general",
-        "walk_controller": "controller.animation.sniffer.walk",
-        "sniffsniff_controller": "controller.animation.sniffer.sniffsniff",
-        "long_sniff_controller": "controller.animation.sniffer.long_sniff",
-        "search_controller": "controller.animation.sniffer.search",
-        "dig_controller": "controller.animation.sniffer.dig",
-        "stand_up_controller": "controller.animation.sniffer.stand_up",
-        "feeling_happy_controller": "controller.animation.sniffer.feeling_happy"
-      },
-      "scripts": {
-        "animate": [
-          "general_controller",
-          "walk_controller",
-          "sniffsniff_controller",
-          "long_sniff_controller",
-          "search_controller",
-          "dig_controller",
-          "stand_up_controller",
-          "feeling_happy_controller"
-        ],
-        "should_update_bones_and_effects_offscreen": true
-      }
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:sniffer",
+            "animations": {
+                "general_controller": "controller.animation.sniffer.general",
+                "walk_controller": "controller.animation.sniffer.walk",
+                "sniffsniff_controller": "controller.animation.sniffer.sniffsniff",
+                "long_sniff_controller": "controller.animation.sniffer.long_sniff",
+                "search_controller": "controller.animation.sniffer.search",
+                "dig_controller": "controller.animation.sniffer.dig",
+                "stand_up_controller": "controller.animation.sniffer.stand_up",
+                "feeling_happy_controller": "controller.animation.sniffer.feeling_happy"
+            },
+            "scripts": {
+                "animate": [
+                    "general_controller",
+                    "walk_controller",
+                    "sniffsniff_controller",
+                    "long_sniff_controller",
+                    "search_controller",
+                    "dig_controller",
+                    "stand_up_controller",
+                    "feeling_happy_controller"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
     }
-  }
 }

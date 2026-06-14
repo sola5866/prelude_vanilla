@@ -146,7 +146,7 @@ def format_json_file_text(path: Path) -> str:
     """Return the normalized JSON text for one file."""
 
     data = load_jsonc(path)
-    return json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+    return json.dumps(data, ensure_ascii=False, indent=4) + "\n"
 
 
 def format_parse_error(result: ParseErrorResult) -> str:

@@ -1,23 +1,23 @@
 {
-  "format_version": "1.10.0",
-  "minecraft:client_entity": {
-    "description": {
-      "identifier": "minecraft:breeze",
-      "materials": {
-        "default": "breeze",
-        "breeze_eyes": "breeze_eyes",
-        "breeze_wind": "entity_alphatest"
-      },
-      "geometry": {
-        "default": "geometry.breeze",
-        "breeze_eyes": "geometry.breeze_eyes",
-        "breeze_wind_top": "geometry.breeze_wind_top",
-        "breeze_wind_mid": "geometry.breeze_wind_mid",
-        "breeze_wind_bottom": "geometry.breeze_wind_bottom"
-      },
-      "scripts": {
-        "should_update_bones_and_effects_offscreen": true
-      }
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:breeze",
+            "materials": {
+                "default": "breeze",
+                "breeze_eyes": "breeze_eyes",
+                "breeze_wind": "entity_alphatest"
+            },
+            "geometry": {
+                "default": "geometry.breeze",
+                "breeze_eyes": "geometry.breeze_eyes",
+                "breeze_wind_top": "geometry.breeze_wind_top",
+                "breeze_wind_mid": "geometry.breeze_wind_mid",
+                "breeze_wind_bottom": "geometry.breeze_wind_bottom"
+            },
+            "scripts": {
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
     }
-  }
 }

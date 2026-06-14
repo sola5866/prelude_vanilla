@@ -1,21 +1,21 @@
 {
-  "format_version": "1.10.0",
-  "minecraft:client_entity": {
-    "description": {
-      "identifier": "minecraft:frog",
-      "animations": {
-        "general_controller": "controller.animation.frog.general",
-        "croaking_controller": "controller.animation.frog.croaking",
-        "eat_mob_controller": "controller.animation.frog.eat_mob"
-      },
-      "scripts": {
-        "animate": [
-          "general_controller",
-          "croaking_controller",
-          "eat_mob_controller"
-        ],
-        "should_update_bones_and_effects_offscreen": true
-      }
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:frog",
+            "animations": {
+                "general_controller": "controller.animation.frog.general",
+                "croaking_controller": "controller.animation.frog.croaking",
+                "eat_mob_controller": "controller.animation.frog.eat_mob"
+            },
+            "scripts": {
+                "animate": [
+                    "general_controller",
+                    "croaking_controller",
+                    "eat_mob_controller"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
     }
-  }
 }

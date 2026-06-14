@@ -31,7 +31,7 @@ build/
 
 ```text
 UTF-8
-indent = 2
+indent = 4
 ensure_ascii = false
 sort_keys = false
 末尾改行あり

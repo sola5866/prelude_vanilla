@@ -1,18 +1,18 @@
 {
-  "format_version": "1.10.0",
-  "minecraft:client_entity": {
-    "description": {
-      "identifier": "minecraft:command_block_minecart",
-      "min_engine_version": "1.8.0",
-      "textures": {
-        "default": "textures/entity/command_minecart"
-      },
-      "geometry": {
-        "default": "geometry.command_minecart.v1.8"
-      },
-      "scripts": {
-        "should_update_bones_and_effects_offscreen": true
-      }
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:command_block_minecart",
+            "min_engine_version": "1.8.0",
+            "textures": {
+                "default": "textures/entity/command_minecart"
+            },
+            "geometry": {
+                "default": "geometry.command_minecart.v1.8"
+            },
+            "scripts": {
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
     }
-  }
 }

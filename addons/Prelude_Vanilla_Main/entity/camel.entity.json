@@ -1,19 +1,19 @@
 {
-  "format_version": "1.10.0",
-  "minecraft:client_entity": {
-    "description": {
-      "identifier": "minecraft:camel",
-      "animations": {
-        "general_controller": "controller.animation.camel.general",
-        "idle_controller": "controller.animation.camel.idle"
-      },
-      "scripts": {
-        "animate": [
-          "general_controller",
-          "idle_controller"
-        ],
-        "should_update_bones_and_effects_offscreen": true
-      }
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:camel",
+            "animations": {
+                "general_controller": "controller.animation.camel.general",
+                "idle_controller": "controller.animation.camel.idle"
+            },
+            "scripts": {
+                "animate": [
+                    "general_controller",
+                    "idle_controller"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
     }
-  }
 }

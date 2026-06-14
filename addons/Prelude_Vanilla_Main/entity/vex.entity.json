@@ -1,22 +1,22 @@
 {
-  "format_version": "1.10.0",
-  "minecraft:client_entity": {
-    "description": {
-      "identifier": "minecraft:vex",
-      "min_engine_version": "1.8.0",
-      "animations": {
-        "look_at_target_controller": "controller.animation.humanoid.look_at_target",
-        "vex_charge_controller": "controller.animation.vex.charge",
-        "vex_idle_controller": "controller.animation.vex.idle"
-      },
-      "scripts": {
-        "animate": [
-          "look_at_target_controller",
-          "vex_charge_controller",
-          "vex_idle_controller"
-        ],
-        "should_update_bones_and_effects_offscreen": true
-      }
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:vex",
+            "min_engine_version": "1.8.0",
+            "animations": {
+                "look_at_target_controller": "controller.animation.humanoid.look_at_target",
+                "vex_charge_controller": "controller.animation.vex.charge",
+                "vex_idle_controller": "controller.animation.vex.idle"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target_controller",
+                    "vex_charge_controller",
+                    "vex_idle_controller"
+                ],
+                "should_update_bones_and_effects_offscreen": true
+            }
+        }
     }
-  }
 }

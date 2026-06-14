@@ -1,59 +1,59 @@
 {
-  "format_version": 2,
-  "header": {
-    "name": "Prelude Vanilla - Clear Staind Glasses v26.6.1",
-    "description": "pack.description",
-    "uuid": "0586fc68-fc70-4853-a4d5-4e36a80f3c5d",
-    "min_engine_version": [
-      1,
-      26,
-      10
-    ],
-    "version": [
-      26,
-      6,
-      1
-    ]
-  },
-  "modules": [
-    {
-      "description": "pack.description",
-      "type": "resources",
-      "uuid": "bfe0b6fd-91e2-4eb8-8a4d-c8f4294c7413",
-      "version": [
-        26,
-        6,
-        1
-      ]
-    }
-  ],
-  "subpacks": [
-    {
-      "folder_name": "0",
-      "name": "Stained Glass and Normal Glass",
-      "memory_tier": 0
+    "format_version": 2,
+    "header": {
+        "name": "Prelude Vanilla - Clear Staind Glasses v26.6.1",
+        "description": "pack.description",
+        "uuid": "0586fc68-fc70-4853-a4d5-4e36a80f3c5d",
+        "min_engine_version": [
+            1,
+            26,
+            10
+        ],
+        "version": [
+            26,
+            6,
+            1
+        ]
     },
-    {
-      "folder_name": "1",
-      "name": "Stained Glass",
-      "memory_tier": 1
-    }
-  ],
-  "settings": [
-    {
-      "type": "label",
-      "text": "Select the blocks to make clear"
-    }
-  ],
-  "capabilities": [
-    "raytraced",
-    "pbr"
-  ],
-  "metadata": {
-    "authors": [
-      "sola5866"
+    "modules": [
+        {
+            "description": "pack.description",
+            "type": "resources",
+            "uuid": "bfe0b6fd-91e2-4eb8-8a4d-c8f4294c7413",
+            "version": [
+                26,
+                6,
+                1
+            ]
+        }
     ],
-    "license": "MIT",
-    "url": "https://github.com/sola5866/prelude_vanilla"
-  }
+    "subpacks": [
+        {
+            "folder_name": "0",
+            "name": "Stained Glass and Normal Glass",
+            "memory_tier": 0
+        },
+        {
+            "folder_name": "1",
+            "name": "Stained Glass",
+            "memory_tier": 1
+        }
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": "Select the blocks to make clear"
+        }
+    ],
+    "capabilities": [
+        "raytraced",
+        "pbr"
+    ],
+    "metadata": {
+        "authors": [
+            "sola5866"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/sola5866/prelude_vanilla"
+    }
 }
