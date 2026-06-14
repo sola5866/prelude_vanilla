@@ -12,6 +12,9 @@ Thumbs.db
 *~
 .nfs*
 
+# VSCode
+.vscode/
+
 # Python
 **pycache**/
 *.py[cod]
