@@ -1,0 +1,13 @@
+approval_policy = "on-request"
+default_permissions = "prelude-workspace"
+
+[permissions.prelude-workspace]
+description = "Allow repository edits while protecting local environment files."
+extends = ":workspace"
+
+[permissions.prelude-workspace.filesystem]
+glob_scan_max_depth = 3
+
+[permissions.prelude-workspace.filesystem.":workspace_roots"]
+".env" = "deny"
+"**/.env" = "deny"

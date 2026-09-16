@@ -190,13 +190,15 @@ Release
 
 ## build.yml
 
-以下のブランチで実行される。
+以下のイベントで実行される。
 
 ```text
-feature/*
-develop
-main
+main への push
+Pull Request
 ```
+
+feature ブランチや develop ブランチへの push だけでは実行されない。
+これらの変更は Pull Request を作成した時点で検証する。
 
 目的:
 
